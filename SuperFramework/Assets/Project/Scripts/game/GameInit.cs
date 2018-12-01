@@ -11,6 +11,8 @@ public class GameInit : MonoBehaviour {
     {
         DontDestroyOnLoad(this.gameObject);
         Init();
+
+        Loger.Info("Awake");
     }
 
     private void Init()
