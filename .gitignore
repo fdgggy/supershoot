@@ -1,0 +1,10 @@
+Library/
+Temp/
+obj/
+.vs/
+Gamelog/
+Build/
+.DS_Store
+
+
+

@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 2308123101
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: heroinfouiform.unity3d
+      Dependencies:
+        Dependency_0: ui_atlas_img_local_normal.png.unity3d
+    Info_1:
+      Name: logonuiform.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: ui_atlas_img_local_normal.png.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: maincityuiform.unity3d
+      Dependencies:
+        Dependency_0: ui_atlas_img_local_normal.png.unity3d
+    Info_4:
+      Name: marketuifrom.unity3d
+      Dependencies:
+        Dependency_0: common atlas.png.unity3d
+    Info_5:
+      Name: common atlas.png.unity3d
+      Dependencies: {}
+    Info_6:
+      Name: propdetailuiform.unity3d
+      Dependencies:
+        Dependency_0: common atlas.png.unity3d
+    Info_7:
+      Name: selectherouiform.unity3d
+      Dependencies: {}
+    Info_8:
+      Name: excelexample.unity3d
+      Dependencies: {}

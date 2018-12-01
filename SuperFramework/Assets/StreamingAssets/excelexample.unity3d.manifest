@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2336010383
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a80ac3122604e1fcdedd5a83d2811a43
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e5e63da0ef9051da9bf4f94641a58b12
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: cd412441b864b40cf9428ad6403ddd3e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/ExcelAssets/ExcelExample.asset
+Dependencies: []

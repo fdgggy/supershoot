@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AssetBundlesXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <assetBundleBuilds>
+    <assetBundleBuild>
+      <assetBundleName>map_001_scene.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/MapData/Scenes/Map_001.unity</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>heroinfouiform.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/UIData/HeroInfoUIForm.prefab</string>
+        <string>Assets/Textures/Ui/ui_atlas_icon_common.png</string>
+        <string>Assets/Textures/Ui/Main Atlas.png</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>logonuiform.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/UIData/LogonUIForm.prefab</string>
+        <string>Assets/Textures/Background/LogonBG.png</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>ui_atlas_img_local_normal.png.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/Textures/Ui/ui_atlas_img_local_normal.png</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>maincityuiform.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/UIData/MainCityUIForm.prefab</string>
+        <string>Assets/Textures/Background/MainBG.jpg</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>marketuifrom.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/UIData/MarketUIFrom.prefab</string>
+        <string>Assets/Textures/Packages/1LVclothes.png</string>
+        <string>Assets/Textures/Packages/1LVshoes.png</string>
+        <string>Assets/Textures/Packages/10LVstaff.png</string>
+        <string>Assets/Textures/Packages/1LVpants.png</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>common atlas.png.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/Textures/Ui/Common Atlas.png</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>propdetailuiform.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/UIData/PropDetailUIForm.prefab</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>selectherouiform.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/UIData/SelectHeroUIForm.prefab</string>
+        <string>Assets/Textures/Background/SelectHero.png</string>
+        <string>Assets/Textures/Ui/ui_atlas_battle.png</string>
+      </assetNames>
+    </assetBundleBuild>
+  </assetBundleBuilds>
+  <shaderBundle />
+  <soundBundles>
+    <assetBundleBuild>
+      <assetBundleName>ExcelExample.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ExcelAssets/ExcelExample.asset</string>
+      </assetNames>
+    </assetBundleBuild>
+  </soundBundles>
+</AssetBundlesXML>

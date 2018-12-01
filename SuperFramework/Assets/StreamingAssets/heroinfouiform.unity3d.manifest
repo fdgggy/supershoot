@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 227557563
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f3292e729fccc4d6dd51e59d65e75735
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff939e615ee709327b1cd49453d46f63
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 679f872254a97ee408b97636f39e45e9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Textures/Ui/ui_atlas_icon_common.png
+- Assets/UIData/HeroInfoUIForm.prefab
+- Assets/Textures/Ui/Main Atlas.png
+Dependencies:
+- /Users/zhoujian/work/unity/SuperFramework/Assets/StreamingAssets/ui_atlas_img_local_normal.png.unity3d

@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 2568927373
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 05abca4bb897376da1700400a15a6db7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 28c53e060ae46664dfa85e1a09b57993
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cf31461a720eed74f9250cb614969388, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Textures/Packages/1LVclothes.png
+- Assets/Textures/Packages/1LVshoes.png
+- Assets/Textures/Packages/10LVstaff.png
+- Assets/Textures/Packages/1LVpants.png
+- Assets/UIData/MarketUIFrom.prefab
+Dependencies:
+- /Users/zhoujian/work/unity/SuperFramework/Assets/StreamingAssets/common atlas.png.unity3d

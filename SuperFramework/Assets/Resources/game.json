@@ -1,0 +1,13 @@
+{
+"pushLog":"1",
+"logHost":"192.168.0.113:1234",
+
+"plamform":"Default", 
+"mode":"alpha", 
+"writeLog":"1", 
+"showLog":"1", 
+"screenLog":"0", 
+"showFPS":"0", 
+"CodeVer":"1.0.0", 
+"ResVer":"1.0.0"
+}
