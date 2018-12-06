@@ -77,7 +77,7 @@ public class ExcelTool
                     {
                         if (!IsValidHeader(column))
                         {
-                            error1 = string.Format(@"Invalid column header name {0}. Any c# keyword should not be used for column header. Note it is not case sensitive.", column);
+                            error1 = string.Format(@"{0} Invalid column header name {0}. Any c# keyword should not be used for column header. Note it is not case sensitive.", sheetName, column);
                             Debug.Log("Error:" + error1);
                             return;
                         }
@@ -86,7 +86,7 @@ public class ExcelTool
                     {
                         if (!IsValidValueType(column))
                         {
-                            error1 = string.Format(@"Invalid column header name {0}. Any c# value type should not be used for column header.", column);
+                            error1 = string.Format(@"{0} Invalid column header name {1}. Any c# value type should not be used for column header.", sheetName, column);
                             Debug.Log("Error:" + error1);
                             return;
                         }

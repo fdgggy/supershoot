@@ -5,7 +5,13 @@ using UnityEngine;
 
 public enum ExcelType
 {
+	Ai,
+	Enemy,
 	English,
+	Level,
+	Map,
+	Role,
+	Weapon,
 	Num
 }
 

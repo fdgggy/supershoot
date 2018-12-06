@@ -13,7 +13,13 @@ public class RecordExcelInfo
 {
 	private List<string> ExcelClassNames = new List<string>() 
     {
+		"AiAssetPostprocessor",
+		"EnemyAssetPostprocessor",
 		"EnglishAssetPostprocessor",
+		"LevelAssetPostprocessor",
+		"MapAssetPostprocessor",
+		"RoleAssetPostprocessor",
+		"WeaponAssetPostprocessor",
 
     };
     

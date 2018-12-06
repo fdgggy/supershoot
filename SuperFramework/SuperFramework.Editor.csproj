@@ -232,8 +232,14 @@
     <Compile Include="Assets\3rd\QuickSheet\GDataPlugin\Editor\GoogleDataSettingsEditor.cs" />
     <Compile Include="Assets\3rd\QuickSheet\GDataPlugin\Editor\GoogleMachine.cs" />
     <Compile Include="Assets\3rd\QuickSheet\GDataPlugin\Editor\GoogleMachineEditor.cs" />
+    <Compile Include="Assets\Project\Excel\Editor\AiAssetPostProcessor.cs" />
+    <Compile Include="Assets\Project\Excel\Editor\EnemyAssetPostProcessor.cs" />
     <Compile Include="Assets\Project\Excel\Editor\EnglishAssetPostProcessor.cs" />
+    <Compile Include="Assets\Project\Excel\Editor\LevelAssetPostProcessor.cs" />
+    <Compile Include="Assets\Project\Excel\Editor\MapAssetPostProcessor.cs" />
     <Compile Include="Assets\Project\Excel\Editor\RecordExcelInfo.cs" />
+    <Compile Include="Assets\Project\Excel\Editor\RoleAssetPostProcessor.cs" />
+    <Compile Include="Assets\Project\Excel\Editor\WeaponAssetPostProcessor.cs" />
     <Compile Include="Assets\Project\Scripts\Editor\ExcelTool.cs" />
     <Compile Include="Assets\Project\Scripts\Editor\build\BuildLog.cs" />
     <Compile Include="Assets\Project\Scripts\Editor\build\BuildPublish.cs" />

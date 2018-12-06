@@ -4,29 +4,20 @@ using SUIFW;
 using UnityEngine;
 using UnityEngine.UI;
 
-struct LevelInfo
-{
-    public int Id;
-    public string Name;
-}
-
 public class LevelUIForm : BaseUIForm
 {
-    private List<LevelInfo> m_Levels;
+    private Level level = null;
+
     public void Start()
     {
         CurrentUIType.UIForms_ShowMode = UIFormShowMode.Normal;
 
-        m_Levels = new List<LevelInfo>()
-        {
-            new LevelInfo(){ Id = 1, Name = "Level_1"},
-            new LevelInfo(){ Id = 2, Name = "Level_2"},
-            new LevelInfo(){ Id = 3, Name = "Level_3"},
-            new LevelInfo(){ Id = 4, Name = "Level_4"},
-        };
+        level = ExcelDataManager.Instance.GetExcel(ExcelType.Level) as Level;
         InitView();
+
         InitEvent();
     }
+
     private void InitView()
     {
         SetText("BackInfo", 11);
@@ -39,16 +30,17 @@ public class LevelUIForm : BaseUIForm
         }
 
         GameObject parentObj = GetChildObj("levelGroup");
-        foreach (var level in m_Levels)
+
+        foreach(KeyValuePair<int, LevelData> kv in level.GetRows())
         {
             GameObject go = GameObject.Instantiate<GameObject>(levelObj);
             Transform info = go.transform.Find("levelInfo");
             if (info != null)
             {
                 Text infoText = info.GetComponent<Text>();
-                infoText.text = level.Name;
+                infoText.text = kv.Value.Levelname;
             }
-            go.name = level.Name;
+            go.name = kv.Value.Id.ToString();
             go.transform.SetParent(parentObj.transform);
             go.transform.localScale = Vector3.one;
 
@@ -59,8 +51,28 @@ public class LevelUIForm : BaseUIForm
 
     private void LevelButtonCallBack(GameObject go)
     {
-        Loger.Info("go.name:{0}", go.name);
-        SceneMgr.Instance.EnterScene(SceneType.Battle, "Map_001");
+        if (level != null)
+        {
+            LevelData leveData = level.QueryByID(int.Parse(go.name));
+            if (leveData == null)
+            {
+                Loger.Warn("LevelButtonCallBack levelId:{0} data is null", go.name);
+                return;
+            }
+
+            Map map = ExcelDataManager.Instance.GetExcel(ExcelType.Map) as Map;
+            if (map != null)
+            {
+                MapData mapData = map.QueryByID(leveData.Mapid);
+                if (mapData == null)
+                {
+                    Loger.Warn("LevelButtonCallBack mapId:{0} data is null", leveData.Mapid);
+                    return;
+                }
+
+                SceneMgr.Instance.EnterScene(SceneType.Battle, mapData.Mapname);
+            }
+        }
     }
 
     private void SetText(string child, int index)
