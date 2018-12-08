@@ -39,7 +39,7 @@ private int platformID = 1;
         //绘制一个粗体的标题栏  
         GUILayout.Label("target platform 目标平台", EditorStyles.boldLabel);
 
-        string[] list = new string[] { "Android", "iOS Device", "Windows64", "Window" };
+        string[] list = new string[] { "Android", "iOS Device", "Windows64", "Window", "Mac" };
         platformID = EditorGUILayout.Popup("Platform", platformID, list);
 
         b_needClear = EditorGUILayout.Toggle("是否清理旧资源", b_needClear);
@@ -213,9 +213,8 @@ private int platformID = 1;
                 case 3:
                     platform = BuildTarget.StandaloneWindows;
                     break;
-
                 case 4:
-                    platform = BuildTarget.StandaloneOSXIntel;
+                    platform = BuildTarget.StandaloneOSXIntel64;
                     break;
                 default:
                     platform = BuildTarget.StandaloneWindows;

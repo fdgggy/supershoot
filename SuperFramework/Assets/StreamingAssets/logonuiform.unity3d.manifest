@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2468598645
+CRC: 2152649786
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f9a63d09f84c7abed7491c7d0299e5d9
+    Hash: d60b53c22c263ed36d556e7393715e21
   TypeTreeHash:
     serializedVersion: 2
     Hash: c22cd05b68d3e8fdf98025c47aa071cc
@@ -39,5 +39,5 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Textures/Background/LogonBG.png
-- Assets/UIData/LogonUIForm.prefab
+- Assets/ResData/UIData/LogonUIForm.prefab
 Dependencies: []

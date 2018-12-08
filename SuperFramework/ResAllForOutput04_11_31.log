@@ -1,0 +1,9 @@
+[remove res fileName]:Assets/Textures/Ui/ui_atlas_img_local_normal.png from heroinfouiform.unity3d
+[AddToSingleBundle]:Assets/Textures/Ui/ui_atlas_img_local_normal.png,from oldAbName:heroinfouiform.unity3d to newAbName:ui_atlas_img_local_normal.png.unity3d
+[remove res fileName]:Assets/Textures/Ui/Common Atlas.png from marketuifrom.unity3d
+[AddToSingleBundle]:Assets/Textures/Ui/Common Atlas.png,from oldAbName:marketuifrom.unity3d to newAbName:common atlas.png.unity3d
+[remove res fileName]:Assets/Textures/Home/home_btn.png from mainmenuuiform.unity3d
+[AddToSingleBundle]:Assets/Textures/Home/home_btn.png,from oldAbName:mainmenuuiform.unity3d to newAbName:home_btn.png.unity3d
+[remove res fileName]:Assets/Textures/Common/bg.png from loadinguiform.unity3d
+[AddToSingleBundle]:Assets/Textures/Common/bg.png,from oldAbName:loadinguiform.unity3d to newAbName:bg.png.unity3d
+

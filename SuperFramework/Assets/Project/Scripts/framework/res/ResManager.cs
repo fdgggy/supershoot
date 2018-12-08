@@ -135,7 +135,7 @@ public class ResManager : MonoBehaviour
 
     private IEnumerator LoadSceneAB(string abName, ResManager.ResBackHandle callBack)
     {
-        string url = Util.ABInterLoadWWWPath + abName;
+        string url = Util.ABInterLoadWWWPath + "/" + abName;
         WWW req = WWW.LoadFromCacheOrDownload(url, m_AssetBundleManifest.GetAssetBundleHash(abName), 0);
 
         yield return req;

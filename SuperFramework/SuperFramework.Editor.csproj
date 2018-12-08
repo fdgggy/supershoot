@@ -306,12 +306,11 @@
     <None Include="Assets\3rd\QuickSheet\GDataPlugin\Templates\DataClass.txt" />
     <None Include="Assets\3rd\QuickSheet\GDataPlugin\Templates\ScriptableObjectClass.txt" />
     <None Include="Assets\3rd\QuickSheet\GDataPlugin\Templates\ScriptableObjectEditorClass.txt" />
-    <None Include="Assets\ResData\MapData\M001\CustomShaders\DiffuseVertexColor.shader" />
-    <None Include="Assets\ResData\MapData\M001\CustomShaders\ReflectiveCubeMapped.shader" />
-    <None Include="Assets\ResData\MapData\M001\CustomShaders\ReflectiveCubeMapped_Glass.shader" />
-    <None Include="Assets\ResData\MapData\M001\CustomShaders\Scroll_Emissive.shader" />
-    <None Include="Assets\ResData\MapData\M001\CustomShaders\SimpleEmissive.shader" />
+    <None Include="Assets\ResData\MapData\M002\tu_shader\items\building\Alpha_Test_Transparent_LM.shader" />
+    <None Include="Assets\ResData\MapData\M002\tu_shader\items\skyBox\MADFINGER-Unlit-Scroll2Layers-Mul-skybox.shader" />
+    <None Include="Assets\ResData\MapData\M003\tu_shader\items\building\Mobile Transparent Vertex Color.shader" />
     <None Include="Assets\ResData\RoleData\Animations\_README_Animations.txt" />
+    <None Include="Assets\ResData\RoleData\Enemy\enemy1\tu_shader\actor\player\Mobile-Half Diffuse.shader" />
     <None Include="Assets\Resources\uLinkPrefs.txt" />
     <None Include="Assets\UFPS\Base\Content\Art\Body\Materials\InvisibleShadowCaster.shader" />
     <None Include="Assets\UFPS\Base\Content\Art\Weapons\Source\BasicArms\_README_BasicArms.txt" />

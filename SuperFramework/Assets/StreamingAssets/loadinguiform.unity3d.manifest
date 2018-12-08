@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1362024284
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2dfdad944ad9ae5cf41d49a37d6498b5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ab683026ee06adb7c8f149147609bdf5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cdad2d5786cd7da40bb45eb200715ce3, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Textures/Loading/m_loading.png
+- Assets/ResData/UIData/Loading/LoadingUIForm.prefab
+Dependencies:
+- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/bg.png.unity3d
