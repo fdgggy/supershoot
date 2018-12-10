@@ -14,6 +14,7 @@ public class RecordExcelInfo
 	private List<string> ExcelClassNames = new List<string>() 
     {
 		"AiAssetPostprocessor",
+		"CampAssetPostprocessor",
 		"EnemyAssetPostprocessor",
 		"EnglishAssetPostprocessor",
 		"LevelAssetPostprocessor",

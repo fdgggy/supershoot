@@ -11,7 +11,7 @@
 }, 
 "Map_003":{
 "abName":"map_003_scene.unity3d", 
-"md5":"0dbb69a34afbe68622428b7acb2d68fa", 
+"md5":"d0118f72f51c6bd5692ca53eb4bbac47", 
 "path":"Assets/ResData/MapData/Scenes/Map_003.unity"
 }, 
 "HeroInfoUIForm":{
@@ -83,6 +83,11 @@
 "abName":"Ai.unity3d", 
 "md5":"36267a815d31f033bbd802942b426a35", 
 "path":"Assets/ExcelAssets/Ai.asset"
+}, 
+"Camp":{
+"abName":"Camp.unity3d", 
+"md5":"461162658a92ae285a90699a6f1ca7bd", 
+"path":"Assets/ExcelAssets/Camp.asset"
 }, 
 "Enemy":{
 "abName":"Enemy.unity3d", 
