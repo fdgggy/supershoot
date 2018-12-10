@@ -114,7 +114,8 @@ namespace SUIFW
                 }
 
                 //根据不同的UI窗体的显示模式，分别作不同的加载处理
-                switch (baseUIForms.CurrentUIType.UIForms_ShowMode)
+                switch (baseUIForms.GetUIType().UIForms_ShowMode)
+                //switch (baseUIForms.CurrentUIType.UIForms_ShowMode)
                 {
                     case UIFormShowMode.Normal:                 //“普通显示”窗口模式
                                                                 //把当前窗体加载到“当前窗体”集合中。

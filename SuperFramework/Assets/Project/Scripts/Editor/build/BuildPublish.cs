@@ -127,14 +127,14 @@ public class BuildPublish
 
     private static void setcfg(string plamform)
     {
-        string path = Application.streamingAssetsPath + "/game.json";
-        JSONNode jsonNode = JsonUtils.LoadJson(path);
-        jsonNode["plamform"].Value = plamform;
+        //string path = Application.streamingAssetsPath + "/game.json";
+        //JSONNode jsonNode = JsonUtils.LoadJson(path);
+        //jsonNode["plamform"].Value = plamform;
 
-        if (File.Exists(path)) File.Delete(path);
+        //if (File.Exists(path)) File.Delete(path);
 
-        byte[] bytes = System.Text.Encoding.UTF8.GetBytes(jsonNode.ToString());
-        FileUtils.saveFileBytes(path, bytes);
+        //byte[] bytes = System.Text.Encoding.UTF8.GetBytes(jsonNode.ToString());
+        //FileUtils.saveFileBytes(path, bytes);
     }
 
     //[MenuItem("publish/压缩资源", false, 10009)]

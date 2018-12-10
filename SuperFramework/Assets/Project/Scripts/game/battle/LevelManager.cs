@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour
         ExternalBehavior eb = (ExternalBehavior)Resources.Load<ExternalBehavior>(aiName);
 
         var bt = gameObject.AddComponent<BehaviorTree>();
-        bt.StartWhenEnabled = false;
         bt.ExternalBehavior = eb;
+        bt.EnableBehavior();
     }
 }

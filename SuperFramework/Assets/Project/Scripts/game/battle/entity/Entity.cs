@@ -3,8 +3,8 @@ using UnityEngine;
 
 public enum CampType
 {
-    Enemy = 0,
-    Player = 1,
+    Player = 0,
+    Enemy = 1,
     Neutral = 2
 }
 

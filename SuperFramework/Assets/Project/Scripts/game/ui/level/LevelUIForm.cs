@@ -8,10 +8,14 @@ public class LevelUIForm : BaseUIForm
 {
     private Level level = null;
 
+    public override UIType GetUIType()
+    {
+        //窗体的性质
+        CurrentUIType.UIForms_ShowMode = UIFormShowMode.HideOther;
+        return CurrentUIType;
+    }
     public void Start()
     {
-        CurrentUIType.UIForms_ShowMode = UIFormShowMode.Normal;
-
         level = ExcelDataManager.Instance.GetExcel(ExcelType.Level) as Level;
         InitView();
 
@@ -70,7 +74,7 @@ public class LevelUIForm : BaseUIForm
                     return;
                 }
 
-                SceneMgr.Instance.EnterScene(SceneType.Battle, mapData.Mapname);
+                SceneMgr.Instance.EnterScene(SceneType.Battle, mapData.Mapname, leveData);
             }
         }
     }

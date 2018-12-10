@@ -1,8 +1,13 @@
 ﻿using UnityEngine;
+using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
+using System.Collections;
 
 public class BornEntity : Action
 {
+    private bool complete = false;
+    public SharedInt enemyId;
+    public SharedInt bornPoint;
     public override void OnAwake()
     {
         base.OnAwake();
@@ -11,24 +16,51 @@ public class BornEntity : Action
     public override void OnStart()
     {
         base.OnStart();
+        complete = false;
+
+        Enemy enemyExcel = ExcelDataManager.Instance.GetExcel(ExcelType.Enemy) as Enemy;
+        EnemyData enemyData = enemyExcel.QueryByID(enemyId.Value);
+        if (enemyData == null)
+        {
+            Loger.Error("BornEntity not found the enemyId:{0}", enemyId.Value);
+            return;
+        }
+
+        EntityInfo entityInfo = new EntityInfo()
+        {
+            PrefabName = enemyData.Prefabname,
+            EntityId = EntityManager.Instance.EntityId,
+            campType = (CampType)enemyData.Camp,
+        };
+
+        Vector3 originalPos = new Vector3(0, -18, 0);
+        if (bornPoint != null)
+        {
+            string path = string.Format("bornPoint/spawnPoint_{0}", bornPoint.Value);
+            GameObject point = GameObject.Find(path);
+            if (point == null)
+            {
+                Loger.Error("BornEntity dont find the point !");
+            }
+            else
+            {
+                originalPos = point.transform.position;
+            }
+        }
+        EntityManager.Instance.CreateEntity(entityInfo, originalPos, Quaternion.Euler(0, 0, 0), (Entity go) =>
+        {
+            go.Active(true);
+            complete = true;
+        });
     }   
 
     public override TaskStatus OnUpdate()
     {
-        EntityInfo entityInfo = new EntityInfo()
+        if (complete)
         {
-            PrefabName = "HeroHDWeapons",
-            EntityId = EntityManager.Instance.EntityId,
-            campType = CampType.Player,
-        };
+            return TaskStatus.Success;
+        }
 
-        EntityManager.Instance.CreateEntity(entityInfo, new Vector3(0, -18, 0), Quaternion.Euler(0, 180, 0), (Entity go) =>
-        {
-            go.Active(true);
-
-
-        });
-
-        return TaskStatus.Success;
+        return TaskStatus.Running;
     }
 }

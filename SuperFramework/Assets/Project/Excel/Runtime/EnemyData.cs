@@ -40,4 +40,8 @@ public class EnemyData
   int aiid;
   public int AIID { get {return aiid; } set { aiid = value;} }
   
+  [SerializeField]
+  int camp;
+  public int Camp { get {return camp; } set { camp = value;} }
+  
 }

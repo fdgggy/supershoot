@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="gb2312"?>
 <AssetBundlesXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <assetBundleBuilds>
     <assetBundleBuild>
@@ -8,9 +8,15 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>map_loading_scene.unity3d</assetBundleName>
+      <assetBundleName>map_002_scene.unity3d</assetBundleName>
       <assetNames>
-        <string>Assets/ResData/MapData/Scenes/Map_Loading.unity</string>
+        <string>Assets/ResData/MapData/Scenes/Map_002.unity</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>map_003_scene.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/MapData/Scenes/Map_003.unity</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -112,6 +118,30 @@
       <assetBundleName>shopuiform.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/UIData/Shop/ShopUIForm.prefab</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>enemy1.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/RoleData/prefab/enemy/enemy1.prefab</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/Materials/ef_shizijia02.mat</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_materials/effect/ef_dian_ghz104.mat</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_mesh/effect/ef_Shell.FBX</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/xulie/ef_xulie_ghz137.png</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_ghzp_guangdan.png</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/actor/enemy/M_chongfengbing.png</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_mesh/actor/enemy/M_chongfengbing_skin.FBX</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/Materials/ef_sheguang_22_p.mat</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/Materials/ef_muguang_01.mat</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_sheguang_22_p.png</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_shizijia02.png</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_materials/effect/ef_guangdan01.mat</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_materials/effect/ef_xulie_ghz137.mat</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_muguang_01.png</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/dian/ef_dian_ghz104.png</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_materials/actor/enemy/M_chongfengbing.mat</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_materials/effect/ef_zhixian.mat</string>
+        <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_guangxian01.TGA</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -371,6 +401,12 @@
       <assetBundleName>Ai.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ExcelAssets/Ai.asset</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>Camp.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ExcelAssets/Camp.asset</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>

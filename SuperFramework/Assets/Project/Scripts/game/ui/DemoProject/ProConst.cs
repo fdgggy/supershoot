@@ -31,7 +31,9 @@ namespace DemoProject
         public const string SelectRoleUIForm = "SelectRoleUIForm";
         public const string ShopUIForm = "ShopUIForm";
         public const string LevelUIForm = "LevelUIForm";
-        
+
+        public const string BattleUIForm = "BattleUIForm";
+
 
         /* 常量定义： 其他 */
 

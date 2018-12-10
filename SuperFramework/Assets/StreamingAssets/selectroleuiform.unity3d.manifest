@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 711456162
+CRC: 3788975551
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bcf91216a1f85cdf8565b77c3307c250
+    Hash: f9ddae2e999d223bec56bc17d29549b3
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3be75f0a873a518d9820c7e4d710d804
@@ -38,4 +38,4 @@ ClassTypes:
 Assets:
 - Assets/ResData/UIData/SelectRole/SelectRoleUIForm.prefab
 Dependencies:
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/home_btn.png.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/home_btn.png.unity3d

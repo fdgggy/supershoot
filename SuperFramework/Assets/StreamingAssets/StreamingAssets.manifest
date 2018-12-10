@@ -1,91 +1,98 @@
 ManifestFileVersion: 0
-CRC: 3058828137
+CRC: 3713830256
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: map_001_scene.unity3d
-      Dependencies:
-        Dependency_0: herohdweapons.unity3d
+      Dependencies: {}
     Info_1:
-      Name: map_loading_scene.unity3d
-      Dependencies:
-        Dependency_0: home_btn.png.unity3d
+      Name: map_002_scene.unity3d
+      Dependencies: {}
     Info_2:
+      Name: map_003_scene.unity3d
+      Dependencies: {}
+    Info_3:
       Name: heroinfouiform.unity3d
       Dependencies:
         Dependency_0: ui_atlas_img_local_normal.png.unity3d
-    Info_3:
+    Info_4:
       Name: logonuiform.unity3d
       Dependencies: {}
-    Info_4:
+    Info_5:
       Name: ui_atlas_img_local_normal.png.unity3d
       Dependencies: {}
-    Info_5:
+    Info_6:
       Name: maincityuiform.unity3d
       Dependencies:
         Dependency_0: ui_atlas_img_local_normal.png.unity3d
-    Info_6:
+    Info_7:
       Name: marketuifrom.unity3d
       Dependencies:
         Dependency_0: common atlas.png.unity3d
-    Info_7:
+    Info_8:
       Name: common atlas.png.unity3d
       Dependencies: {}
-    Info_8:
+    Info_9:
       Name: propdetailuiform.unity3d
       Dependencies:
         Dependency_0: common atlas.png.unity3d
-    Info_9:
+    Info_10:
       Name: selectherouiform.unity3d
       Dependencies: {}
-    Info_10:
+    Info_11:
       Name: mainmenuuiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
-    Info_11:
+    Info_12:
       Name: home_btn.png.unity3d
       Dependencies: {}
-    Info_12:
+    Info_13:
       Name: leveluiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
-    Info_13:
+    Info_14:
       Name: loadinguiform.unity3d
       Dependencies:
         Dependency_0: bg.png.unity3d
-    Info_14:
+    Info_15:
       Name: selectroleuiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
-    Info_15:
+    Info_16:
       Name: bg.png.unity3d
       Dependencies: {}
-    Info_16:
+    Info_17:
       Name: shopuiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
         Dependency_1: bg.png.unity3d
-    Info_17:
-      Name: herohdweapons.unity3d
-      Dependencies: {}
     Info_18:
-      Name: ai.unity3d
+      Name: enemy1.unity3d
       Dependencies: {}
     Info_19:
-      Name: enemy.unity3d
+      Name: herohdweapons.unity3d
       Dependencies: {}
     Info_20:
-      Name: english.unity3d
+      Name: ai.unity3d
       Dependencies: {}
     Info_21:
-      Name: level.unity3d
+      Name: camp.unity3d
       Dependencies: {}
     Info_22:
-      Name: map.unity3d
+      Name: enemy.unity3d
       Dependencies: {}
     Info_23:
-      Name: role.unity3d
+      Name: english.unity3d
       Dependencies: {}
     Info_24:
+      Name: level.unity3d
+      Dependencies: {}
+    Info_25:
+      Name: map.unity3d
+      Dependencies: {}
+    Info_26:
+      Name: role.unity3d
+      Dependencies: {}
+    Info_27:
       Name: weapon.unity3d
       Dependencies: {}

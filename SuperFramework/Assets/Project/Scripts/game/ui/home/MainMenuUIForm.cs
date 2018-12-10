@@ -6,10 +6,14 @@ using UnityEngine.UI;
 
 public class MainMenuUIForm : BaseUIForm
 {
+    public override UIType GetUIType()
+    {
+        //窗体的性质
+        CurrentUIType.UIForms_ShowMode = UIFormShowMode.HideOther;
+        return CurrentUIType;
+    }
     public void Start()
     {
-        CurrentUIType.UIForms_ShowMode = UIFormShowMode.Normal;
-
         InitView();
         InitEvent();
     }

@@ -29,7 +29,7 @@ public class SceneMgr : MonoBehaviour
         return false;
     }
 
-    public void EnterScene(SceneType sceneType, string mapName)
+    public void EnterScene(SceneType sceneType, string mapName, LevelData leveData = null)
     {
         if (!IsValid(sceneType))
         {
@@ -54,7 +54,7 @@ public class SceneMgr : MonoBehaviour
         }
         else if (sceneType == SceneType.Battle)
         {
-            curScene = new BattleScene(mapName);
+            curScene = new BattleScene(mapName, leveData);
         }
         curScene.Enter();
     }

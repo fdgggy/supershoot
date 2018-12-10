@@ -4,9 +4,12 @@ using UnityEngine;
 public class BattleScene : BaseScene
 {
     private LoadingUIForm loadingView = null;
-    public BattleScene(string mapName)
+    private LevelData leveData = null;
+    public BattleScene(string mapName, LevelData leveData)
     {
         base.Init(SceneType.Battle, mapName);
+
+        this.leveData = leveData;
     }
 
     override public void Enter()
@@ -45,19 +48,29 @@ public class BattleScene : BaseScene
     {
         Loger.Info("BattleScene OnFinished");
 
-        LevelManager.Instance.Init("map001");
+        EntityInfo entityInfo = new EntityInfo()
+        {
+            PrefabName = "HeroHDWeapons",
+            EntityId = EntityManager.Instance.EntityId,
+            campType = CampType.Player,
+        };
 
-        //EntityInfo entityInfo = new EntityInfo()
-        //{
-        //    PrefabName = "HeroHDWeapons",
-        //    EntityId = EntityManager.Instance.EntityId,
-        //    campType = CampType.Player,
-        //};
+        EntityManager.Instance.CreateEntity(entityInfo, new Vector3(0, -18, 0), Quaternion.Euler(0, 180, 0), (Entity go) =>
+        {
+            go.Active(true);
+        });
 
-        //EntityManager.Instance.CreateEntity(entityInfo, new Vector3(0, -18, 0), Quaternion.Euler(0, 180, 0), (Entity go)=> 
-        //{
-        //    go.Active(true);
-        //    loadingView.Close();
-        //});
+        if (leveData == null)
+        {
+            Loger.Error("BattleScene OnFinished, but the leveData is null, please check !");
+            return;
+        }
+
+        LevelManager.Instance.Init(leveData.Levelai);
+
+        UIManager.Instance.ShowUIForms(DemoProject.ProConst.BattleUIForm, (BaseUIForm baseUIForms) =>
+        {
+
+        });
     }
 }

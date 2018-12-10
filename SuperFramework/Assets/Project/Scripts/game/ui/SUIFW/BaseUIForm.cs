@@ -41,7 +41,7 @@ namespace SUIFW
         {
             return _CurrentUIType;
         }
-        private void Awake()
+        protected void Awake()
         {
             UnityHelper.GetChildrens(this.gameObject, (GameObject go) => {
                 children.Add(go.name, go);

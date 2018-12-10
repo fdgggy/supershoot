@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3339408400
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ea2a4244ea39b83d1871ab65823d070
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 27db14314d774cb3dcea9c34b8bc3a8e
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: dc866718235d244aaae6793f5db3a02b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/ExcelAssets/Camp.asset
+Dependencies: []

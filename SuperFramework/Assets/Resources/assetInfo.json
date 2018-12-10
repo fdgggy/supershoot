@@ -1,7 +1,7 @@
 {
 "Map_001":{
 "abName":"map_001_scene.unity3d", 
-"md5":"57f973466d8d1d15a8af170311848124", 
+"md5":"12fe507832de3324ed1677fd5fd429c6", 
 "path":"Assets/ResData/MapData/Scenes/Map_001.unity"
 }, 
 "Map_002":{
@@ -11,7 +11,7 @@
 }, 
 "Map_003":{
 "abName":"map_003_scene.unity3d", 
-"md5":"d0118f72f51c6bd5692ca53eb4bbac47", 
+"md5":"7dc41af482a3f64ab560f8d866dc021b", 
 "path":"Assets/ResData/MapData/Scenes/Map_003.unity"
 }, 
 "HeroInfoUIForm":{
@@ -44,6 +44,11 @@
 "md5":"6569375285e01d05cc5aa84a24658a79", 
 "path":"Assets/ResData/UIData/SelectHeroUIForm.prefab"
 }, 
+"BattleUIForm":{
+"abName":"battleuiform.unity3d", 
+"md5":"6bfac81982d429930af701e8aec9ab37", 
+"path":"Assets/ResData/UIData/Battle/BattleUIForm.prefab"
+}, 
 "MainMenuUIForm":{
 "abName":"mainmenuuiform.unity3d", 
 "md5":"7347e292a4e072903bd3bd0722d85be8", 
@@ -71,12 +76,12 @@
 }, 
 "enemy1":{
 "abName":"enemy1.unity3d", 
-"md5":"f23edbe9206b0413dbd53f877bb1ddf8", 
+"md5":"85268c36adde1d7cdf96c7b6705b50b5", 
 "path":"Assets/ResData/RoleData/prefab/enemy/enemy1.prefab"
 }, 
 "HeroHDWeapons":{
 "abName":"herohdweapons.unity3d", 
-"md5":"7c8251384827c422f62369a184222c45", 
+"md5":"0f8f5249c3c0ea81870652d54bc714e9", 
 "path":"Assets/ResData/RoleData/prefab/role/HeroHDWeapons.prefab"
 }, 
 "Ai":{
@@ -91,7 +96,7 @@
 }, 
 "Enemy":{
 "abName":"Enemy.unity3d", 
-"md5":"6422ac273cb3a1b8aaf988ae162b3151", 
+"md5":"67cffc5fc1ebd4c91c70ef50cbdc76b3", 
 "path":"Assets/ExcelAssets/Enemy.asset"
 }, 
 "English":{
@@ -101,7 +106,7 @@
 }, 
 "Level":{
 "abName":"Level.unity3d", 
-"md5":"11a6624cee75ecebff1e675a5d8bab88", 
+"md5":"91fb60369b83acad167a49a4d11ddb22", 
 "path":"Assets/ExcelAssets/Level.asset"
 }, 
 "Map":{
