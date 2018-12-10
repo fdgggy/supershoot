@@ -88,7 +88,9 @@ public class vp_Shooter : vp_Component
 																ProjectileSpawnPoint.transform.rotation);
 				m_MuzzleFlash.name = transform.name + "MuzzleFlash";
 				m_MuzzleFlash.transform.parent = ProjectileSpawnPoint.transform;
-			}
+                m_MuzzleFlash.SetActive(true);
+
+            }
 			return m_MuzzleFlash;
 		}
 	}
@@ -323,7 +325,7 @@ public class vp_Shooter : vp_Component
 			GameObject p = null;
 
 			p = (GameObject)vp_Utility.Instantiate(ProjectilePrefab, m_CurrentFirePosition, m_CurrentFireRotation);
-
+            p.SetActive(true);
 			// TIP: uncomment this to debug-draw bullet paths and points of impact
 			//DrawProjectileDebugInfo(v);
 
@@ -394,7 +396,7 @@ public class vp_Shooter : vp_Component
 			? FirePosition + m_ProjectileSpawnPoint.transform.TransformDirection(ShellEjectPosition)	// we have no shell eject object: use old logic
 			: m_ShellEjectSpawnPoint.transform.position)												// we have a shell eject object: use new logic
 			, m_ProjectileSpawnPoint.transform.rotation);
-
+        s.SetActive(true);
 		s.transform.localScale = m_ActualShellScale;
 		vp_Layer.Set(s.gameObject, vp_Layer.Debris);
 

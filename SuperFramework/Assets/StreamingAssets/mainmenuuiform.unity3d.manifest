@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1169334215
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4e31d1f3ea8faa88ba4f26fe5cafcb09
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc4045d42840132684d9a7c755b7e3ac
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 564ee0206b1e03246ab7ec89a11d211f, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/ResData/UIData/Home/MainMenuUIForm.prefab
+Dependencies:
+- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/home_btn.png.unity3d

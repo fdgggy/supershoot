@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4127097049
+CRC: 3991031768
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4fec343909e69ddd2314bcfa8494fc2d
+    Hash: b412504a949a4068e248e1602c4be1fe
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4f9e1f97fca783c241db34bb228091c3
@@ -37,6 +37,6 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Textures/Background/MainBG.jpg
-- Assets/UIData/MainCityUIForm.prefab
+- Assets/ResData/UIData/MainCityUIForm.prefab
 Dependencies:
-- /Users/zhoujian/work/unity/SuperFramework/Assets/StreamingAssets/ui_atlas_img_local_normal.png.unity3d
+- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ui_atlas_img_local_normal.png.unity3d

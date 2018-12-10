@@ -6,6 +6,7 @@ using UnityEngine;
 public enum ExcelType
 {
 	Ai,
+	Camp,
 	Enemy,
 	English,
 	Level,

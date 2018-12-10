@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3341584329
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 03db32f07b19b54eba1fff6afc45bde7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c4c8449d514641a15e6c4be13507122c
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 59808da5a130844a48e47294ed0f104e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/ExcelAssets/Enemy.asset
+Dependencies: []

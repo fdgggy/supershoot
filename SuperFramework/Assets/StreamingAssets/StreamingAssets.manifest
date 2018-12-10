@@ -1,35 +1,91 @@
 ManifestFileVersion: 0
-CRC: 2308123101
+CRC: 3058828137
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
+      Name: map_001_scene.unity3d
+      Dependencies:
+        Dependency_0: herohdweapons.unity3d
+    Info_1:
+      Name: map_loading_scene.unity3d
+      Dependencies:
+        Dependency_0: home_btn.png.unity3d
+    Info_2:
       Name: heroinfouiform.unity3d
       Dependencies:
         Dependency_0: ui_atlas_img_local_normal.png.unity3d
-    Info_1:
+    Info_3:
       Name: logonuiform.unity3d
       Dependencies: {}
-    Info_2:
+    Info_4:
       Name: ui_atlas_img_local_normal.png.unity3d
       Dependencies: {}
-    Info_3:
+    Info_5:
       Name: maincityuiform.unity3d
       Dependencies:
         Dependency_0: ui_atlas_img_local_normal.png.unity3d
-    Info_4:
+    Info_6:
       Name: marketuifrom.unity3d
       Dependencies:
         Dependency_0: common atlas.png.unity3d
-    Info_5:
+    Info_7:
       Name: common atlas.png.unity3d
       Dependencies: {}
-    Info_6:
+    Info_8:
       Name: propdetailuiform.unity3d
       Dependencies:
         Dependency_0: common atlas.png.unity3d
-    Info_7:
+    Info_9:
       Name: selectherouiform.unity3d
       Dependencies: {}
-    Info_8:
-      Name: excelexample.unity3d
+    Info_10:
+      Name: mainmenuuiform.unity3d
+      Dependencies:
+        Dependency_0: home_btn.png.unity3d
+    Info_11:
+      Name: home_btn.png.unity3d
+      Dependencies: {}
+    Info_12:
+      Name: leveluiform.unity3d
+      Dependencies:
+        Dependency_0: home_btn.png.unity3d
+    Info_13:
+      Name: loadinguiform.unity3d
+      Dependencies:
+        Dependency_0: bg.png.unity3d
+    Info_14:
+      Name: selectroleuiform.unity3d
+      Dependencies:
+        Dependency_0: home_btn.png.unity3d
+    Info_15:
+      Name: bg.png.unity3d
+      Dependencies: {}
+    Info_16:
+      Name: shopuiform.unity3d
+      Dependencies:
+        Dependency_0: home_btn.png.unity3d
+        Dependency_1: bg.png.unity3d
+    Info_17:
+      Name: herohdweapons.unity3d
+      Dependencies: {}
+    Info_18:
+      Name: ai.unity3d
+      Dependencies: {}
+    Info_19:
+      Name: enemy.unity3d
+      Dependencies: {}
+    Info_20:
+      Name: english.unity3d
+      Dependencies: {}
+    Info_21:
+      Name: level.unity3d
+      Dependencies: {}
+    Info_22:
+      Name: map.unity3d
+      Dependencies: {}
+    Info_23:
+      Name: role.unity3d
+      Dependencies: {}
+    Info_24:
+      Name: weapon.unity3d
       Dependencies: {}

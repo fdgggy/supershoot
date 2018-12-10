@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 122341689
+CRC: 118233688
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f274bfb13f54f911ec208d1a785efb69
+    Hash: f1921f015814194e202c12895d672831
   TypeTreeHash:
     serializedVersion: 2
     Hash: b576c83efa1a35621d3f90d3465394c0
@@ -38,5 +38,5 @@ ClassTypes:
 Assets:
 - Assets/Textures/Background/SelectHero.png
 - Assets/Textures/Ui/ui_atlas_battle.png
-- Assets/UIData/SelectHeroUIForm.prefab
+- Assets/ResData/UIData/SelectHeroUIForm.prefab
 Dependencies: []

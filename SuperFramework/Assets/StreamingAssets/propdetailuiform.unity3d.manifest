@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 966492558
+CRC: 2161913367
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 92dd5daf69772bdbd197d0f6dba31c0b
+    Hash: ac4004d51efde0fb34b2c27c2c7b5434
   TypeTreeHash:
     serializedVersion: 2
     Hash: 50562af23961e07632dfb80ef42d0d63
@@ -36,6 +36,6 @@ ClassTypes:
 - Class: 224
   Script: {instanceID: 0}
 Assets:
-- Assets/UIData/PropDetailUIForm.prefab
+- Assets/ResData/UIData/PropDetailUIForm.prefab
 Dependencies:
-- /Users/zhoujian/work/unity/SuperFramework/Assets/StreamingAssets/common atlas.png.unity3d
+- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/common atlas.png.unity3d

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 872409794
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d901e3b2d86c84875a533889846d7747
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6e511483e83bca174ce0cc5166383b39
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: f00e69a82d3bf4a7c806f2116d035f53, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/ExcelAssets/Map.asset
+Dependencies: []

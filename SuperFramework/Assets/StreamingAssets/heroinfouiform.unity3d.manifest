@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 227557563
+CRC: 1351083840
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f3292e729fccc4d6dd51e59d65e75735
+    Hash: 80012405cef9b3d0831110e6e50406ea
   TypeTreeHash:
     serializedVersion: 2
     Hash: ff939e615ee709327b1cd49453d46f63
@@ -37,7 +37,7 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Textures/Ui/ui_atlas_icon_common.png
-- Assets/UIData/HeroInfoUIForm.prefab
+- Assets/ResData/UIData/HeroInfoUIForm.prefab
 - Assets/Textures/Ui/Main Atlas.png
 Dependencies:
-- /Users/zhoujian/work/unity/SuperFramework/Assets/StreamingAssets/ui_atlas_img_local_normal.png.unity3d
+- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ui_atlas_img_local_normal.png.unity3d

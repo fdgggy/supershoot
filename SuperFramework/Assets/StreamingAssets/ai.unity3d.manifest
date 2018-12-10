@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1595437393
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 834bf8bc7b0f5e32f7dcc128dc36dd91
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 87a7468c797642effd01fc2c396ec6d1
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 1bf69a6a827d44673bb2216a8284461e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/ExcelAssets/Ai.asset
+Dependencies: []

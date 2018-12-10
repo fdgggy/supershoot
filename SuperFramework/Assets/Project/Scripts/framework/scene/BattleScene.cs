@@ -44,11 +44,20 @@ public class BattleScene : BaseScene
     private void OnFinished()
     {
         Loger.Info("BattleScene OnFinished");
-        ResUtil.LoadPrefab("HeroHDWeapons", (string asstName, object go)=> {
-            GameObject entityObj = GameObject.Instantiate(go as GameObject);
-            entityObj.SetActive(true);
 
-            loadingView.Close();
-        });
+        LevelManager.Instance.Init("map001");
+
+        //EntityInfo entityInfo = new EntityInfo()
+        //{
+        //    PrefabName = "HeroHDWeapons",
+        //    EntityId = EntityManager.Instance.EntityId,
+        //    campType = CampType.Player,
+        //};
+
+        //EntityManager.Instance.CreateEntity(entityInfo, new Vector3(0, -18, 0), Quaternion.Euler(0, 180, 0), (Entity go)=> 
+        //{
+        //    go.Active(true);
+        //    loadingView.Close();
+        //});
     }
 }
