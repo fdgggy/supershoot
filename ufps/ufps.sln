@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ufps", "ufps.csproj", "{094CE932-2A46-4A42-A52C-A6F48DEE0E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ufps.Editor", "ufps.Editor.csproj", "{A6003D58-A31D-F75B-3700-68D93E63BFBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{094CE932-2A46-4A42-A52C-A6F48DEE0E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{094CE932-2A46-4A42-A52C-A6F48DEE0E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{094CE932-2A46-4A42-A52C-A6F48DEE0E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{094CE932-2A46-4A42-A52C-A6F48DEE0E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6003D58-A31D-F75B-3700-68D93E63BFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6003D58-A31D-F75B-3700-68D93E63BFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6003D58-A31D-F75B-3700-68D93E63BFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6003D58-A31D-F75B-3700-68D93E63BFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

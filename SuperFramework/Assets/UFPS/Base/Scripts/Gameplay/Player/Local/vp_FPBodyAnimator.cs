@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_FPBodyAnimator.cs
-//	© Opsive. All Rights Reserved.
+//	?Opsive. All Rights Reserved.
 //	https://twitter.com/Opsive
 //	http://www.opsive.com
 //
@@ -124,7 +124,7 @@ public class vp_FPBodyAnimator : vp_BodyAnimator
 		// from this script's 'UpdateCamera' method instead)
 		FPCamera.HasCollision = false;
 
-		Player.IsFirstPerson.Set(true);
+		Player.IsFirstPerson.Set(false);
 
 	}
 	

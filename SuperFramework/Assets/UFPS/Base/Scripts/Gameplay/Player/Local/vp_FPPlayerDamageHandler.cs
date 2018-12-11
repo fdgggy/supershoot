@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_FPPlayerDamageHandler.cs
-//	© Opsive. All Rights Reserved.
+//	?Opsive. All Rights Reserved.
 //	https://twitter.com/Opsive
 //	http://www.opsive.com
 //
@@ -176,7 +176,15 @@ public class vp_FPPlayerDamageHandler : vp_PlayerDamageHandler
 
 		FPPlayer.InputAllowGameplay.Set(false);
 
-	}
+        Entity entity = this.gameObject.GetComponent<Entity>();
+        if (entity == null)
+        {
+            Loger.Error("Die dont get the Entity Component !");
+            return;
+        }
+
+        EntityManager.Instance.FreeEntity(entity.EntityInfo, this.gameObject);
+    }
 
 
 	/// <summary>

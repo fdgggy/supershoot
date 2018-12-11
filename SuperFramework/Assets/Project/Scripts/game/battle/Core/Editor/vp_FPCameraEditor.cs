@@ -147,7 +147,10 @@ public class vp_FPCameraEditor : Editor
 			m_Component.RenderingZoomDamping = EditorGUILayout.Slider("Zoom Damping", m_Component.RenderingZoomDamping, 0.0f, 5.0f);
 			m_Component.DisableVRModeOnStartup = EditorGUILayout.Toggle("Disable VR mode on startup", m_Component.DisableVRModeOnStartup);
 
-			vp_EditorGUIUtility.Separator();
+            
+            m_Component.EntityType = (EntityType)EditorGUILayout.EnumPopup("Entity Types", m_Component.EntityType);
+
+            vp_EditorGUIUtility.Separator();
 		}
 
 	}

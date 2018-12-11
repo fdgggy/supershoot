@@ -8,23 +8,16 @@ public enum CampType
     Neutral = 2
 }
 
-public class Entity
+public class Entity : MonoBehaviour
 {
-    private EntityInfo entityInfo;
-    private GameObject gameObject;
 
+    public EntityInfo EntityInfo { get; set; }
     public CampType GetCamp
     {
         get
         {
-            return entityInfo.campType;
+            return EntityInfo.campType;
         }
-    }
-
-    public Entity(EntityInfo info, GameObject go)
-    {
-        entityInfo = info;
-        gameObject = go;
     }
 
     public void Active(bool show = true)

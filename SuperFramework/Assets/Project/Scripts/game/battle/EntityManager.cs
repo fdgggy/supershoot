@@ -3,19 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EntityManager
+public class EntityManager : MonoBehaviour
 {
-    private static EntityManager entityMgr = null;
     public static EntityManager Instance
     {
         get
-        { 
-            if (entityMgr == null)
-            {
-                return new EntityManager(); 
-            }
-
-            return entityMgr;
+        {
+            return SingleComponent<EntityManager>.Instance();
         }
     }
 
@@ -38,20 +32,15 @@ public class EntityManager
             ResManager.Instance.LoadPrefab(entityInfo.PrefabName, (string asstName, object original) => 
             {
                 GameObject go = null;
-                if (vp_PoolManager.Instance == null || !vp_PoolManager.Instance.enabled || !(original is GameObject))
-                {
-                    go = GameObject.Instantiate((original as GameObject), position, rotation);
-                }
-                else
-                {
-                    go = vp_PoolManager.Spawn((original as GameObject), position, rotation);
-                }
+                go = vp_Utility.Instantiate((original as UnityEngine.Object), position, rotation) as GameObject;
 
                 if (callBack != null)
                 {
                     if (go != null)
                     {
-                        Entity entity = new Entity(entityInfo, go);
+                        Entity entity = go.AddComponent<Entity>();
+                        entity.EntityInfo = entityInfo;
+
                         entityDic.Add(entityInfo.EntityId, entity);
 
                         callBack(entity);
@@ -67,6 +56,20 @@ public class EntityManager
         else
         {
             Loger.Warn("CreateEntity failed, check the prefabName !");
+        }
+    }
+
+    public void FreeEntity(EntityInfo entityInfo, GameObject entityObj)
+    {
+        if (entityDic.ContainsKey(entityInfo.EntityId))
+        {
+            entityDic.Remove(entityInfo.EntityId);
+
+            vp_Utility.Destroy(entityObj);
+        }
+        else
+        {
+            Loger.Error("FreeEntity dont exist the entityId:{0}", entityInfo.EntityId);
         }
     }
 

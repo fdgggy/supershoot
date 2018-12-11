@@ -18,14 +18,21 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
+public enum EntityType
+{
+    None = 0,
+    Player = 1,
+    Enemy = 2,
+}
+
 [RequireComponent(typeof(Camera))]
 [RequireComponent(typeof(AudioListener))]
 
 public class vp_FPCamera : vp_Component
 {
-
-	// character controller of the parent gameobject
-	public vp_FPController FPController = null;
+    public EntityType EntityType;
+    // character controller of the parent gameobject
+    public vp_FPController FPController = null;
 	
 	// NOTE: mouse input variables have been moved to vp_FPInput
 
@@ -216,20 +223,28 @@ public class vp_FPCamera : vp_Component
 		// when not using the spawnpoint system (or player rotation will snap to zero yaw)
 		SetRotation(new Vector2(Transform.eulerAngles.x, Transform.eulerAngles.y));
 
-		// set parent gameobject layer to 'LocalPlayer', so camera can exclude it
-		// this also prevents shell casings from colliding with the charactercollider
-		Parent.gameObject.layer = vp_Layer.LocalPlayer;
+        // set parent gameobject layer to 'LocalPlayer', so camera can exclude it
+        // this also prevents shell casings from colliding with the charactercollider
+        if (EntityType == EntityType.Enemy)
+        {
+            Parent.gameObject.layer = vp_Layer.Enemy;
+        }
+        else if(EntityType == EntityType.Player)
+        {
+            Parent.gameObject.layer = vp_Layer.LocalPlayer;
+        }
+        
 
-		// TEST: removed for multiplayer. please report if this causes trouble
-		//foreach (Transform b in Parent)
-		//{
-		//	if (b.gameObject.layer != vp_Layer.RemotePlayer)
-		//		b.gameObject.layer = vp_Layer.LocalPlayer;
-		//}
-	
-		// main camera initialization
-		// render everything except body and weapon
-		Camera.cullingMask &= ~((1 << vp_Layer.LocalPlayer) | (1 << vp_Layer.Weapon));
+        // TEST: removed for multiplayer. please report if this causes trouble
+        //foreach (Transform b in Parent)
+        //{
+        //	if (b.gameObject.layer != vp_Layer.RemotePlayer)
+        //		b.gameObject.layer = vp_Layer.LocalPlayer;
+        //}
+
+        // main camera initialization
+        // render everything except body and weapon
+        Camera.cullingMask &= ~((1 << vp_Layer.LocalPlayer) | (1 << vp_Layer.Weapon));
 		Camera.depth = 0;
 
 		// weapon camera initialization
