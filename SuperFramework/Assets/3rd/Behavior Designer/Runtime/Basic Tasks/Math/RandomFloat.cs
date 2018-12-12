@@ -18,9 +18,9 @@ namespace BehaviorDesigner.Runtime.Tasks.Basic.Math
         public override TaskStatus OnUpdate()
         {
             if (inclusive) {
-                storeResult.Value = Random.Range(min.Value, max.Value);
+                storeResult.Value = Random.Range(min.Value, max.Value + 1);
             } else {
-                storeResult.Value = Random.Range(min.Value, max.Value - 0.00001f);
+                storeResult.Value = Random.Range(min.Value, max.Value);
             }
             return TaskStatus.Success;
         }

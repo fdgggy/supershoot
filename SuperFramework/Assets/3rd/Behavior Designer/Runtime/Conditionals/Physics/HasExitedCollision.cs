@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace BehaviorDesigner.Runtime.Tasks
 {
-    [TaskDescription("Returns success when a collision ends. This task will only receive the physics callback if it is being reevaluated (with a conditional abort or under a parallel task).")]
+    [TaskDescription("Returns success when a collision ends.")]
     [TaskCategory("Physics")]
     [HelpURL("http://www.opsive.com/assets/BehaviorDesigner/documentation.php?id=110")]
     public class HasExitedCollision : Conditional
