@@ -19,7 +19,7 @@ public class MoveEntity : Action
 
     public override TaskStatus OnUpdate()
     {
-        moveAgent.SetDestination(new Vector3(5, -18, 10));
+        moveAgent.SetDestination(new Vector3(0, -18, -10));
         return TaskStatus.Running;
     }
 }

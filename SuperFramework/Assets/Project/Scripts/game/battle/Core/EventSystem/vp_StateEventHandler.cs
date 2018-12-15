@@ -26,7 +26,6 @@ public abstract class vp_StateEventHandler : vp_EventHandler
 	/// </summary>
 	protected override void Awake()
 	{
-
 		base.Awake();
 
 		StoreStateTargets();
