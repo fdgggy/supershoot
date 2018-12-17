@@ -18,13 +18,13 @@ public class BattleScene : BaseScene
 
         CoroutineTaskManager.Instance.SetCallBack(OnFinished, OnEachFinish);
         CoroutineTaskManager.Instance.LoadScene(MapName);
-        CoroutineTaskManager.Instance.LoadEntity("HeroHDWeapons");
+        //CoroutineTaskManager.Instance.LoadEntity("HeroHDWeapons");
 
         UIManager.Instance.ShowUIForms(DemoProject.ProConst.LoadingUIForm, (BaseUIForm baseUIForms) => 
         {
             loadingView = baseUIForms as LoadingUIForm;
             loadingView.TaskAdd();
-            loadingView.TaskAdd();
+            //loadingView.TaskAdd();
 
             CoroutineTaskManager.Instance.Run();
         });
@@ -58,19 +58,19 @@ public class BattleScene : BaseScene
         EntityManager.Instance.CreateEntity(entityInfo, new Vector3(0, -18, 0), Quaternion.Euler(0, 180, 0), (Entity go) =>
         {
             go.Active(true);
-        });
 
-        if (leveData == null)
-        {
-            Loger.Error("BattleScene OnFinished, but the leveData is null, please check !");
-            return;
-        }
+            if (leveData == null)
+            {
+                Loger.Error("BattleScene OnFinished, but the leveData is null, please check !");
+                return;
+            }
 
-        LevelManager.Instance.Init(leveData.Levelai);
+            LevelManager.Instance.Init(leveData.Levelai);
 
-        UIManager.Instance.ShowUIForms(DemoProject.ProConst.BattleUIForm, (BaseUIForm baseUIForms) =>
-        {
+            UIManager.Instance.ShowUIForms(DemoProject.ProConst.BattleUIForm, (BaseUIForm baseUIForms) =>
+            {
 
+            });
         });
     }
 }

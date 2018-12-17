@@ -908,24 +908,45 @@ public class vp_FPWeapon : vp_Weapon
 	/// </summary>
 	public virtual void ResetSprings(float positionReset, float rotationReset, float positionPauseTime = 0.0f, float rotationPauseTime = 0.0f)
 	{
-
+        Loger.Info("ResetSprings 1");
 		m_PositionSpring.State = Vector3.Lerp(m_PositionSpring.State, m_PositionSpring.RestState, positionReset);
-		m_RotationSpring.State = Vector3.Lerp(m_RotationSpring.State, m_RotationSpring.RestState, rotationReset);
-		m_PositionPivotSpring.State = Vector3.Lerp(m_PositionPivotSpring.State, m_PositionPivotSpring.RestState, positionReset);
-		m_RotationPivotSpring.State = Vector3.Lerp(m_RotationPivotSpring.State, m_RotationPivotSpring.RestState, rotationReset);
+        Loger.Info("ResetSprings 11");
+        m_RotationSpring.State = Vector3.Lerp(m_RotationSpring.State, m_RotationSpring.RestState, rotationReset);
+        Loger.Info("ResetSprings 111");
+        m_PositionPivotSpring.State = Vector3.Lerp(m_PositionPivotSpring.State, m_PositionPivotSpring.RestState, positionReset);
+        Loger.Info("ResetSprings 1111");
+        m_RotationPivotSpring.State = Vector3.Lerp(m_RotationPivotSpring.State, m_RotationPivotSpring.RestState, rotationReset);
 
-		if (positionPauseTime != 0.0f)
-			m_PositionSpring.ForceVelocityFadeIn(positionPauseTime);
+        Loger.Info("ResetSprings 2");
+        if (positionPauseTime != 0.0f)
+        {
+            Loger.Info("ResetSprings 3");
+            m_PositionSpring.ForceVelocityFadeIn(positionPauseTime);
+            Loger.Info("ResetSprings 4");
+        }
 
 		if (rotationPauseTime != 0.0f)
-			m_RotationSpring.ForceVelocityFadeIn(rotationPauseTime);
+        {
+            Loger.Info("ResetSprings 5");
+            m_RotationSpring.ForceVelocityFadeIn(rotationPauseTime);
+            Loger.Info("ResetSprings 6");
+        }
+			
 
 		if (positionPauseTime != 0.0f)
-			m_PositionPivotSpring.ForceVelocityFadeIn(positionPauseTime);
+        {
+            Loger.Info("ResetSprings 7");
+            m_PositionPivotSpring.ForceVelocityFadeIn(positionPauseTime);
+            Loger.Info("ResetSprings 8");
+        }
+			
 
 		if (rotationPauseTime != 0.0f)
-			m_RotationPivotSpring.ForceVelocityFadeIn(rotationPauseTime);
-
+        {
+            Loger.Info("ResetSprings 9");
+            m_RotationPivotSpring.ForceVelocityFadeIn(rotationPauseTime);
+            Loger.Info("ResetSprings 10");
+        }
 	}
 
 

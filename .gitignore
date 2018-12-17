@@ -3,6 +3,8 @@ Temp/
 obj/
 .vs/
 Gamelog/
+StreamingAssets/
+Build/
 .DS_Store
 
 

@@ -1,21 +1,29 @@
 ManifestFileVersion: 0
-CRC: 254980940
+CRC: 3717423272
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f9b51fb8b2081b650389030fa401e1cc
+    Hash: 160761f3c51ef067d5ead569b84d9ede
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cdbd55a21e9153e9bd160ea7238fe13f
+    Hash: 3b9e2e788e76d0bb4e470d6402de034f
 HashAppended: 0
 ClassTypes:
 - Class: 1
   Script: {instanceID: 0}
 - Class: 4
   Script: {instanceID: 0}
+- Class: 12
+  Script: {instanceID: 0}
+- Class: 15
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
 - Class: 23
+  Script: {instanceID: 0}
+- Class: 26
   Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
@@ -23,7 +31,7 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
-- Class: 48
+- Class: 49
   Script: {instanceID: 0}
 - Class: 54
   Script: {instanceID: 0}
@@ -31,64 +39,219 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
 - Class: 82
+  Script: {instanceID: 0}
+- Class: 83
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  Script: {fileID: 11500000, guid: 8227215081904e84a97ab858e04ca55d, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5fe84cd8039bfe940b728991f374a473, type: 3}
+  Script: {fileID: 11500000, guid: 28dff080eb100b14190cc15bff12b397, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 65aaa0c581cccd944966e1ea70b2cb34, type: 3}
+  Script: {fileID: 11500000, guid: 59a4c990e9f2ccd4d8baefeba71a85fe, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: b21a50072ec129b429a7e15cd9b719cc, type: 3}
+  Script: {fileID: 11500000, guid: ded5f8f19f9bf8b4db0bba4c58123909, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 079fd651040555a4aa088511ec291e39, type: 3}
+  Script: {fileID: 11500000, guid: a5c1ec72a4a0534419c4c6a5384b398b, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 6606c2f7f61473b4cac9ca0439bf9fe6, type: 3}
+  Script: {fileID: 11500000, guid: a855eb337c41c604bb7238f65577f09d, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3795653090722e046b63520258b9d5f0, type: 3}
+  Script: {fileID: 11500000, guid: 8e9b7e531ec4bab4286b78b34f2a8936, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 23aa1a4315639024193e4dba8b1e9541, type: 3}
+  Script: {fileID: 11500000, guid: 44db3a14ba5c5b74b985e26802dbc9d1, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 7230a0bef6e24b74a92edbca89a276e3, type: 3}
+  Script: {fileID: 11500000, guid: b2cae7640b971af4a869742e03eb8f43, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: e8a22ac8028a3434a9521d64baf5ae2f, type: 3}
+  Script: {fileID: 11500000, guid: f6c4bf741f5d95841833f412997e90fa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 45914f847cd48754ebabf383987ef88c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8745425c2759f946aa5fd67025cc099, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7cc8bc753e6c65b40bfca961906f4480, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 11b910e605defdd47b17a2960ba0ced3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6bf848271384e984c89313a56d3bb5cb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: afa96b0804ec29f49bc171fae6aa9b5d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5dc13c48b5ea45f47abb1efd236a5812, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a3320cb8b89dc2547959c4c6e6621e03, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49fa1559690f5264185a0a5e9353db35, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 320e24f9b9d606d4fba2720aa012b842, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d45c3caadb0dedb45909441e14a8de7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b9cddb3bbeb3d36468f00a5177c170e4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 58955c9b7d638644cbad895ecaf10c79, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a2542f9b3068d264e8c9fd46046e8592, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c41202c9e34c50488097d283e5dd8eb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f51d02c672daf34b8feff75a9250455, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a02e18bffdd5c1b458f442d33fbb9ec2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 528a31ef55018d34eaf3db2e4b65a213, type: 3}
 - Class: 115
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
 - Class: 144
   Script: {instanceID: 0}
-- Class: 195
-  Script: {instanceID: 0}
-- Class: 198
-  Script: {instanceID: 0}
-- Class: 199
-  Script: {instanceID: 0}
 Assets:
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/Materials/ef_shizijia02.mat
-- Assets/ResData/RoleData/enemy/enemy1/tu_materials/effect/ef_dian_ghz104.mat
-- Assets/ResData/RoleData/enemy/enemy1/tu_mesh/effect/ef_Shell.FBX
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/xulie/ef_xulie_ghz137.png
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_ghzp_guangdan.png
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/actor/enemy/M_chongfengbing.png
+- Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/impact16x16.psd
 - Assets/ResData/RoleData/prefab/enemy/enemy1.prefab
-- Assets/ResData/RoleData/enemy/enemy1/tu_mesh/actor/enemy/M_chongfengbing_skin.FBX
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/Materials/ef_sheguang_22_p.mat
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/Materials/ef_muguang_01.mat
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_sheguang_22_p.png
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_shizijia02.png
-- Assets/ResData/RoleData/enemy/enemy1/tu_materials/effect/ef_guangdan01.mat
-- Assets/ResData/RoleData/enemy/enemy1/tu_materials/effect/ef_xulie_ghz137.mat
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_muguang_01.png
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/dian/ef_dian_ghz104.png
-- Assets/ResData/RoleData/enemy/enemy1/tu_materials/actor/enemy/M_chongfengbing.mat
-- Assets/ResData/RoleData/enemy/enemy1/tu_materials/effect/ef_zhixian.mat
-- Assets/ResData/RoleData/enemy/enemy1/tu_texture/effects/ef_guangxian01.TGA
-Dependencies: []
+- Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/UFPS32x32.png
+Dependencies:
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shooterpistol01outofcontrol.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/cameraclimb.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knife01.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/controllerdead.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/controllercrouch.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/pistol01.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/cameraoutofcontrol.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponshotgun01reload.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponswingright.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/muzzleflash-1.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shell45bounce02.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weapongrenade01rewield.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/controllerfreeze.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponassaultrifle01reload.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footstep.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponpullleft.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_shotgun01.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knife01.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeswing01.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/explosion.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/heronoheadnoarm.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/head.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/camerareload.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/camerafreeze.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_grenade01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponpullupleft.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponswingdown.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_shotgunshell01used.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weapongrenade01attack.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shellshotgunbounce01.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shooterassaultrifle01zoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/bladehit.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/controllerrun.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/grenadethrower.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shell.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shellshotgunbounce07.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knifeattacktodown.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/cameracrouch.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/pistoldryfire.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/hero.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponpistol01idle.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shootershotgun01zoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_pistol01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimezoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponpistol01run.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/grab.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/grenade01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_shotgun01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponpullupright.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/controllerzoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponpullup.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shell45bounce01.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shotgunpellethit.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponpullright.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/pistol01wield.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponassaultrifle01zoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponswingleft.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shell-02
+  - default.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponshotgun01crouch.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/fallimpact.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knifeattacktodownright.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weapongrenade01zoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/arm.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/cameradead.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/machinegunreload.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ufpsexampleanimator.controller.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shooterpistol01zoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/jump.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponpistol01slide.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_arm.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponswingdownleft.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponpulldown.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/unwield.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/controllermegaspeed.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponshotgun01zoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shotgunshellload.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponswingup.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_pistol01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shotgun01.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponpistol01outofcontrol.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/bullethit.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/meleeweaponswingdownright.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shellshotgunbounce02.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/camerarun.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shell45bounce04.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/camerazoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponpistol01zoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/grenade01.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/muzzleflash.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/toss.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shellshotgunbounce08.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponshotgun01run.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weapongenericslide.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shotgunfirepump.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_muzzleflash04.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/machinegunwield.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knife01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/pistol01reloadempty.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponassaultrifle01crouch.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/bulletbodyimpact.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shellshotgunbounce03.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponassaultrifle01run.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ragdolldrop.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shell.physicmaterial.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shellshotgunbounce05.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/cameraslide.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/machinegunfire.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shellshotgunbounce04.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/explosion01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_pistol01.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/weaponpistol01crouch.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimerun.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_shotgun01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimecrouch.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knifeattacktodownleft.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_shotgunshell01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shell45bounce03.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/invisibleshadowcaster.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/shellshotgunbounce06.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/pistol01fire.ogg.unity3d

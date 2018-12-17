@@ -158,16 +158,18 @@ public class vp_WeaponShooter : vp_Shooter
 
 		// apply recoil
 		if (MotionRecoilDelay == 0.0f)
-			ApplyRecoil();
+        {
+            //ApplyRecoil();   //打包出来有问题，暂时不知道什么原因
+        }
 		else
-			vp_Timer.In(MotionRecoilDelay, ApplyRecoil);
+        {
+            //vp_Timer.In(MotionRecoilDelay, ApplyRecoil);
+        }
 
-		base.Fire();
-
-		// keep 'ProjectileSpawnDelay' untouched outside of this scope
-		// since other logics may rely on it
-		ProjectileSpawnDelay = m_OriginalProjectileSpawnDelay;
-
+        base.Fire();
+        // keep 'ProjectileSpawnDelay' untouched outside of this scope
+        // since other logics may rely on it
+        ProjectileSpawnDelay = m_OriginalProjectileSpawnDelay;
 	}
 
 
@@ -226,21 +228,20 @@ public class vp_WeaponShooter : vp_Shooter
 	/// </summary>
 	protected virtual void ApplyRecoil()
 	{
-
-		// add a positional and angular force to the weapon for one frame
-		if (MotionRotationRecoil.z == 0.0f)
-			Weapon.AddForce2(MotionPositionRecoil, MotionRotationRecoil);
-		else
-		{
-			// if we have rotation recoil around the z vector, also do dead zone logic
-			Weapon.AddForce2(MotionPositionRecoil,
-				Vector3.Scale(MotionRotationRecoil, (Vector3.one + Vector3.back)) +	// recoil around x & y
-				(((Random.value < 0.5f) ? Vector3.forward : Vector3.back) *	// spin direction (left / right around z)
-				Random.Range(MotionRotationRecoil.z * MotionRotationRecoilDeadZone,
-												MotionRotationRecoil.z)));		// spin force
-		}
-
-
+		//// add a positional and angular force to the weapon for one frame
+		//if (MotionRotationRecoil.z == 0.0f)
+  //      {
+  //          Weapon.AddForce2(MotionPositionRecoil, MotionRotationRecoil);
+  //      }
+		//else
+		//{
+  //          // if we have rotation recoil around the z vector, also do dead zone logic
+  //          Weapon.AddForce2(MotionPositionRecoil,
+		//		Vector3.Scale(MotionRotationRecoil, (Vector3.one + Vector3.back)) +	// recoil around x & y
+		//		(((Random.value < 0.5f) ? Vector3.forward : Vector3.back) *	// spin direction (left / right around z)
+		//		Random.Range(MotionRotationRecoil.z * MotionRotationRecoilDeadZone,
+		//										MotionRotationRecoil.z)));		// spin force
+  //      }
 	}
 
 

@@ -250,19 +250,21 @@ public class vp_Weapon : vp_Component
 	}
 
 
-	/// <summary>
-	/// applies positional and angular force to the weapon. the
-	/// typical use for this method is applying recoil force.
-	/// </summary>
-	public virtual void AddForce2(Vector3 positional, Vector3 angular)
-	{
+    /// <summary>
+    /// applies positional and angular force to the weapon. the
+    /// typical use for this method is applying recoil force.
+    /// </summary>
+    public virtual void AddForce2(Vector3 positional, Vector3 angular)
+    {
+        if (m_PositionSpring2 != null)
+        {
+            m_PositionSpring2.AddForce(positional);
+        }
 
-		if (m_PositionSpring2 != null)
-			m_PositionSpring2.AddForce(positional);
-
-		if (m_RotationSpring2 != null)
-			m_RotationSpring2.AddForce(angular);
-
+        if (m_RotationSpring2 != null)
+        {
+            m_RotationSpring2.AddForce(angular);
+        }
 	}
 	
 

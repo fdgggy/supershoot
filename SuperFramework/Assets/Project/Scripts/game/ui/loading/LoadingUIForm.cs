@@ -19,6 +19,12 @@ public class LoadingUIForm : BaseUIForm
         compCount++;
         Loger.Info("compCount:{0}", compCount);
     }
+    public override UIType GetUIType()
+    {
+        //窗体的性质
+        CurrentUIType.UIForms_ShowMode = UIFormShowMode.HideOther;
+        return CurrentUIType;
+    }
 
     public void Start()
     {

@@ -198,42 +198,45 @@ public class vp_FPWeaponShooter : vp_WeaponShooter
 	/// </summary>
 	protected override void ApplyRecoil()
 	{
+  //      Loger.Info("ApplyRecoil 11");
+  //      // return the weapon to its forward looking state by certain
+  //      // position, rotation and velocity factors
+  //      FPWeapon.ResetSprings(MotionPositionReset, MotionRotationReset,
+		//					MotionPositionPause, MotionRotationPause);
 
-		// return the weapon to its forward looking state by certain
-		// position, rotation and velocity factors
-		FPWeapon.ResetSprings(MotionPositionReset, MotionRotationReset,
-							MotionPositionPause, MotionRotationPause);
+  //      Loger.Info("ApplyRecoil 111");
+  //      // add a positional and angular force to the weapon for one frame
+  //      if (MotionRotationRecoil.z == 0.0f)
+		//{
+  //          Loger.Info("ApplyRecoil 12");
+  //          FPWeapon.AddForce2(MotionPositionRecoil, MotionRotationRecoil);
 
-		// add a positional and angular force to the weapon for one frame
-		if (MotionRotationRecoil.z == 0.0f)
-		{
-			FPWeapon.AddForce2(MotionPositionRecoil, MotionRotationRecoil);
+		//	// if we have positional camera recoil factor, also shake the camera
+		//	if (MotionPositionRecoilCameraFactor != 0.0f)
+		//		FPCamera.AddForce2(MotionPositionRecoil * MotionPositionRecoilCameraFactor);
+		//}
+		//else
+		//{
+  //          Loger.Info("ApplyRecoil 13");
+  //          // if we have rotation recoil around the z vector, also do dead zone logic
+  //          FPWeapon.AddForce2(MotionPositionRecoil,
+		//		Vector3.Scale(MotionRotationRecoil, (Vector3.one + Vector3.back)) +	// recoil around x & y
+		//		(((Random.value < 0.5f) ? Vector3.forward : Vector3.back) *	// spin direction (left / right around z)
+		//		Random.Range(MotionRotationRecoil.z * MotionRotationRecoilDeadZone,
+		//										MotionRotationRecoil.z)));		// spin force
+  //          Loger.Info("ApplyRecoil 14");
+  //          // if we have positional camera recoil factor, also shake the camera
+  //          if (MotionPositionRecoilCameraFactor != 0.0f)
+		//		FPCamera.AddForce2(MotionPositionRecoil * MotionPositionRecoilCameraFactor);
 
-			// if we have positional camera recoil factor, also shake the camera
-			if (MotionPositionRecoilCameraFactor != 0.0f)
-				FPCamera.AddForce2(MotionPositionRecoil * MotionPositionRecoilCameraFactor);
-		}
-		else
-		{
-
-			// if we have rotation recoil around the z vector, also do dead zone logic
-			FPWeapon.AddForce2(MotionPositionRecoil,
-				Vector3.Scale(MotionRotationRecoil, (Vector3.one + Vector3.back)) +	// recoil around x & y
-				(((Random.value < 0.5f) ? Vector3.forward : Vector3.back) *	// spin direction (left / right around z)
-				Random.Range(MotionRotationRecoil.z * MotionRotationRecoilDeadZone,
-												MotionRotationRecoil.z)));		// spin force
-
-			// if we have positional camera recoil factor, also shake the camera
-			if (MotionPositionRecoilCameraFactor != 0.0f)
-				FPCamera.AddForce2(MotionPositionRecoil * MotionPositionRecoilCameraFactor);
-
-			// if we have angular camera recoil factor, also twist the camera left / right
-			if (MotionRotationRecoilCameraFactor != 0.0f)
-				FPCamera.AddRollForce((Random.Range(MotionRotationRecoil.z * MotionRotationRecoilDeadZone, MotionRotationRecoil.z)	// dead zone
-												* MotionRotationRecoilCameraFactor) *	// camera rotation factor
-												((Random.value < 0.5f) ? 1.0f : -1.0f));		// direction
-
-		}
+  //          Loger.Info("ApplyRecoil 15");
+  //          // if we have angular camera recoil factor, also twist the camera left / right
+  //          if (MotionRotationRecoilCameraFactor != 0.0f)
+		//		FPCamera.AddRollForce((Random.Range(MotionRotationRecoil.z * MotionRotationRecoilDeadZone, MotionRotationRecoil.z)	// dead zone
+		//										* MotionRotationRecoilCameraFactor) *	// camera rotation factor
+		//										((Random.value < 0.5f) ? 1.0f : -1.0f));		// direction
+  //          Loger.Info("ApplyRecoil 16");
+        //}
 
 
 	}
