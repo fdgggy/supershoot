@@ -396,11 +396,12 @@ public class vp_FPCamera : vp_Component
 	}
 
 
-	/// <summary>
-	/// actual rotation of the player model and camera is performed in
-	/// LateUpdate, since by then all game logic should be finished
-	/// </summary>
-	protected override void LateUpdate()
+    /// <summary>
+    /// actual rotation of the player model and camera is performed in
+    /// LateUpdate, since by then all game logic should be finished
+    /// 在LateUpdate中执行玩家模型和摄像机的实际旋转，因为到那时应该完成所有游戏逻辑
+    /// </summary>
+    protected override void LateUpdate()
 	{
 
 		base.LateUpdate();
@@ -615,11 +616,11 @@ public class vp_FPCamera : vp_Component
 			return;
 
 		// modify pitch and yaw with mouselook
-		m_Yaw += Player.InputSmoothLook.Get().x;
+		m_Yaw += Player.InputSmoothLook.Get().x;  //(旋转角度0-360, 再根据角度创建旋转给cam)
 		m_Pitch += Player.InputSmoothLook.Get().y;
 
-		// clamp angles
-		m_Yaw = m_Yaw < -360.0f ? m_Yaw += 360.0f : m_Yaw;
+        // clamp angles
+        m_Yaw = m_Yaw < -360.0f ? m_Yaw += 360.0f : m_Yaw;
 		m_Yaw = m_Yaw > 360.0f ? m_Yaw -= 360.0f : m_Yaw;
 		m_Yaw = Mathf.Clamp(m_Yaw, RotationYawLimit.x, RotationYawLimit.y);
 		m_Pitch = m_Pitch < -360.0f ? m_Pitch += 360.0f : m_Pitch;

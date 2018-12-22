@@ -73,8 +73,13 @@ public class EntityManager : MonoBehaviour
         }
     }
 
-    public bool IsEnemy(CampType camp1, CampType camp2)
+    private bool IsEnemy(CampType camp1, CampType camp2)
     {
+        if (camp1 == camp2)
+        {
+            return false;
+        }
+
         Camp camp = ExcelDataManager.Instance.GetExcel(ExcelType.Camp) as Camp;
         CampData data = camp.QueryByID((int)camp1);
         if (data != null)
@@ -87,12 +92,13 @@ public class EntityManager : MonoBehaviour
             {
                 return data.Player == 1;
             }
-            else if (camp2 == CampType.Neutral)
+            else
             {
                 return data.Neutral == 1;
             }
         }
 
+        Loger.Error("Camp data is null !");
         return false;
     }
 
@@ -108,5 +114,49 @@ public class EntityManager : MonoBehaviour
         }
 
         return count;
+    }
+
+    public Entity GetNearestEnemy(Entity entity)
+    {
+        Entity target = null;
+        float nearest = 99999f;
+
+        foreach (KeyValuePair<int, Entity> kv in entityDic)
+        {
+            if (IsEnemy(entity.GetCamp, kv.Value.GetCamp))
+            {
+                float distance = entity.Distance(kv.Value);
+                if (distance < nearest)
+                {
+                    nearest = distance;
+                    target = kv.Value;
+                }
+            }
+        }
+
+        if (target == null)
+        {
+            Loger.Error("dont find nearest enemy !");
+        }
+        return target;
+    }
+    public List<Entity> GetAllEnemy(Entity entity)
+    {
+        List<Entity> targets = null;
+
+        foreach (KeyValuePair<int, Entity> kv in entityDic)
+        {
+            if (IsEnemy(entity.GetCamp, kv.Value.GetCamp))
+            {
+                targets.Add(kv.Value);
+            }
+        }
+
+        if (targets == null)
+        {
+            Loger.Error("dont find enemy !");
+        }
+
+        return targets;
     }
 }

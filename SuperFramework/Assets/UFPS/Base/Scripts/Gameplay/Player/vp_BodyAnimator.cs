@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////
 //
 //	vp_BodyAnimator.cs
-//	© Opsive. All Rights Reserved.
+//	?Opsive. All Rights Reserved.
 //	https://twitter.com/Opsive
 //	http://www.opsive.com
 //
@@ -426,11 +426,11 @@ public class vp_BodyAnimator : MonoBehaviour
 	protected virtual void UpdateAnimator()
 	{
 
-		// --- booleans used to transition between blend states ---
-		// TODO: these should be moved to event callbacks on the next optimization run
+        // --- booleans used to transition between blend states ---
+        // TODO: these should be moved to event callbacks on the next optimization run
 
-		Animator.SetBool(IsRunning, Player.Run.Active && GetIsMoving());
-		Animator.SetBool(IsCrouching, Player.Crouch.Active);
+        Animator.SetBool(IsRunning, Player.Run.Active && GetIsMoving());
+        Animator.SetBool(IsCrouching, Player.Crouch.Active);
 		Animator.SetInteger(WeaponTypeIndex, Player.CurrentWeaponType.Get());
 		Animator.SetInteger(WeaponGripIndex, Player.CurrentWeaponGrip.Get());
 		Animator.SetBool(IsSettingWeapon, Player.SetWeapon.Active);
@@ -439,8 +439,8 @@ public class vp_BodyAnimator : MonoBehaviour
 		Animator.SetBool(IsClimbing, Player.Climb.Active);
 		Animator.SetBool(IsZooming, Player.Zoom.Active);
 		Animator.SetBool(IsGrounded, m_Grounded);
-		Animator.SetBool(IsMoving, GetIsMoving());
-		Animator.SetBool(IsFirstPerson, Player.IsFirstPerson.Get());
+        Animator.SetBool(IsMoving, GetIsMoving());
+        Animator.SetBool(IsFirstPerson, Player.IsFirstPerson.Get());
 
 		// --- floats used inside blend states to blend between animations ---
 

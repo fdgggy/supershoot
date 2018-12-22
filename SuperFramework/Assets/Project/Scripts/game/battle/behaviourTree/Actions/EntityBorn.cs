@@ -3,7 +3,7 @@ using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
 using System.Collections;
 
-public class BornEntity : Action
+public class EntityBorn : Action
 {
     private bool complete = false;
     public SharedInt enemyId;
@@ -22,7 +22,7 @@ public class BornEntity : Action
         EnemyData enemyData = enemyExcel.QueryByID(enemyId.Value);
         if (enemyData == null)
         {
-            Loger.Error("BornEntity not found the enemyId:{0}", enemyId.Value);
+            Loger.Error("EntityBorn not found the enemyId:{0}", enemyId.Value);
             return;
         }
 
@@ -40,7 +40,7 @@ public class BornEntity : Action
             GameObject point = GameObject.Find(path);
             if (point == null)
             {
-                Loger.Error("BornEntity dont find the point !");
+                Loger.Error("EntityBorn dont find the point !");
             }
             else
             {

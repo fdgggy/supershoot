@@ -108,7 +108,9 @@ public class vp_CharacterController : vp_Controller
 	protected virtual void OnMessage_Move(Vector3 direction)
 	{
 		if (CharacterController.enabled)
-			CharacterController.Move(direction);
+        {
+            CharacterController.Move(direction);
+        }
 	}
 
 
