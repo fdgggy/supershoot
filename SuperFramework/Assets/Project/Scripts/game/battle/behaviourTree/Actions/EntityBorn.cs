@@ -30,7 +30,11 @@ public class EntityBorn : Action
         {
             PrefabName = enemyData.Prefabname,
             EntityId = EntityManager.Instance.EntityId,
-            campType = (CampType)enemyData.Camp,
+            Camp = (CampType)enemyData.Camp,
+            MoveSpeed = enemyData.Movespeed,
+            RunSpeed = enemyData.Runspeed,
+            FieldOfView = enemyData.Fieldofviewangle,
+            FieldDistance = enemyData.Viewdistance,
         };
 
         Vector3 originalPos = new Vector3(0, -18, 0);

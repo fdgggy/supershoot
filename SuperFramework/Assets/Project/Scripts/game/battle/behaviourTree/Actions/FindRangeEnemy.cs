@@ -18,13 +18,13 @@ public class FindRangeEnemy : Action
         if (target == null)
         {
             Loger.Error("FindRangeEnemy targets is null");
-            return TaskStatus.Failure;
+            return TaskStatus.Running;
         }
 
         Transform tar = BehaviorDesigner.Manager.Movement.MovementUtility.WithinSight(transform, Vector3.zero, 90, 5, target.GetTransform());
         if (tar == null)
         {
-            return TaskStatus.Failure;
+            return TaskStatus.Running;
         }
         else
         {

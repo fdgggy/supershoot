@@ -471,7 +471,6 @@ public class vp_FPBodyAnimator : vp_BodyAnimator
 	protected override bool GetIsMoving()
 	{
         //Debug.Log("Player.MotorThrottle.Get()=" + Player.MotorThrottle.Get());
-        //Debug.Log("(Vector3.right + Vector3.forward)="+ (Vector3.right + Vector3.forward));
         //Debug.Log("vvvvvv="+ (Vector3.Scale(Player.MotorThrottle.Get(), (Vector3.right + Vector3.forward))).magnitude);
 
         return (Vector3.Scale(Player.MotorThrottle.Get(), (Vector3.right + Vector3.forward))).magnitude >

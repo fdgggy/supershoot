@@ -7,5 +7,9 @@ public struct EntityInfo
     public string PrefabName;
     public int Level;
     public string AI;
-    public CampType campType;
+    public CampType Camp;
+    public float MoveSpeed;
+    public float RunSpeed;
+    public float FieldOfView;
+    public float FieldDistance;
 }

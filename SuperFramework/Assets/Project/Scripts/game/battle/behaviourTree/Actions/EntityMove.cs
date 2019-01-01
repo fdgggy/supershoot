@@ -14,14 +14,15 @@ public class EntityMove : Action
 
     public override void OnStart()
     {
-        SharedTransform m_target = (Owner.GetVariable("aimTarget") as SharedTransform);
+        //SharedTransform m_target = (Owner.GetVariable("aimTarget") as SharedTransform);
 
-        entity.MoveTo(m_target.Value.position);
+        //entity.MoveTo(m_target.Value.position);
+        entity.RunTo(new Vector3(0f, -19f, 18f));
     }
 
     public override TaskStatus OnUpdate()
     {
-        if (entity.MoveOver())
+        if (entity.RunOver())
         {
             return TaskStatus.Success;
         }

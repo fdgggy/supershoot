@@ -380,7 +380,10 @@ public abstract class vp_EventHandler: MonoBehaviour
 					foreach (string p in m_SupportedPrefixes)
 					{
 						if (i.Name.Contains(p))
-							goto FoundMethodWithSupportedPrefix;
+                        {
+                            //Debug.LogWarning("iiiiiiiiiiiiiiiiiiiiiii Name:"+i.Name+" p:"+p);
+                            goto FoundMethodWithSupportedPrefix;
+                        }
 					}
 					
 					continue;

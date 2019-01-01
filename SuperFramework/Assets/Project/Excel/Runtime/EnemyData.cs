@@ -44,4 +44,20 @@ public class EnemyData
   int camp;
   public int Camp { get {return camp; } set { camp = value;} }
   
+  [SerializeField]
+  float movespeed;
+  public float Movespeed { get {return movespeed; } set { movespeed = value;} }
+  
+  [SerializeField]
+  float runspeed;
+  public float Runspeed { get {return runspeed; } set { runspeed = value;} }
+  
+  [SerializeField]
+  float fieldofviewangle;
+  public float Fieldofviewangle { get {return fieldofviewangle; } set { fieldofviewangle = value;} }
+  
+  [SerializeField]
+  float viewdistance;
+  public float Viewdistance { get {return viewdistance; } set { viewdistance = value;} }
+  
 }

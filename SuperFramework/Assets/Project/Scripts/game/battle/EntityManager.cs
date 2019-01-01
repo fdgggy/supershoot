@@ -38,8 +38,13 @@ public class EntityManager : MonoBehaviour
                 {
                     if (go != null)
                     {
-                        Entity entity = go.AddComponent<Entity>();
-                        entity.EntityInfo = entityInfo;
+                        Entity entity = go.GetComponent<Entity>(); //注意不要重复添加
+                        if (entity == null)
+                        {
+                            entity = go.AddComponent<Entity>();
+                        }
+
+                        entity.Init(entityInfo);
 
                         entityDic.Add(entityInfo.EntityId, entity);
 

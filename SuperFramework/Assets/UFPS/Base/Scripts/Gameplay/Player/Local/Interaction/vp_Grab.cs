@@ -283,7 +283,7 @@ public class vp_Grab : vp_Interactable
 		if (Burden <= 0.0f)
 			return;
 
-		m_Player.MotorThrottle.Set(m_Player.MotorThrottle.Get() * (1.0f - Mathf.Clamp01(Burden)));
+		//m_Player.MotorThrottle.Set(m_Player.MotorThrottle.Get() * (1.0f - Mathf.Clamp01(Burden)));
 
 	}
 

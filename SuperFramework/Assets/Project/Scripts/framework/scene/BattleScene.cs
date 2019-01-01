@@ -52,7 +52,7 @@ public class BattleScene : BaseScene
         {
             PrefabName = "HeroHDWeapons",
             EntityId = EntityManager.Instance.EntityId,
-            campType = CampType.Player,
+            Camp = CampType.Player,
         };
 
         EntityManager.Instance.CreateEntity(entityInfo, new Vector3(0, -18, 0), Quaternion.Euler(0, 180, 0), (Entity go) =>

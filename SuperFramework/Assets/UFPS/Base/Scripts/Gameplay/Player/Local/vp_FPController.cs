@@ -1293,8 +1293,8 @@ public class vp_FPController : vp_CharacterController
 	/// <summary>
 	/// gets or sets the current motor throttle
 	/// </summary>
-	protected virtual Vector3 OnValue_MotorThrottle
-	{
+	protected virtual Vector3 OnValue_MotorThrottle   //get_OnValue_MotorThrottle, 只需要获取设置MotorThrottle
+    {
 		get { return m_MotorThrottle; }
 		set { m_MotorThrottle = value; }
 	}

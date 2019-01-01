@@ -183,7 +183,7 @@ public class vp_FPPlayerDamageHandler : vp_PlayerDamageHandler
             return;
         }
 
-        EntityManager.Instance.FreeEntity(entity.EntityInfo, this.gameObject);
+        EntityManager.Instance.FreeEntity(entity.DataInfo, this.gameObject);
     }
 
 
