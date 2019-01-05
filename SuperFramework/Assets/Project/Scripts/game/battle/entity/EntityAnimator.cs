@@ -6,7 +6,7 @@ using System.Collections;
 public class EntityAnimator : MonoBehaviour
 {
     // booleans
-    //private int IsAttacking;
+    private int IsAttacking;
     //private int IsClimbing;
     //private int IsCrouching;
     //private int IsGrounded;
@@ -77,7 +77,7 @@ public class EntityAnimator : MonoBehaviour
         //VerticalMoveAmount = Animator.StringToHash("VerticalMove");
 
         //// booleans
-        //IsAttacking = Animator.StringToHash("IsAttacking");
+        IsAttacking = Animator.StringToHash("IsAttacking");
         //IsClimbing = Animator.StringToHash("IsClimbing");
         //IsCrouching = Animator.StringToHash("IsCrouching");
         //IsGrounded = Animator.StringToHash("IsGrounded");
@@ -180,5 +180,10 @@ public class EntityAnimator : MonoBehaviour
     public void RunOver()
     {
         Animator.SetBool(IsRunning, false);
+    }
+
+    public void Attack()
+    {
+        Animator.SetBool(IsAttacking, true);
     }
 }

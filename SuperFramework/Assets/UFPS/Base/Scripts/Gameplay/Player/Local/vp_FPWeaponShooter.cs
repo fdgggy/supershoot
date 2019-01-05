@@ -161,10 +161,10 @@ public class vp_FPWeaponShooter : vp_WeaponShooter
 				Debug.LogError("Error (" + this + ") No animation named '" + AnimationFire.name + "' is listed in this prefab. Make sure the prefab has an 'Animation' component which references all the clips you wish to play on the weapon.");
 			else
 			{
-				WeaponAnimation[AnimationFire.name].time = 0.0f;
-				WeaponAnimation.Sample();
-				WeaponAnimation.Play(AnimationFire.name);
-			}
+                WeaponAnimation[AnimationFire.name].time = 0.0f;
+                WeaponAnimation.Sample();
+                WeaponAnimation.Play(AnimationFire.name);
+            }
 		}
 
 		// apply recoil

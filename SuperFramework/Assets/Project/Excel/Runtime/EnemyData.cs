@@ -33,8 +33,8 @@ public class EnemyData
   public int Level { get {return level; } set { level = value;} }
   
   [SerializeField]
-  int weaponid;
-  public int Weaponid { get {return weaponid; } set { weaponid = value;} }
+  string weaponids;
+  public string Weaponids { get {return weaponids; } set { weaponids = value;} }
   
   [SerializeField]
   int aiid;

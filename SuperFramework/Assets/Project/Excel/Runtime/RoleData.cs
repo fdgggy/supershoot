@@ -29,7 +29,7 @@ public class RoleData
   public int Defaultlevelid { get {return defaultlevelid; } set { defaultlevelid = value;} }
   
   [SerializeField]
-  int defaultweaponid;
-  public int Defaultweaponid { get {return defaultweaponid; } set { defaultweaponid = value;} }
+  string weaponids;
+  public string Weaponids { get {return weaponids; } set { weaponids = value;} }
   
 }

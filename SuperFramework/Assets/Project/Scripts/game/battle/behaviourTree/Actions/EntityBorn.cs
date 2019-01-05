@@ -35,6 +35,7 @@ public class EntityBorn : Action
             RunSpeed = enemyData.Runspeed,
             FieldOfView = enemyData.Fieldofviewangle,
             FieldDistance = enemyData.Viewdistance,
+            WeaponIds = enemyData.Weaponids,
         };
 
         Vector3 originalPos = new Vector3(0, -18, 0);

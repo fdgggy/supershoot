@@ -17,6 +17,10 @@ public class WeaponData
   public string Name { get {return name; } set { name = value;} }
   
   [SerializeField]
+  int weapontype;
+  public int Weapontype { get {return weapontype; } set { weapontype = value;} }
+  
+  [SerializeField]
   string picture;
   public string Picture { get {return picture; } set { picture = value;} }
   
@@ -41,11 +45,27 @@ public class WeaponData
   public float Crit { get {return crit; } set { crit = value;} }
   
   [SerializeField]
-  float firingrate;
-  public float Firingrate { get {return firingrate; } set { firingrate = value;} }
-  
-  [SerializeField]
   int clipcapacity;
   public int Clipcapacity { get {return clipcapacity; } set { clipcapacity = value;} }
+  
+  [SerializeField]
+  float firerate;
+  public float Firerate { get {return firerate; } set { firerate = value;} }
+  
+  [SerializeField]
+  float soundfiredelay;
+  public float Soundfiredelay { get {return soundfiredelay; } set { soundfiredelay = value;} }
+  
+  [SerializeField]
+  float projectilespawndelay;
+  public float Projectilespawndelay { get {return projectilespawndelay; } set { projectilespawndelay = value;} }
+  
+  [SerializeField]
+  float shellejectdelay;
+  public float Shellejectdelay { get {return shellejectdelay; } set { shellejectdelay = value;} }
+  
+  [SerializeField]
+  float muzzleflashdelay;
+  public float Muzzleflashdelay { get {return muzzleflashdelay; } set { muzzleflashdelay = value;} }
   
 }

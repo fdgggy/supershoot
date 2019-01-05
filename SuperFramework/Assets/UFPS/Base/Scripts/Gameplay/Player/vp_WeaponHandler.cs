@@ -311,9 +311,9 @@ public class vp_WeaponHandler : MonoBehaviour
 		if (m_Player.SetWeapon.Active || ((m_CurrentWeapon != null) && !m_CurrentWeapon.Wielded))
 			return;
 
-		m_Player.Fire.Try();
-		
-	}
+        m_Player.Fire.Try();
+
+    }
 	
 
 	/// <summary>

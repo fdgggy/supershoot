@@ -987,27 +987,27 @@ public class vp_BodyAnimator : MonoBehaviour
 	protected virtual void OnStart_Attack()
 	{
 
-		// TEST: time body animation better to throwing weapon projectile spawn
-		if (Player.CurrentWeaponType.Get() == (int)vp_Weapon.Type.Thrown)
-		{
-			if (WeaponHandler.CurrentShooter != null)
-			{
-				vp_Timer.In(WeaponHandler.CurrentShooter.ProjectileSpawnDelay * 0.7f, () =>
-					{
-						if ((this != null) && (Animator != null))
-						{
-							m_AttackDoneTimer.Cancel();
-							Animator.SetBool(IsAttacking, true);
-							OnStop_Attack();
-						}
-					});
-			}
-		}
-		else
-		// ---
-		Animator.SetBool(IsAttacking, true);
-
-	}
+        // TEST: time body animation better to throwing weapon projectile spawn
+        if (Player.CurrentWeaponType.Get() == (int)vp_Weapon.Type.Thrown)
+        {
+            if (WeaponHandler.CurrentShooter != null)
+            {
+                vp_Timer.In(WeaponHandler.CurrentShooter.ProjectileSpawnDelay * 0.7f, () =>
+                    {
+                        if ((this != null) && (Animator != null))
+                        {
+                            m_AttackDoneTimer.Cancel();
+                            Animator.SetBool(IsAttacking, true);
+                            OnStop_Attack();
+                        }
+                    });
+            }
+        }
+        else
+        {
+            //Animator.SetBool(IsAttacking, true);
+        }
+    }
 
 
 	/// <summary>
