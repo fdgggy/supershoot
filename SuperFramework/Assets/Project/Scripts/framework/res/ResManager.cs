@@ -203,6 +203,29 @@ public class ResManager : MonoBehaviour
         }
     }
 
+    public void LoadAudio(string prefabName, ResBackHandle callBack = null)
+    {
+        if (m_pf2Asset.ContainsKey(prefabName))
+        {
+            PrefabToAbData preabdata = m_pf2Asset[prefabName];
+#if _DEBUG && UNITY_EDITOR
+            UnityEngine.Object prefab = UnityEditor.AssetDatabase.LoadAssetAtPath<AudioClip>(preabdata.path);
+
+            if (callBack != null)
+            {
+                callBack(prefabName, prefab);
+                callBack = null;
+            }
+#else
+            LoadAsset<AudioClip>(preabdata.abName, prefabName, callBack);
+#endif
+        }
+        else
+        {
+            Loger.Error("not found prefabName:{0}", prefabName);
+        }
+    }
+
     // prefabName:"liYao_R"
     //"abName":"liyao_r.unity3d",  一个AB包就是一个预制件
     public void LoadAsset<T>(string abName, string assetName, ResManager.ResBackHandle callBack) where T : UObject

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1419705734
+CRC: 103857674
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1e4d01216546ed0e9030f7f77dcffd5f
+    Hash: d764488affa09e4b999194172e0b2ec0
   TypeTreeHash:
     serializedVersion: 2
     Hash: 37eb3f76b40811c7d63ec40616ca7041
@@ -40,4 +40,4 @@ ClassTypes:
 Assets:
 - Assets/ResData/UIData/Level/LevelUIForm.prefab
 Dependencies:
-- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/home_btn.png.unity3d
+- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/home_btn.png.unity3d

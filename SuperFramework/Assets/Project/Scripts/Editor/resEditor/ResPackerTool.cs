@@ -352,7 +352,7 @@ public class ResPackerTool
     private static string[] _resOutputPath = {
                                                 //"Assets/RreloadData/preload",
                                                 //"Assets/RreloadData/uicommon",
-                                                // "Assets/EffecRes/",
+                                                 "Assets/ResData/EffectData/prefab/",
                                                 "Assets/ResData/MapData/Scenes",
                                                 //"Assets/MapData/asingle/",  //场景修改为单个场景打包，不做依赖检测,这个单独打
                                                  "Assets/ResData/UIData/",  //自动依赖
@@ -411,7 +411,7 @@ public class ResPackerTool
             //assetBundleXML.shaderBundle.assetBundleName = "AllShaderAsset.unity3d";
             //assetBundleXML.shaderBundle.assetNames = shaderAssetList.ToArray<string>();
 
-            //SoundBundleForOutput(assetBundleXML.soundBundles);
+            SoundBundleForOutput(assetBundleXML.soundBundles);
         }
         ScriptObjectForOutPut(assetBundleXML.soundBundles);
 
@@ -475,8 +475,8 @@ public class ResPackerTool
         }
     }
 
-    private static string[] _soundResOutput = { "Assets/Sound/Battle", "Assets/Sound/Story", "Assets/Sound/UI" };
-    private static string _soundResBGM = "Assets/Sound/BGM";
+    private static string[] _soundResOutput = { "Assets/ResData/SoundData/Battle" };
+    private static string _soundResBGM = "Assets/ResData/SoundData/BGM";
     public static void SoundBundleForOutput(List<AssetBundleBuild> assetBundleList)
     {
         //正常音乐的打包配置
@@ -494,6 +494,8 @@ public class ResPackerTool
             abSet.assetBundleName = abName;
             abSet.assetNames = assetList.ToArray<string>();
             assetBundleList.Add(abSet);
+
+
         }
 
         string abName1 = string.Empty;
@@ -501,6 +503,7 @@ public class ResPackerTool
         FileUtils fl = new FileUtils();
         fl.searchFileUnder(FileUtils.AssetToABSPath(_soundResBGM), ".ogg|.mp3|.wav", (string fileName) =>
         {
+            string md5Str = Md5Utils.GetFileMd5(fileName);
             fileName = fileName.Replace("\\", "/");
             fileName = "Assets/" + fileName.Replace(Application.dataPath + "/", "");
             //AssetImporter importer = AssetImporter.GetAtPath(fileName);
@@ -511,6 +514,20 @@ public class ResPackerTool
             assets[0] = fileName;
             abSet1.assetNames = assets;
             assetBundleList.Add(abSet1);
+
+            //建立一个预制件的对应关系资源表
+            if (ResPackerTool.prefabJSON != null)
+            {
+                JSONClass jsonObj = new JSONClass();
+                jsonObj["abName"] = abName1;
+                jsonObj["md5"] = md5Str;
+                jsonObj["path"] = fileName;
+                ResPackerTool.prefabJSON[Path.GetFileNameWithoutExtension(fileName)] = jsonObj;
+            }
+            else
+            {
+                Loger.Error("ResPackerTool.prefabJSON is null");
+            }
         });
 
     }
@@ -519,13 +536,30 @@ public class ResPackerTool
     private static void ResSoundGroupBundle(string path, out string abName, out List<string> assetList)
     {
         abName = FileUtils.getBaseName(path) + "_audio.unity3d";
+        string abName2 = abName;
+
         List<string> tassetList = new List<string>();
         FileUtils fl = new FileUtils();
         fl.searchFileUnder(path, ".ogg|.mp3|.wav", (string fileName) =>
         {
+            string md5Str = Md5Utils.GetFileMd5(fileName);
             fileName = fileName.Replace("\\", "/");
             fileName = "Assets/" + fileName.Replace(Application.dataPath + "/", "");
             tassetList.Add(fileName);
+
+            //建立一个预制件的对应关系资源表
+            if (ResPackerTool.prefabJSON != null)
+            {
+                JSONClass jsonObj = new JSONClass();
+                jsonObj["abName"] = abName2;
+                jsonObj["md5"] = md5Str;
+                jsonObj["path"] = fileName;
+                ResPackerTool.prefabJSON[Path.GetFileNameWithoutExtension(fileName)] = jsonObj;
+            }
+            else
+            {
+                Loger.Error("ResPackerTool.prefabJSON is null");
+            }
         });
         assetList = tassetList;
     }

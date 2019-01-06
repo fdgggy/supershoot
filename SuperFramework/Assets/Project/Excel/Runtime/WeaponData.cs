@@ -33,6 +33,22 @@ public class WeaponData
   public string Prefabname { get {return prefabname; } set { prefabname = value;} }
   
   [SerializeField]
+  string projectilename;
+  public string Projectilename { get {return projectilename; } set { projectilename = value;} }
+  
+  [SerializeField]
+  string projectileshellname;
+  public string Projectileshellname { get {return projectileshellname; } set { projectileshellname = value;} }
+  
+  [SerializeField]
+  string muzzlename;
+  public string Muzzlename { get {return muzzlename; } set { muzzlename = value;} }
+  
+  [SerializeField]
+  string sound;
+  public string Sound { get {return sound; } set { sound = value;} }
+  
+  [SerializeField]
   int hurt;
   public int Hurt { get {return hurt; } set { hurt = value;} }
   

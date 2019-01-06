@@ -46,4 +46,14 @@ public class RecourcePlayModeTest {
 
         yield return new WaitForSeconds(50f);
     }
+
+    [UnityTest]
+    public IEnumerator AudioTest()
+    {
+        ResManager.Instance.Init(() => {
+            AudioManager.Instance.PlayBattleAudio("Pistol01Fire", false);
+        });
+
+        yield return new WaitForSeconds(50f);
+    }
 }

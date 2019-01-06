@@ -4,10 +4,14 @@ public class BaseShooter
     protected WeaponData weaponInfo;
     protected float nextAllowedFireTime = 0.0f;
 
-    public virtual void Init(WeaponData weaponInfo)
+    protected vp_FPCamera weaponCam = null;
+    protected GameObject muzzleFlash = null;
+
+    public virtual void Init(WeaponData weaponInfo, vp_FPCamera wpCam)
     {
         this.weaponInfo = weaponInfo;
         nextAllowedFireTime = Time.time;
+        weaponCam = wpCam;
     }
 
     protected virtual bool CanFire()
@@ -17,25 +21,84 @@ public class BaseShooter
 
     private void PlayFireSound()
     {
-        Loger.Info("PlayFireSound");
+        AudioManager.Instance.PlayBattleAudio(weaponInfo.Sound, false);
     }
 
     protected virtual void SpawnProjectiles()
     {
-        Loger.Info("SpawnProjectiles");
+        if (string.IsNullOrEmpty(weaponInfo.Projectilename))
+        {
+            Loger.Error("SpawnProjectiles error, weaponid:{0} Projectilename is null ", weaponInfo.Id);
+            return;
+        }
+
+        ResManager.Instance.LoadPrefab(weaponInfo.Projectilename, (string asstName, object original) =>
+        {
+            GameObject go = null;
+            go = vp_Utility.Instantiate((original as UnityEngine.Object), weaponCam.gameObject.transform.position, weaponCam.gameObject.transform.rotation) as GameObject;
+            go.SetActive(true);
+        });
     }
 
     protected virtual void EjectShell()
     {
-        Loger.Info("EjectShell");
+        if (string.IsNullOrEmpty(weaponInfo.Projectileshellname))
+        {
+            Loger.Error("EjectShell error, weaponid:{0} Projectileshellname is null ", weaponInfo.Id);
+            return;
+        }
+
+        ResManager.Instance.LoadPrefab(weaponInfo.Projectileshellname, (string asstName, object original) =>
+        {
+            Transform ejectSpawn = vp_Utility.GetTransformByNameInChildren(weaponCam.gameObject.transform.root, "shell");
+
+            GameObject go = null;
+            go = vp_Utility.Instantiate((original as UnityEngine.Object), ejectSpawn.position, ejectSpawn.rotation) as GameObject;
+            go.SetActive(true);
+            go.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+            vp_Layer.Set(go.gameObject, vp_Layer.Debris);
+
+            Rigidbody rigidBody = go.GetComponent<Rigidbody>();
+            if (rigidBody == null)
+            {
+                rigidBody = go.AddComponent<Rigidbody>();
+            }
+
+            Vector3 force = ejectSpawn.forward.normalized * 0.5f;
+            rigidBody.AddForce(force, ForceMode.Impulse);
+        });
     }
 
     protected virtual void ShowMuzzleFlash()
     {
-        Loger.Info("ShowMuzzleFlash");
+        if (string.IsNullOrEmpty(weaponInfo.Muzzlename))
+        {
+            Loger.Error("ShowMuzzleFlash error, weaponid:{0} Muzzlename is null ", weaponInfo.Id);
+            return;
+        }
+
+        if (muzzleFlash != null)
+        {
+            muzzleFlash.SendMessage("Shoot", SendMessageOptions.DontRequireReceiver);
+            return;
+
+        }
+        ResManager.Instance.LoadPrefab(weaponInfo.Muzzlename, (string asstName, object original) =>
+        {
+            Transform ejectSpawn = vp_Utility.GetTransformByNameInChildren(weaponCam.gameObject.transform.root, "Muzzle");
+
+            muzzleFlash = vp_Utility.Instantiate((original as UnityEngine.Object), ejectSpawn.position, ejectSpawn.rotation) as GameObject;
+            muzzleFlash.SetActive(true);
+            muzzleFlash.transform.SetParent(ejectSpawn);
+
+            muzzleFlash.transform.position = ejectSpawn.transform.position;
+            muzzleFlash.transform.rotation = ejectSpawn.transform.rotation;
+
+            muzzleFlash.SendMessage("Shoot", SendMessageOptions.DontRequireReceiver);
+        });
     }
 
-    protected virtual void Fire()
+    public virtual void Fire()
     {
         if (CanFire() == false)
         {

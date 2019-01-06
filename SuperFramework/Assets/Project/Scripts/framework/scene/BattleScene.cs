@@ -33,6 +33,7 @@ public class BattleScene : BaseScene
     override public void Exit()
     {
         Loger.Info("BattleScene Exit");
+        AudioManager.Instance.ClearBattleAudio();
     }
 
     private void OnEachFinish()

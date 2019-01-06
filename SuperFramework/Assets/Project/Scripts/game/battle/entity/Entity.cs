@@ -17,12 +17,21 @@ public class Entity : MonoBehaviour
             return DataInfo.Camp;
         }
     }
-
+    protected vp_FPCamera m_FPCamera = null;
+    public vp_FPCamera FPCamera
+    {
+        get
+        {
+            if (m_FPCamera == null)
+                m_FPCamera = transform.root.GetComponentInChildren<vp_FPCamera>();
+            return m_FPCamera;
+        }
+    }
     protected EntityAnimator entityAnimator;
 
     private NavMeshAgent aiAgent = null;
-    private int IsMoving;
-    private WeaponHandler weaponHandle;
+    //private int IsMoving;
+    protected WeaponHandler weaponHandle;
 
     public void Active(bool show = true)
     {
@@ -35,7 +44,7 @@ public class Entity : MonoBehaviour
         DataInfo = entityInfo;
 
         weaponHandle = new WeaponHandler();
-        weaponHandle.Init(DataInfo.WeaponIds);
+        weaponHandle.Init(DataInfo.WeaponIds, FPCamera);
     }
 
     private void Awake()

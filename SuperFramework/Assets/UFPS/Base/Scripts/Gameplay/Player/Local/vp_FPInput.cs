@@ -272,6 +272,7 @@ public class vp_FPInput : vp_Component
 		else
 			FPPlayer.Attack.TryStop();
 
+
 	}
 
 

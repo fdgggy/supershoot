@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 4106274221
+CRC: 4276411582
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -12,347 +12,110 @@ AssetBundleManifest:
       Name: map_003_scene.unity3d
       Dependencies:
         Dependency_0: enemy1.unity3d
-        Dependency_1: assaultrifle01.asset.unity3d
-        Dependency_2: shooterpistol01outofcontrol.txt.unity3d
-        Dependency_3: cameraclimb.txt.unity3d
-        Dependency_4: knife01.asset.unity3d
-        Dependency_5: controllerdead.txt.unity3d
-        Dependency_6: controllercrouch.txt.unity3d
-        Dependency_7: pistol01.asset.unity3d
-        Dependency_8: cameraoutofcontrol.txt.unity3d
-        Dependency_9: weaponshotgun01reload.txt.unity3d
-        Dependency_10: meleeweaponswingright.txt.unity3d
-        Dependency_11: muzzleflash-1.mat.unity3d
-        Dependency_12: shell45bounce02.ogg.unity3d
-        Dependency_13: weapongrenade01rewield.txt.unity3d
-        Dependency_14: controllerfreeze.txt.unity3d
-        Dependency_15: weaponassaultrifle01reload.txt.unity3d
-        Dependency_16: assaultrifle01pickup.fbx.unity3d
-        Dependency_17: footstep.asset.unity3d
-        Dependency_18: meleeweaponpullleft.txt.unity3d
-        Dependency_19: me_shotgun01.fbx.unity3d
-        Dependency_20: knife01.fbx.unity3d
-        Dependency_21: meleeswing01.ogg.unity3d
-        Dependency_22: explosion.ogg.unity3d
-        Dependency_23: heronoheadnoarm.fbx.unity3d
-        Dependency_24: head.mat.unity3d
-        Dependency_25: camerareload.txt.unity3d
-        Dependency_26: camerafreeze.txt.unity3d
-        Dependency_27: ma_grenade01.mat.unity3d
-        Dependency_28: meleeweaponpullupleft.txt.unity3d
-        Dependency_29: meleeweaponswingdown.txt.unity3d
-        Dependency_30: me_shotgunshell01used.fbx.unity3d
-        Dependency_31: weapongrenade01attack.txt.unity3d
-        Dependency_32: shellshotgunbounce01.ogg.unity3d
-        Dependency_33: assaultrifle01.mat.unity3d
-        Dependency_34: shooterassaultrifle01zoom.txt.unity3d
-        Dependency_35: bladehit.asset.unity3d
-        Dependency_36: controllerrun.txt.unity3d
-        Dependency_37: grenadethrower.asset.unity3d
-        Dependency_38: shell.fbx.unity3d
-        Dependency_39: shellshotgunbounce07.ogg.unity3d
-        Dependency_40: knifeattacktodown.txt.unity3d
-        Dependency_41: cameracrouch.txt.unity3d
-        Dependency_42: pistoldryfire.ogg.unity3d
-        Dependency_43: hero.mat.unity3d
-        Dependency_44: weaponpistol01idle.txt.unity3d
-        Dependency_45: shootershotgun01zoom.txt.unity3d
-        Dependency_46: ma_pistol01.mat.unity3d
-        Dependency_47: footfxfixedtimezoom.txt.unity3d
-        Dependency_48: weaponpistol01run.txt.unity3d
-        Dependency_49: grab.ogg.unity3d
-        Dependency_50: grenade01pickup.fbx.unity3d
-        Dependency_51: me_shotgun01pickup.fbx.unity3d
-        Dependency_52: meleeweaponpullupright.txt.unity3d
-        Dependency_53: controllerzoom.txt.unity3d
-        Dependency_54: meleeweaponpullup.txt.unity3d
-        Dependency_55: shell45bounce01.ogg.unity3d
-        Dependency_56: shotgunpellethit.asset.unity3d
-        Dependency_57: meleeweaponpullright.txt.unity3d
-        Dependency_58: pistol01wield.ogg.unity3d
-        Dependency_59: weaponassaultrifle01zoom.txt.unity3d
-        Dependency_60: meleeweaponswingleft.txt.unity3d
-        Dependency_61: shell-02 - default.mat.unity3d
-        Dependency_62: weaponshotgun01crouch.txt.unity3d
-        Dependency_63: fallimpact.asset.unity3d
-        Dependency_64: knifeattacktodownright.txt.unity3d
-        Dependency_65: weapongrenade01zoom.txt.unity3d
-        Dependency_66: arm.mat.unity3d
-        Dependency_67: cameradead.txt.unity3d
-        Dependency_68: machinegunreload.ogg.unity3d
-        Dependency_69: ufpsexampleanimator.controller.unity3d
-        Dependency_70: shooterpistol01zoom.txt.unity3d
-        Dependency_71: jump.asset.unity3d
-        Dependency_72: weaponpistol01slide.txt.unity3d
-        Dependency_73: ma_arm.mat.unity3d
-        Dependency_74: meleeweaponswingdownleft.txt.unity3d
-        Dependency_75: meleeweaponpulldown.txt.unity3d
-        Dependency_76: unwield.ogg.unity3d
-        Dependency_77: controllermegaspeed.txt.unity3d
-        Dependency_78: weaponshotgun01zoom.txt.unity3d
-        Dependency_79: shotgunshellload.ogg.unity3d
-        Dependency_80: meleeweaponswingup.txt.unity3d
-        Dependency_81: me_pistol01pickup.fbx.unity3d
-        Dependency_82: shotgun01.asset.unity3d
-        Dependency_83: weaponpistol01outofcontrol.txt.unity3d
-        Dependency_84: bullethit.asset.unity3d
-        Dependency_85: meleeweaponswingdownright.txt.unity3d
-        Dependency_86: shellshotgunbounce02.ogg.unity3d
-        Dependency_87: camerarun.txt.unity3d
-        Dependency_88: shell45bounce04.ogg.unity3d
-        Dependency_89: camerazoom.txt.unity3d
-        Dependency_90: weaponpistol01zoom.txt.unity3d
-        Dependency_91: grenade01.fbx.unity3d
-        Dependency_92: muzzleflash.fbx.unity3d
-        Dependency_93: toss.ogg.unity3d
-        Dependency_94: shellshotgunbounce08.ogg.unity3d
-        Dependency_95: weaponshotgun01run.txt.unity3d
-        Dependency_96: weapongenericslide.txt.unity3d
-        Dependency_97: shotgunfirepump.ogg.unity3d
-        Dependency_98: ma_muzzleflash04.mat.unity3d
-        Dependency_99: machinegunwield.ogg.unity3d
-        Dependency_100: knife01.mat.unity3d
-        Dependency_101: pistol01reloadempty.ogg.unity3d
-        Dependency_102: weaponassaultrifle01crouch.txt.unity3d
-        Dependency_103: bulletbodyimpact.ogg.unity3d
-        Dependency_104: shellshotgunbounce03.ogg.unity3d
-        Dependency_105: assaultrifle01.fbx.unity3d
-        Dependency_106: weaponassaultrifle01run.txt.unity3d
-        Dependency_107: ragdolldrop.asset.unity3d
-        Dependency_108: shell.physicmaterial.unity3d
-        Dependency_109: shellshotgunbounce05.ogg.unity3d
-        Dependency_110: cameraslide.txt.unity3d
-        Dependency_111: machinegunfire.ogg.unity3d
-        Dependency_112: shellshotgunbounce04.ogg.unity3d
-        Dependency_113: explosion01.mat.unity3d
-        Dependency_114: me_pistol01.fbx.unity3d
-        Dependency_115: weaponpistol01crouch.txt.unity3d
-        Dependency_116: footfxfixedtimerun.txt.unity3d
-        Dependency_117: ma_shotgun01.mat.unity3d
-        Dependency_118: footfxfixedtimecrouch.txt.unity3d
-        Dependency_119: knifeattacktodownleft.txt.unity3d
-        Dependency_120: ma_shotgunshell01.mat.unity3d
-        Dependency_121: shell45bounce03.ogg.unity3d
-        Dependency_122: invisibleshadowcaster.mat.unity3d
-        Dependency_123: shellshotgunbounce06.ogg.unity3d
-        Dependency_124: pistol01fire.ogg.unity3d
+        Dependency_1: herohdweapons.unity3d
     Info_3:
+      Name: testscene_scene.unity3d
+      Dependencies:
+        Dependency_0: enemy1.unity3d
+        Dependency_1: herohdweapons.unity3d
+    Info_4:
       Name: heroinfouiform.unity3d
       Dependencies:
         Dependency_0: ui_atlas_img_local_normal.png.unity3d
-    Info_4:
+    Info_5:
       Name: logonuiform.unity3d
       Dependencies: {}
-    Info_5:
+    Info_6:
       Name: ui_atlas_img_local_normal.png.unity3d
       Dependencies: {}
-    Info_6:
+    Info_7:
       Name: maincityuiform.unity3d
       Dependencies:
         Dependency_0: ui_atlas_img_local_normal.png.unity3d
-    Info_7:
+    Info_8:
       Name: marketuifrom.unity3d
       Dependencies:
         Dependency_0: common atlas.png.unity3d
-    Info_8:
+    Info_9:
       Name: common atlas.png.unity3d
       Dependencies: {}
-    Info_9:
+    Info_10:
       Name: propdetailuiform.unity3d
       Dependencies:
         Dependency_0: common atlas.png.unity3d
-    Info_10:
+    Info_11:
       Name: selectherouiform.unity3d
       Dependencies: {}
-    Info_11:
+    Info_12:
       Name: battleuiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
-    Info_12:
+    Info_13:
       Name: home_btn.png.unity3d
       Dependencies: {}
-    Info_13:
+    Info_14:
       Name: mainmenuuiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
-    Info_14:
+    Info_15:
       Name: leveluiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
-    Info_15:
+    Info_16:
       Name: loadinguiform.unity3d
       Dependencies:
         Dependency_0: bg.png.unity3d
-    Info_16:
+    Info_17:
       Name: selectroleuiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
-    Info_17:
+    Info_18:
       Name: bg.png.unity3d
       Dependencies: {}
-    Info_18:
+    Info_19:
       Name: shopuiform.unity3d
       Dependencies:
         Dependency_0: home_btn.png.unity3d
         Dependency_1: bg.png.unity3d
-    Info_19:
+    Info_20:
       Name: enemy1.unity3d
       Dependencies:
-        Dependency_0: assaultrifle01.asset.unity3d
-        Dependency_1: shooterpistol01outofcontrol.txt.unity3d
-        Dependency_2: cameraclimb.txt.unity3d
-        Dependency_3: knife01.asset.unity3d
-        Dependency_4: controllerdead.txt.unity3d
-        Dependency_5: controllercrouch.txt.unity3d
-        Dependency_6: pistol01.asset.unity3d
-        Dependency_7: cameraoutofcontrol.txt.unity3d
-        Dependency_8: weaponshotgun01reload.txt.unity3d
-        Dependency_9: meleeweaponswingright.txt.unity3d
-        Dependency_10: muzzleflash-1.mat.unity3d
-        Dependency_11: shell45bounce02.ogg.unity3d
-        Dependency_12: weapongrenade01rewield.txt.unity3d
-        Dependency_13: controllerfreeze.txt.unity3d
-        Dependency_14: weaponassaultrifle01reload.txt.unity3d
-        Dependency_15: assaultrifle01pickup.fbx.unity3d
-        Dependency_16: footstep.asset.unity3d
-        Dependency_17: meleeweaponpullleft.txt.unity3d
-        Dependency_18: me_shotgun01.fbx.unity3d
-        Dependency_19: knife01.fbx.unity3d
-        Dependency_20: meleeswing01.ogg.unity3d
-        Dependency_21: explosion.ogg.unity3d
-        Dependency_22: heronoheadnoarm.fbx.unity3d
-        Dependency_23: head.mat.unity3d
-        Dependency_24: camerareload.txt.unity3d
-        Dependency_25: camerafreeze.txt.unity3d
-        Dependency_26: ma_grenade01.mat.unity3d
-        Dependency_27: meleeweaponpullupleft.txt.unity3d
-        Dependency_28: meleeweaponswingdown.txt.unity3d
-        Dependency_29: me_shotgunshell01used.fbx.unity3d
-        Dependency_30: weapongrenade01attack.txt.unity3d
-        Dependency_31: shellshotgunbounce01.ogg.unity3d
-        Dependency_32: assaultrifle01.mat.unity3d
-        Dependency_33: shooterassaultrifle01zoom.txt.unity3d
-        Dependency_34: bladehit.asset.unity3d
-        Dependency_35: controllerrun.txt.unity3d
-        Dependency_36: grenadethrower.asset.unity3d
-        Dependency_37: shell.fbx.unity3d
-        Dependency_38: shellshotgunbounce07.ogg.unity3d
-        Dependency_39: knifeattacktodown.txt.unity3d
-        Dependency_40: cameracrouch.txt.unity3d
-        Dependency_41: pistoldryfire.ogg.unity3d
-        Dependency_42: hero.mat.unity3d
-        Dependency_43: weaponpistol01idle.txt.unity3d
-        Dependency_44: shootershotgun01zoom.txt.unity3d
-        Dependency_45: ma_pistol01.mat.unity3d
-        Dependency_46: footfxfixedtimezoom.txt.unity3d
-        Dependency_47: weaponpistol01run.txt.unity3d
-        Dependency_48: grab.ogg.unity3d
-        Dependency_49: grenade01pickup.fbx.unity3d
-        Dependency_50: me_shotgun01pickup.fbx.unity3d
-        Dependency_51: meleeweaponpullupright.txt.unity3d
-        Dependency_52: controllerzoom.txt.unity3d
-        Dependency_53: meleeweaponpullup.txt.unity3d
-        Dependency_54: shell45bounce01.ogg.unity3d
-        Dependency_55: shotgunpellethit.asset.unity3d
-        Dependency_56: meleeweaponpullright.txt.unity3d
-        Dependency_57: pistol01wield.ogg.unity3d
-        Dependency_58: weaponassaultrifle01zoom.txt.unity3d
-        Dependency_59: meleeweaponswingleft.txt.unity3d
-        Dependency_60: shell-02 - default.mat.unity3d
-        Dependency_61: weaponshotgun01crouch.txt.unity3d
-        Dependency_62: fallimpact.asset.unity3d
-        Dependency_63: knifeattacktodownright.txt.unity3d
-        Dependency_64: weapongrenade01zoom.txt.unity3d
-        Dependency_65: arm.mat.unity3d
-        Dependency_66: cameradead.txt.unity3d
-        Dependency_67: machinegunreload.ogg.unity3d
-        Dependency_68: ufpsexampleanimator.controller.unity3d
-        Dependency_69: shooterpistol01zoom.txt.unity3d
-        Dependency_70: jump.asset.unity3d
-        Dependency_71: weaponpistol01slide.txt.unity3d
-        Dependency_72: ma_arm.mat.unity3d
-        Dependency_73: meleeweaponswingdownleft.txt.unity3d
-        Dependency_74: meleeweaponpulldown.txt.unity3d
-        Dependency_75: unwield.ogg.unity3d
-        Dependency_76: controllermegaspeed.txt.unity3d
-        Dependency_77: weaponshotgun01zoom.txt.unity3d
-        Dependency_78: shotgunshellload.ogg.unity3d
-        Dependency_79: meleeweaponswingup.txt.unity3d
-        Dependency_80: me_pistol01pickup.fbx.unity3d
-        Dependency_81: shotgun01.asset.unity3d
-        Dependency_82: weaponpistol01outofcontrol.txt.unity3d
-        Dependency_83: bullethit.asset.unity3d
-        Dependency_84: meleeweaponswingdownright.txt.unity3d
-        Dependency_85: shellshotgunbounce02.ogg.unity3d
-        Dependency_86: camerarun.txt.unity3d
-        Dependency_87: shell45bounce04.ogg.unity3d
-        Dependency_88: camerazoom.txt.unity3d
-        Dependency_89: weaponpistol01zoom.txt.unity3d
-        Dependency_90: grenade01.fbx.unity3d
-        Dependency_91: muzzleflash.fbx.unity3d
-        Dependency_92: toss.ogg.unity3d
-        Dependency_93: shellshotgunbounce08.ogg.unity3d
-        Dependency_94: weaponshotgun01run.txt.unity3d
-        Dependency_95: weapongenericslide.txt.unity3d
-        Dependency_96: shotgunfirepump.ogg.unity3d
-        Dependency_97: ma_muzzleflash04.mat.unity3d
-        Dependency_98: machinegunwield.ogg.unity3d
-        Dependency_99: knife01.mat.unity3d
-        Dependency_100: pistol01reloadempty.ogg.unity3d
-        Dependency_101: weaponassaultrifle01crouch.txt.unity3d
-        Dependency_102: bulletbodyimpact.ogg.unity3d
-        Dependency_103: shellshotgunbounce03.ogg.unity3d
-        Dependency_104: assaultrifle01.fbx.unity3d
-        Dependency_105: weaponassaultrifle01run.txt.unity3d
-        Dependency_106: ragdolldrop.asset.unity3d
-        Dependency_107: shell.physicmaterial.unity3d
-        Dependency_108: shellshotgunbounce05.ogg.unity3d
-        Dependency_109: cameraslide.txt.unity3d
-        Dependency_110: machinegunfire.ogg.unity3d
-        Dependency_111: shellshotgunbounce04.ogg.unity3d
-        Dependency_112: explosion01.mat.unity3d
-        Dependency_113: me_pistol01.fbx.unity3d
-        Dependency_114: weaponpistol01crouch.txt.unity3d
-        Dependency_115: footfxfixedtimerun.txt.unity3d
-        Dependency_116: ma_shotgun01.mat.unity3d
-        Dependency_117: footfxfixedtimecrouch.txt.unity3d
-        Dependency_118: knifeattacktodownleft.txt.unity3d
-        Dependency_119: ma_shotgunshell01.mat.unity3d
-        Dependency_120: shell45bounce03.ogg.unity3d
-        Dependency_121: invisibleshadowcaster.mat.unity3d
-        Dependency_122: shellshotgunbounce06.ogg.unity3d
-        Dependency_123: pistol01fire.ogg.unity3d
-    Info_20:
+        Dependency_0: assaultrifle01pickup.fbx.unity3d
+        Dependency_1: footstep.asset.unity3d
+        Dependency_2: knife01.fbx.unity3d
+        Dependency_3: heronoheadnoarm.fbx.unity3d
+        Dependency_4: head.mat.unity3d
+        Dependency_5: ma_grenade01.mat.unity3d
+        Dependency_6: assaultrifle01.mat.unity3d
+        Dependency_7: hero.mat.unity3d
+        Dependency_8: ma_pistol01.mat.unity3d
+        Dependency_9: footfxfixedtimezoom.txt.unity3d
+        Dependency_10: grenade01pickup.fbx.unity3d
+        Dependency_11: me_shotgun01pickup.fbx.unity3d
+        Dependency_12: fallimpact.asset.unity3d
+        Dependency_13: arm.mat.unity3d
+        Dependency_14: ufpsexampleanimator.controller.unity3d
+        Dependency_15: jump.asset.unity3d
+        Dependency_16: me_pistol01pickup.fbx.unity3d
+        Dependency_17: knife01.mat.unity3d
+        Dependency_18: bulletbodyimpact.ogg.unity3d
+        Dependency_19: ragdolldrop.asset.unity3d
+        Dependency_20: footfxfixedtimerun.txt.unity3d
+        Dependency_21: ma_shotgun01.mat.unity3d
+        Dependency_22: footfxfixedtimecrouch.txt.unity3d
+    Info_21:
       Name: enemy2.unity3d
       Dependencies: {}
-    Info_21:
-      Name: assaultrifle01.asset.unity3d
-      Dependencies:
-        Dependency_0: machinegunbullet.asset.unity3d
-        Dependency_1: machinegun64x64.png.unity3d
     Info_22:
-      Name: shooterpistol01outofcontrol.txt.unity3d
-      Dependencies: {}
-    Info_23:
-      Name: cameraclimb.txt.unity3d
-      Dependencies: {}
-    Info_24:
       Name: walkstraferightonehand.fbx.unity3d
       Dependencies: {}
-    Info_25:
+    Info_23:
       Name: reloadonehand.fbx.unity3d
       Dependencies: {}
-    Info_26:
-      Name: knife01.asset.unity3d
-      Dependencies:
-        Dependency_0: knife64x64.png.unity3d
-    Info_27:
+    Info_24:
       Name: nm_grenade01.tga.unity3d
       Dependencies: {}
-    Info_28:
-      Name: bullet64x64.png.unity3d
-      Dependencies: {}
-    Info_29:
+    Info_25:
       Name: idles.fbx.unity3d
       Dependencies:
         Dependency_0: tonguematerial.mat.unity3d
@@ -360,31 +123,13 @@ AssetBundleManifest:
         Dependency_2: skinmaterial.mat.unity3d
         Dependency_3: suitmaterial.mat.unity3d
         Dependency_4: eyesmaterial.mat.unity3d
-    Info_30:
+    Info_26:
       Name: cm_shotgun01.cubemap.unity3d
       Dependencies: {}
-    Info_31:
-      Name: controllerdead.txt.unity3d
-      Dependencies: {}
-    Info_32:
-      Name: controllercrouch.txt.unity3d
-      Dependencies: {}
-    Info_33:
-      Name: pistol01.asset.unity3d
-      Dependencies:
-        Dependency_0: pistol64x64.png.unity3d
-        Dependency_1: bullet.asset.unity3d
-    Info_34:
+    Info_27:
       Name: tonguematerial.mat.unity3d
       Dependencies: {}
-    Info_35:
-      Name: machinegunbullet.asset.unity3d
-      Dependencies:
-        Dependency_0: machinegunbullet64x64.png.unity3d
-    Info_36:
-      Name: cameraoutofcontrol.txt.unity3d
-      Dependencies: {}
-    Info_37:
+    Info_28:
       Name: runs.fbx.unity3d
       Dependencies:
         Dependency_0: tonguematerial.mat.unity3d
@@ -392,210 +137,104 @@ AssetBundleManifest:
         Dependency_2: skinmaterial.mat.unity3d
         Dependency_3: suitmaterial.mat.unity3d
         Dependency_4: eyesmaterial.mat.unity3d
-    Info_38:
-      Name: knife64x64.png.unity3d
-      Dependencies: {}
-    Info_39:
+    Info_29:
       Name: aimstraightcrouch.anim.unity3d
       Dependencies: {}
-    Info_40:
-      Name: weaponshotgun01reload.txt.unity3d
-      Dependencies: {}
-    Info_41:
-      Name: meleeweaponswingright.txt.unity3d
-      Dependencies: {}
-    Info_42:
+    Info_30:
       Name: hero@aimstraightcrouch.fbx.unity3d
       Dependencies:
         Dependency_0: tex_2.mat.unity3d
         Dependency_1: hair_tex.mat.unity3d
         Dependency_2: tex_1.mat.unity3d
-    Info_43:
+    Info_31:
       Name: standidleonehand.fbx.unity3d
       Dependencies: {}
-    Info_44:
-      Name: muzzleflash-1.mat.unity3d
-      Dependencies:
-        Dependency_0: muzzleflash01.tga.unity3d
-    Info_45:
-      Name: shell45bounce02.ogg.unity3d
-      Dependencies: {}
-    Info_46:
+    Info_32:
       Name: di_hero.tga.unity3d
       Dependencies: {}
-    Info_47:
-      Name: weapongrenade01rewield.txt.unity3d
-      Dependencies: {}
-    Info_48:
-      Name: pistol64x64.png.unity3d
-      Dependencies: {}
-    Info_49:
-      Name: controllerfreeze.txt.unity3d
-      Dependencies: {}
-    Info_50:
-      Name: weaponassaultrifle01reload.txt.unity3d
-      Dependencies: {}
-    Info_51:
+    Info_33:
       Name: assaultrifle01pickup.fbx.unity3d
       Dependencies: {}
-    Info_52:
+    Info_34:
       Name: walkforwardonehand.fbx.unity3d
       Dependencies: {}
-    Info_53:
+    Info_35:
       Name: footstep.asset.unity3d
       Dependencies: {}
-    Info_54:
-      Name: muzzleflash01.tga.unity3d
-      Dependencies: {}
-    Info_55:
+    Info_36:
       Name: teethmaterial.mat.unity3d
       Dependencies: {}
-    Info_56:
+    Info_37:
       Name: aimdowntwohand.fbx.unity3d
       Dependencies: {}
-    Info_57:
-      Name: meleeweaponpullleft.txt.unity3d
-      Dependencies: {}
-    Info_58:
+    Info_38:
       Name: aimstraighttwohand.fbx.unity3d
       Dependencies: {}
-    Info_59:
+    Info_39:
       Name: motionjump.fbx.unity3d
       Dependencies: {}
-    Info_60:
-      Name: me_shotgun01.fbx.unity3d
-      Dependencies: {}
-    Info_61:
+    Info_40:
       Name: knife01.fbx.unity3d
       Dependencies: {}
-    Info_62:
-      Name: meleeswing01.ogg.unity3d
-      Dependencies: {}
-    Info_63:
-      Name: machinegun64x64.png.unity3d
-      Dependencies: {}
-    Info_64:
-      Name: explosion.ogg.unity3d
-      Dependencies: {}
-    Info_65:
+    Info_41:
       Name: hero@aimstraightassault_straight.fbx.unity3d
       Dependencies:
         Dependency_0: hair512.mat.unity3d
         Dependency_1: diffuse_1.mat.unity3d
         Dependency_2: diffuse_2.mat.unity3d
-    Info_66:
+    Info_42:
       Name: heronoheadnoarm.fbx.unity3d
       Dependencies: {}
-    Info_67:
+    Info_43:
       Name: head.mat.unity3d
       Dependencies:
         Dependency_0: di_hero.tga.unity3d
         Dependency_1: nm_hero.tga.unity3d
-    Info_68:
+    Info_44:
       Name: hero@aimdown.fbx.unity3d
       Dependencies:
         Dependency_0: hair512.mat.unity3d
         Dependency_1: diffuse_1.mat.unity3d
         Dependency_2: diffuse_2.mat.unity3d
-    Info_69:
-      Name: camerareload.txt.unity3d
-      Dependencies: {}
-    Info_70:
-      Name: camerafreeze.txt.unity3d
-      Dependencies: {}
-    Info_71:
+    Info_45:
       Name: ma_grenade01.mat.unity3d
       Dependencies:
         Dependency_0: nm_grenade01.tga.unity3d
         Dependency_1: di_grenade01.tga.unity3d
         Dependency_2: cm_grenade01.cubemap.unity3d
-    Info_72:
-      Name: meleeweaponpullupleft.txt.unity3d
-      Dependencies: {}
-    Info_73:
-      Name: meleeweaponswingdown.txt.unity3d
-      Dependencies: {}
-    Info_74:
-      Name: me_shotgunshell01used.fbx.unity3d
-      Dependencies: {}
-    Info_75:
-      Name: machinegunbullet64x64.png.unity3d
-      Dependencies: {}
-    Info_76:
-      Name: weapongrenade01attack.txt.unity3d
-      Dependencies: {}
-    Info_77:
-      Name: shellshotgunbounce01.ogg.unity3d
-      Dependencies: {}
-    Info_78:
+    Info_46:
       Name: assaultrifle01.mat.unity3d
       Dependencies:
         Dependency_0: d_assaultrifle01.tga.unity3d
         Dependency_1: n_assaultrifle01.tga.unity3d
         Dependency_2: cm_assaultrifle01.cubemap.unity3d
-    Info_79:
+    Info_47:
       Name: crouchstraferightonehand.fbx.unity3d
       Dependencies: {}
-    Info_80:
-      Name: shooterassaultrifle01zoom.txt.unity3d
-      Dependencies: {}
-    Info_81:
-      Name: bladehit.asset.unity3d
-      Dependencies: {}
-    Info_82:
+    Info_48:
       Name: meleeidle.fbx.unity3d
       Dependencies: {}
-    Info_83:
+    Info_49:
       Name: skinmaterial.mat.unity3d
       Dependencies: {}
-    Info_84:
-      Name: controllerrun.txt.unity3d
-      Dependencies: {}
-    Info_85:
+    Info_50:
       Name: idlejump.fbx.unity3d
       Dependencies: {}
-    Info_86:
-      Name: grenadethrower.asset.unity3d
-      Dependencies:
-        Dependency_0: grenade.asset.unity3d
-        Dependency_1: grenade64x64.png.unity3d
-    Info_87:
+    Info_51:
       Name: sp_shotgun01.tga.unity3d
       Dependencies: {}
-    Info_88:
-      Name: shell.fbx.unity3d
-      Dependencies:
-        Dependency_0: shell-02 - default.mat.unity3d
-    Info_89:
-      Name: shellshotgunbounce07.ogg.unity3d
-      Dependencies: {}
-    Info_90:
-      Name: knifeattacktodown.txt.unity3d
-      Dependencies: {}
-    Info_91:
-      Name: cameracrouch.txt.unity3d
-      Dependencies: {}
-    Info_92:
-      Name: pistoldryfire.ogg.unity3d
-      Dependencies: {}
-    Info_93:
+    Info_52:
       Name: di_grenade01.tga.unity3d
       Dependencies: {}
-    Info_94:
+    Info_53:
       Name: hero.mat.unity3d
       Dependencies:
         Dependency_0: di_hero.tga.unity3d
         Dependency_1: nm_hero.tga.unity3d
-    Info_95:
+    Info_54:
       Name: d_assaultrifle01.tga.unity3d
       Dependencies: {}
-    Info_96:
-      Name: weaponpistol01idle.txt.unity3d
-      Dependencies: {}
-    Info_97:
-      Name: shootershotgun01zoom.txt.unity3d
-      Dependencies: {}
-    Info_98:
+    Info_55:
       Name: walkbackandturn.fbx.unity3d
       Dependencies:
         Dependency_0: tonguematerial.mat.unity3d
@@ -603,64 +242,37 @@ AssetBundleManifest:
         Dependency_2: skinmaterial.mat.unity3d
         Dependency_3: suitmaterial.mat.unity3d
         Dependency_4: eyesmaterial.mat.unity3d
-    Info_99:
+    Info_56:
       Name: ma_pistol01.mat.unity3d
       Dependencies:
         Dependency_0: di_pistol01.tga.unity3d
         Dependency_1: cm_pistol01.cubemap.unity3d
         Dependency_2: nm_pistol01.tga.unity3d
-    Info_100:
+    Info_57:
       Name: footfxfixedtimezoom.txt.unity3d
       Dependencies: {}
-    Info_101:
-      Name: weaponpistol01run.txt.unity3d
-      Dependencies: {}
-    Info_102:
-      Name: grab.ogg.unity3d
-      Dependencies: {}
-    Info_103:
+    Info_58:
       Name: grenade01pickup.fbx.unity3d
       Dependencies: {}
-    Info_104:
+    Info_59:
       Name: me_shotgun01pickup.fbx.unity3d
       Dependencies: {}
-    Info_105:
+    Info_60:
       Name: n_assaultrifle01.tga.unity3d
       Dependencies: {}
-    Info_106:
+    Info_61:
       Name: runbackwardonehand.fbx.unity3d
       Dependencies: {}
-    Info_107:
-      Name: meleeweaponpullupright.txt.unity3d
-      Dependencies: {}
-    Info_108:
-      Name: controllerzoom.txt.unity3d
-      Dependencies: {}
-    Info_109:
-      Name: meleeweaponpullup.txt.unity3d
-      Dependencies: {}
-    Info_110:
-      Name: shell45bounce01.ogg.unity3d
-      Dependencies: {}
-    Info_111:
+    Info_62:
       Name: hair512.mat.unity3d
       Dependencies: {}
-    Info_112:
-      Name: shotgunpellethit.asset.unity3d
-      Dependencies: {}
-    Info_113:
+    Info_63:
       Name: crouchfireonehand.fbx.unity3d
       Dependencies: {}
-    Info_114:
-      Name: meleeweaponpullright.txt.unity3d
-      Dependencies: {}
-    Info_115:
-      Name: pistol01wield.ogg.unity3d
-      Dependencies: {}
-    Info_116:
+    Info_64:
       Name: crouchidleonehand.fbx.unity3d
       Dependencies: {}
-    Info_117:
+    Info_65:
       Name: jump.fbx.unity3d
       Dependencies:
         Dependency_0: tonguematerial.mat.unity3d
@@ -668,7 +280,7 @@ AssetBundleManifest:
         Dependency_2: skinmaterial.mat.unity3d
         Dependency_3: suitmaterial.mat.unity3d
         Dependency_4: eyesmaterial.mat.unity3d
-    Info_118:
+    Info_66:
       Name: jumpdownrollnrun.fbx.unity3d
       Dependencies:
         Dependency_0: tonguematerial.mat.unity3d
@@ -676,68 +288,30 @@ AssetBundleManifest:
         Dependency_2: skinmaterial.mat.unity3d
         Dependency_3: suitmaterial.mat.unity3d
         Dependency_4: eyesmaterial.mat.unity3d
-    Info_119:
+    Info_67:
       Name: aimuptwohand.fbx.unity3d
       Dependencies: {}
-    Info_120:
+    Info_68:
       Name: crouchstrafeleftonehand.fbx.unity3d
       Dependencies: {}
-    Info_121:
+    Info_69:
       Name: diffuse_1.mat.unity3d
       Dependencies: {}
-    Info_122:
-      Name: weaponassaultrifle01zoom.txt.unity3d
-      Dependencies: {}
-    Info_123:
+    Info_70:
       Name: n_knife01.tga.unity3d
       Dependencies: {}
-    Info_124:
-      Name: meleeweaponswingleft.txt.unity3d
-      Dependencies: {}
-    Info_125:
-      Name: shell-02 - default.mat.unity3d
-      Dependencies:
-        Dependency_0: shelldiffuse.tga.unity3d
-        Dependency_1: shellnormal.tga.unity3d
-    Info_126:
+    Info_71:
       Name: tex_2.mat.unity3d
       Dependencies: {}
-    Info_127:
-      Name: shotgun64x64.png.unity3d
-      Dependencies: {}
-    Info_128:
-      Name: weaponshotgun01crouch.txt.unity3d
-      Dependencies: {}
-    Info_129:
+    Info_72:
       Name: fallimpact.asset.unity3d
       Dependencies: {}
-    Info_130:
-      Name: knifeattacktodownright.txt.unity3d
-      Dependencies: {}
-    Info_131:
-      Name: cm_arms01.cubemap.unity3d
-      Dependencies: {}
-    Info_132:
-      Name: weapongrenade01zoom.txt.unity3d
-      Dependencies: {}
-    Info_133:
+    Info_73:
       Name: arm.mat.unity3d
       Dependencies:
         Dependency_0: di_hero.tga.unity3d
         Dependency_1: nm_hero.tga.unity3d
-    Info_134:
-      Name: di_shotgunshell01.tga.unity3d
-      Dependencies: {}
-    Info_135:
-      Name: cameradead.txt.unity3d
-      Dependencies: {}
-    Info_136:
-      Name: machinegunreload.ogg.unity3d
-      Dependencies: {}
-    Info_137:
-      Name: shelldiffuse.tga.unity3d
-      Dependencies: {}
-    Info_138:
+    Info_74:
       Name: ufpsexampleanimator.controller.unity3d
       Dependencies:
         Dependency_0: walkstraferightonehand.fbx.unity3d
@@ -787,102 +361,46 @@ AssetBundleManifest:
         Dependency_44: aimdowncrouch.anim.unity3d
         Dependency_45: standfireonehand.fbx.unity3d
         Dependency_46: walkstrafeleftonehand.fbx.unity3d
-    Info_139:
-      Name: shooterpistol01zoom.txt.unity3d
-      Dependencies: {}
-    Info_140:
+    Info_75:
       Name: jump.asset.unity3d
       Dependencies: {}
-    Info_141:
+    Info_76:
       Name: cm_assaultrifle01.cubemap.unity3d
       Dependencies: {}
-    Info_142:
-      Name: weaponpistol01slide.txt.unity3d
-      Dependencies: {}
-    Info_143:
-      Name: nm_shotgunshell01.tga.unity3d
-      Dependencies: {}
-    Info_144:
-      Name: ma_arm.mat.unity3d
-      Dependencies:
-        Dependency_0: cm_arms01.cubemap.unity3d
-        Dependency_1: nm_arms01.tga.unity3d
-        Dependency_2: di_arms01.tga.unity3d
-    Info_145:
+    Info_77:
       Name: diffuse_2.mat.unity3d
       Dependencies: {}
-    Info_146:
+    Info_78:
       Name: di_pistol01.tga.unity3d
       Dependencies: {}
-    Info_147:
-      Name: meleeweaponswingdownleft.txt.unity3d
-      Dependencies: {}
-    Info_148:
-      Name: meleeweaponpulldown.txt.unity3d
-      Dependencies: {}
-    Info_149:
+    Info_79:
       Name: d_knife01.tga.unity3d
       Dependencies: {}
-    Info_150:
-      Name: unwield.ogg.unity3d
-      Dependencies: {}
-    Info_151:
-      Name: controllermegaspeed.txt.unity3d
-      Dependencies: {}
-    Info_152:
-      Name: weaponshotgun01zoom.txt.unity3d
-      Dependencies: {}
-    Info_153:
-      Name: shotgunshellload.ogg.unity3d
-      Dependencies: {}
-    Info_154:
-      Name: meleeweaponswingup.txt.unity3d
-      Dependencies: {}
-    Info_155:
+    Info_80:
       Name: me_pistol01pickup.fbx.unity3d
       Dependencies: {}
-    Info_156:
+    Info_81:
       Name: hero@aimstraight.fbx.unity3d
       Dependencies:
         Dependency_0: hair512.mat.unity3d
         Dependency_1: diffuse_1.mat.unity3d
         Dependency_2: diffuse_2.mat.unity3d
-    Info_157:
+    Info_82:
       Name: setweapontoonehand.fbx.unity3d
       Dependencies: {}
-    Info_158:
+    Info_83:
       Name: nm_shotgun01.tga.unity3d
       Dependencies: {}
-    Info_159:
+    Info_84:
       Name: runstraferightonehand.fbx.unity3d
       Dependencies: {}
-    Info_160:
+    Info_85:
       Name: cm_grenade01.cubemap.unity3d
       Dependencies: {}
-    Info_161:
-      Name: shotgun01.asset.unity3d
-      Dependencies:
-        Dependency_0: shotgun64x64.png.unity3d
-        Dependency_1: shotgunshell.asset.unity3d
-    Info_162:
-      Name: weaponpistol01outofcontrol.txt.unity3d
-      Dependencies: {}
-    Info_163:
-      Name: bullethit.asset.unity3d
-      Dependencies: {}
-    Info_164:
+    Info_86:
       Name: walkbackwardonehand.fbx.unity3d
       Dependencies: {}
-    Info_165:
-      Name: meleeweaponswingdownright.txt.unity3d
-      Dependencies: {}
-    Info_166:
-      Name: explosion01.png.unity3d
-      Dependencies: {}
-    Info_167:
-      Name: nm_arms01.tga.unity3d
-      Dependencies: {}
-    Info_168:
+    Info_87:
       Name: walkforwardturns.fbx.unity3d
       Dependencies:
         Dependency_0: tonguematerial.mat.unity3d
@@ -890,35 +408,7 @@ AssetBundleManifest:
         Dependency_2: skinmaterial.mat.unity3d
         Dependency_3: suitmaterial.mat.unity3d
         Dependency_4: eyesmaterial.mat.unity3d
-    Info_169:
-      Name: shellshotgunbounce02.ogg.unity3d
-      Dependencies: {}
-    Info_170:
-      Name: camerarun.txt.unity3d
-      Dependencies: {}
-    Info_171:
-      Name: shell45bounce04.ogg.unity3d
-      Dependencies: {}
-    Info_172:
-      Name: camerazoom.txt.unity3d
-      Dependencies: {}
-    Info_173:
-      Name: weaponpistol01zoom.txt.unity3d
-      Dependencies: {}
-    Info_174:
-      Name: grenade01.fbx.unity3d
-      Dependencies: {}
-    Info_175:
-      Name: di_muzzleflash04.tga.unity3d
-      Dependencies: {}
-    Info_176:
-      Name: shotgunshell64x64.png.unity3d
-      Dependencies: {}
-    Info_177:
-      Name: muzzleflash.fbx.unity3d
-      Dependencies:
-        Dependency_0: muzzleflash-1.mat.unity3d
-    Info_178:
+    Info_88:
       Name: walkback.fbx.unity3d
       Dependencies:
         Dependency_0: tonguematerial.mat.unity3d
@@ -926,36 +416,13 @@ AssetBundleManifest:
         Dependency_2: skinmaterial.mat.unity3d
         Dependency_3: suitmaterial.mat.unity3d
         Dependency_4: eyesmaterial.mat.unity3d
-    Info_179:
-      Name: toss.ogg.unity3d
-      Dependencies: {}
-    Info_180:
+    Info_89:
       Name: di_shotgun01.tga.unity3d
       Dependencies: {}
-    Info_181:
-      Name: grenade.asset.unity3d
-      Dependencies:
-        Dependency_0: grenade64x64.png.unity3d
-    Info_182:
-      Name: shellshotgunbounce08.ogg.unity3d
-      Dependencies: {}
-    Info_183:
-      Name: weaponshotgun01run.txt.unity3d
-      Dependencies: {}
-    Info_184:
+    Info_90:
       Name: bodymaskupperbodyonly.mask.unity3d
       Dependencies: {}
-    Info_185:
-      Name: weapongenericslide.txt.unity3d
-      Dependencies: {}
-    Info_186:
-      Name: shotgunfirepump.ogg.unity3d
-      Dependencies: {}
-    Info_187:
-      Name: ma_muzzleflash04.mat.unity3d
-      Dependencies:
-        Dependency_0: di_muzzleflash04.tga.unity3d
-    Info_188:
+    Info_91:
       Name: walkforward.fbx.unity3d
       Dependencies:
         Dependency_0: tonguematerial.mat.unity3d
@@ -963,339 +430,161 @@ AssetBundleManifest:
         Dependency_2: skinmaterial.mat.unity3d
         Dependency_3: suitmaterial.mat.unity3d
         Dependency_4: eyesmaterial.mat.unity3d
-    Info_189:
+    Info_92:
       Name: hero@aimstraightassault_up.fbx.unity3d
       Dependencies:
         Dependency_0: hair512.mat.unity3d
         Dependency_1: diffuse_1.mat.unity3d
         Dependency_2: diffuse_2.mat.unity3d
-    Info_190:
-      Name: machinegunwield.ogg.unity3d
-      Dependencies: {}
-    Info_191:
+    Info_93:
       Name: knife01.mat.unity3d
       Dependencies:
         Dependency_0: n_knife01.tga.unity3d
         Dependency_1: d_knife01.tga.unity3d
-    Info_192:
+    Info_94:
       Name: genericclimb02.fbx.unity3d
       Dependencies: {}
-    Info_193:
-      Name: pistol01reloadempty.ogg.unity3d
-      Dependencies: {}
-    Info_194:
+    Info_95:
       Name: hero@aimstraightassault_down.fbx.unity3d
       Dependencies:
         Dependency_0: hero@aimstraightassault_straight.fbx.unity3d
         Dependency_1: hair512.mat.unity3d
         Dependency_2: diffuse_1.mat.unity3d
         Dependency_3: diffuse_2.mat.unity3d
-    Info_195:
+    Info_96:
       Name: crouchbackwardonehand.fbx.unity3d
       Dependencies: {}
-    Info_196:
-      Name: weaponassaultrifle01crouch.txt.unity3d
-      Dependencies: {}
-    Info_197:
+    Info_97:
       Name: hero@aimup.fbx.unity3d
       Dependencies:
         Dependency_0: hair512.mat.unity3d
         Dependency_1: diffuse_1.mat.unity3d
         Dependency_2: diffuse_2.mat.unity3d
-    Info_198:
+    Info_98:
       Name: bulletbodyimpact.ogg.unity3d
       Dependencies: {}
-    Info_199:
-      Name: shellshotgunbounce03.ogg.unity3d
-      Dependencies: {}
-    Info_200:
+    Info_99:
       Name: cm_pistol01.cubemap.unity3d
       Dependencies: {}
-    Info_201:
-      Name: assaultrifle01.fbx.unity3d
-      Dependencies: {}
-    Info_202:
+    Info_100:
       Name: rigidbodycollision.asset.unity3d
       Dependencies: {}
-    Info_203:
-      Name: shotgunshell.asset.unity3d
-      Dependencies:
-        Dependency_0: shotgunshell64x64.png.unity3d
-    Info_204:
-      Name: weaponassaultrifle01run.txt.unity3d
-      Dependencies: {}
-    Info_205:
+    Info_101:
       Name: suitmaterial.mat.unity3d
       Dependencies: {}
-    Info_206:
+    Info_102:
       Name: ragdolldrop.asset.unity3d
       Dependencies: {}
-    Info_207:
+    Info_103:
       Name: bodymasklowerbodyonly.mask.unity3d
       Dependencies: {}
-    Info_208:
+    Info_104:
       Name: nm_hero.tga.unity3d
       Dependencies: {}
-    Info_209:
+    Info_105:
       Name: crouchforwardonehand.fbx.unity3d
       Dependencies: {}
-    Info_210:
-      Name: shell.physicmaterial.unity3d
-      Dependencies: {}
-    Info_211:
-      Name: shellshotgunbounce05.ogg.unity3d
-      Dependencies: {}
-    Info_212:
-      Name: grenade64x64.png.unity3d
-      Dependencies: {}
-    Info_213:
-      Name: shellnormal.tga.unity3d
-      Dependencies: {}
-    Info_214:
-      Name: cameraslide.txt.unity3d
-      Dependencies: {}
-    Info_215:
+    Info_106:
       Name: reloadtwohand.fbx.unity3d
       Dependencies: {}
-    Info_216:
+    Info_107:
       Name: hair_tex.mat.unity3d
       Dependencies: {}
-    Info_217:
-      Name: machinegunfire.ogg.unity3d
-      Dependencies: {}
-    Info_218:
-      Name: shellshotgunbounce04.ogg.unity3d
-      Dependencies: {}
-    Info_219:
-      Name: explosion01.mat.unity3d
-      Dependencies:
-        Dependency_0: explosion01.png.unity3d
-    Info_220:
-      Name: me_pistol01.fbx.unity3d
-      Dependencies: {}
-    Info_221:
-      Name: weaponpistol01crouch.txt.unity3d
-      Dependencies: {}
-    Info_222:
+    Info_108:
       Name: footfxfixedtimerun.txt.unity3d
       Dependencies: {}
-    Info_223:
-      Name: di_arms01.tga.unity3d
-      Dependencies: {}
-    Info_224:
+    Info_109:
       Name: ma_shotgun01.mat.unity3d
       Dependencies:
         Dependency_0: cm_shotgun01.cubemap.unity3d
         Dependency_1: sp_shotgun01.tga.unity3d
         Dependency_2: nm_shotgun01.tga.unity3d
         Dependency_3: di_shotgun01.tga.unity3d
-    Info_225:
+    Info_110:
       Name: tex_1.mat.unity3d
       Dependencies: {}
-    Info_226:
+    Info_111:
       Name: footfxfixedtimecrouch.txt.unity3d
       Dependencies: {}
-    Info_227:
+    Info_112:
       Name: runstrafeleftonehand.fbx.unity3d
       Dependencies: {}
-    Info_228:
-      Name: knifeattacktodownleft.txt.unity3d
-      Dependencies: {}
-    Info_229:
-      Name: bullet.asset.unity3d
-      Dependencies:
-        Dependency_0: bullet64x64.png.unity3d
-    Info_230:
-      Name: ma_shotgunshell01.mat.unity3d
-      Dependencies:
-        Dependency_0: cm_shotgun01.cubemap.unity3d
-        Dependency_1: di_shotgunshell01.tga.unity3d
-        Dependency_2: nm_shotgunshell01.tga.unity3d
-    Info_231:
-      Name: shell45bounce03.ogg.unity3d
-      Dependencies: {}
-    Info_232:
+    Info_113:
       Name: aimupcrouch.anim.unity3d
       Dependencies: {}
-    Info_233:
+    Info_114:
       Name: eyesmaterial.mat.unity3d
       Dependencies: {}
-    Info_234:
+    Info_115:
       Name: meleeattackuptodown.fbx.unity3d
       Dependencies: {}
-    Info_235:
-      Name: invisibleshadowcaster.mat.unity3d
-      Dependencies: {}
-    Info_236:
+    Info_116:
       Name: runforwardonehand.fbx.unity3d
       Dependencies: {}
-    Info_237:
+    Info_117:
       Name: aimdowncrouch.anim.unity3d
       Dependencies: {}
-    Info_238:
+    Info_118:
       Name: standfireonehand.fbx.unity3d
       Dependencies: {}
-    Info_239:
+    Info_119:
       Name: nm_pistol01.tga.unity3d
       Dependencies: {}
-    Info_240:
-      Name: shellshotgunbounce06.ogg.unity3d
-      Dependencies: {}
-    Info_241:
-      Name: pistol01fire.ogg.unity3d
-      Dependencies: {}
-    Info_242:
+    Info_120:
       Name: walkstrafeleftonehand.fbx.unity3d
       Dependencies: {}
-    Info_243:
+    Info_121:
       Name: herohdweapons.unity3d
       Dependencies:
-        Dependency_0: assaultrifle01.asset.unity3d
-        Dependency_1: shooterpistol01outofcontrol.txt.unity3d
-        Dependency_2: cameraclimb.txt.unity3d
-        Dependency_3: knife01.asset.unity3d
-        Dependency_4: controllerdead.txt.unity3d
-        Dependency_5: controllercrouch.txt.unity3d
-        Dependency_6: pistol01.asset.unity3d
-        Dependency_7: cameraoutofcontrol.txt.unity3d
-        Dependency_8: weaponshotgun01reload.txt.unity3d
-        Dependency_9: meleeweaponswingright.txt.unity3d
-        Dependency_10: muzzleflash-1.mat.unity3d
-        Dependency_11: shell45bounce02.ogg.unity3d
-        Dependency_12: weapongrenade01rewield.txt.unity3d
-        Dependency_13: controllerfreeze.txt.unity3d
-        Dependency_14: weaponassaultrifle01reload.txt.unity3d
-        Dependency_15: assaultrifle01pickup.fbx.unity3d
-        Dependency_16: footstep.asset.unity3d
-        Dependency_17: meleeweaponpullleft.txt.unity3d
-        Dependency_18: me_shotgun01.fbx.unity3d
-        Dependency_19: knife01.fbx.unity3d
-        Dependency_20: meleeswing01.ogg.unity3d
-        Dependency_21: explosion.ogg.unity3d
-        Dependency_22: heronoheadnoarm.fbx.unity3d
-        Dependency_23: head.mat.unity3d
-        Dependency_24: camerareload.txt.unity3d
-        Dependency_25: camerafreeze.txt.unity3d
-        Dependency_26: ma_grenade01.mat.unity3d
-        Dependency_27: meleeweaponpullupleft.txt.unity3d
-        Dependency_28: meleeweaponswingdown.txt.unity3d
-        Dependency_29: me_shotgunshell01used.fbx.unity3d
-        Dependency_30: weapongrenade01attack.txt.unity3d
-        Dependency_31: shellshotgunbounce01.ogg.unity3d
-        Dependency_32: assaultrifle01.mat.unity3d
-        Dependency_33: shooterassaultrifle01zoom.txt.unity3d
-        Dependency_34: bladehit.asset.unity3d
-        Dependency_35: controllerrun.txt.unity3d
-        Dependency_36: grenadethrower.asset.unity3d
-        Dependency_37: shell.fbx.unity3d
-        Dependency_38: shellshotgunbounce07.ogg.unity3d
-        Dependency_39: knifeattacktodown.txt.unity3d
-        Dependency_40: cameracrouch.txt.unity3d
-        Dependency_41: pistoldryfire.ogg.unity3d
-        Dependency_42: hero.mat.unity3d
-        Dependency_43: weaponpistol01idle.txt.unity3d
-        Dependency_44: shootershotgun01zoom.txt.unity3d
-        Dependency_45: ma_pistol01.mat.unity3d
-        Dependency_46: footfxfixedtimezoom.txt.unity3d
-        Dependency_47: weaponpistol01run.txt.unity3d
-        Dependency_48: grab.ogg.unity3d
-        Dependency_49: grenade01pickup.fbx.unity3d
-        Dependency_50: me_shotgun01pickup.fbx.unity3d
-        Dependency_51: meleeweaponpullupright.txt.unity3d
-        Dependency_52: controllerzoom.txt.unity3d
-        Dependency_53: meleeweaponpullup.txt.unity3d
-        Dependency_54: shell45bounce01.ogg.unity3d
-        Dependency_55: shotgunpellethit.asset.unity3d
-        Dependency_56: meleeweaponpullright.txt.unity3d
-        Dependency_57: pistol01wield.ogg.unity3d
-        Dependency_58: weaponassaultrifle01zoom.txt.unity3d
-        Dependency_59: meleeweaponswingleft.txt.unity3d
-        Dependency_60: shell-02 - default.mat.unity3d
-        Dependency_61: weaponshotgun01crouch.txt.unity3d
-        Dependency_62: fallimpact.asset.unity3d
-        Dependency_63: knifeattacktodownright.txt.unity3d
-        Dependency_64: weapongrenade01zoom.txt.unity3d
-        Dependency_65: arm.mat.unity3d
-        Dependency_66: cameradead.txt.unity3d
-        Dependency_67: machinegunreload.ogg.unity3d
-        Dependency_68: ufpsexampleanimator.controller.unity3d
-        Dependency_69: shooterpistol01zoom.txt.unity3d
-        Dependency_70: jump.asset.unity3d
-        Dependency_71: weaponpistol01slide.txt.unity3d
-        Dependency_72: ma_arm.mat.unity3d
-        Dependency_73: meleeweaponswingdownleft.txt.unity3d
-        Dependency_74: meleeweaponpulldown.txt.unity3d
-        Dependency_75: unwield.ogg.unity3d
-        Dependency_76: controllermegaspeed.txt.unity3d
-        Dependency_77: weaponshotgun01zoom.txt.unity3d
-        Dependency_78: shotgunshellload.ogg.unity3d
-        Dependency_79: meleeweaponswingup.txt.unity3d
-        Dependency_80: me_pistol01pickup.fbx.unity3d
-        Dependency_81: shotgun01.asset.unity3d
-        Dependency_82: weaponpistol01outofcontrol.txt.unity3d
-        Dependency_83: bullethit.asset.unity3d
-        Dependency_84: meleeweaponswingdownright.txt.unity3d
-        Dependency_85: shellshotgunbounce02.ogg.unity3d
-        Dependency_86: camerarun.txt.unity3d
-        Dependency_87: shell45bounce04.ogg.unity3d
-        Dependency_88: camerazoom.txt.unity3d
-        Dependency_89: weaponpistol01zoom.txt.unity3d
-        Dependency_90: grenade01.fbx.unity3d
-        Dependency_91: muzzleflash.fbx.unity3d
-        Dependency_92: toss.ogg.unity3d
-        Dependency_93: shellshotgunbounce08.ogg.unity3d
-        Dependency_94: weaponshotgun01run.txt.unity3d
-        Dependency_95: weapongenericslide.txt.unity3d
-        Dependency_96: shotgunfirepump.ogg.unity3d
-        Dependency_97: ma_muzzleflash04.mat.unity3d
-        Dependency_98: machinegunwield.ogg.unity3d
-        Dependency_99: knife01.mat.unity3d
-        Dependency_100: pistol01reloadempty.ogg.unity3d
-        Dependency_101: weaponassaultrifle01crouch.txt.unity3d
-        Dependency_102: bulletbodyimpact.ogg.unity3d
-        Dependency_103: shellshotgunbounce03.ogg.unity3d
-        Dependency_104: assaultrifle01.fbx.unity3d
-        Dependency_105: weaponassaultrifle01run.txt.unity3d
-        Dependency_106: ragdolldrop.asset.unity3d
-        Dependency_107: shell.physicmaterial.unity3d
-        Dependency_108: shellshotgunbounce05.ogg.unity3d
-        Dependency_109: cameraslide.txt.unity3d
-        Dependency_110: machinegunfire.ogg.unity3d
-        Dependency_111: shellshotgunbounce04.ogg.unity3d
-        Dependency_112: explosion01.mat.unity3d
-        Dependency_113: me_pistol01.fbx.unity3d
-        Dependency_114: weaponpistol01crouch.txt.unity3d
-        Dependency_115: footfxfixedtimerun.txt.unity3d
-        Dependency_116: ma_shotgun01.mat.unity3d
-        Dependency_117: footfxfixedtimecrouch.txt.unity3d
-        Dependency_118: knifeattacktodownleft.txt.unity3d
-        Dependency_119: bullet.asset.unity3d
-        Dependency_120: ma_shotgunshell01.mat.unity3d
-        Dependency_121: shell45bounce03.ogg.unity3d
-        Dependency_122: invisibleshadowcaster.mat.unity3d
-        Dependency_123: shellshotgunbounce06.ogg.unity3d
-        Dependency_124: pistol01fire.ogg.unity3d
-    Info_244:
+        Dependency_0: cm_shotgun01.cubemap.unity3d
+        Dependency_1: assaultrifle01pickup.fbx.unity3d
+        Dependency_2: footstep.asset.unity3d
+        Dependency_3: knife01.fbx.unity3d
+        Dependency_4: heronoheadnoarm.fbx.unity3d
+        Dependency_5: head.mat.unity3d
+        Dependency_6: ma_grenade01.mat.unity3d
+        Dependency_7: assaultrifle01.mat.unity3d
+        Dependency_8: hero.mat.unity3d
+        Dependency_9: ma_pistol01.mat.unity3d
+        Dependency_10: footfxfixedtimezoom.txt.unity3d
+        Dependency_11: grenade01pickup.fbx.unity3d
+        Dependency_12: me_shotgun01pickup.fbx.unity3d
+        Dependency_13: fallimpact.asset.unity3d
+        Dependency_14: arm.mat.unity3d
+        Dependency_15: ufpsexampleanimator.controller.unity3d
+        Dependency_16: jump.asset.unity3d
+        Dependency_17: me_pistol01pickup.fbx.unity3d
+        Dependency_18: knife01.mat.unity3d
+        Dependency_19: bulletbodyimpact.ogg.unity3d
+        Dependency_20: ragdolldrop.asset.unity3d
+        Dependency_21: footfxfixedtimerun.txt.unity3d
+        Dependency_22: ma_shotgun01.mat.unity3d
+        Dependency_23: footfxfixedtimecrouch.txt.unity3d
+        Dependency_24: battle_audio.unity3d
+    Info_122:
+      Name: battle_audio.unity3d
+      Dependencies: {}
+    Info_123:
       Name: ai.unity3d
       Dependencies: {}
-    Info_245:
+    Info_124:
       Name: camp.unity3d
       Dependencies: {}
-    Info_246:
+    Info_125:
       Name: enemy.unity3d
       Dependencies: {}
-    Info_247:
+    Info_126:
       Name: english.unity3d
       Dependencies: {}
-    Info_248:
+    Info_127:
       Name: level.unity3d
       Dependencies: {}
-    Info_249:
+    Info_128:
       Name: map.unity3d
       Dependencies: {}
-    Info_250:
+    Info_129:
       Name: role.unity3d
       Dependencies: {}
-    Info_251:
+    Info_130:
       Name: weapon.unity3d
       Dependencies: {}

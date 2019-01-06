@@ -1,8 +1,13 @@
 ﻿
 public class PistolShooter : BaseShooter
 {
-    public override void Init(WeaponData weaponInfo)
+    public override void Init(WeaponData weaponInfo, vp_FPCamera wpCam)
     {
-        base.Init(weaponInfo);
+        base.Init(weaponInfo, wpCam);
+    }
+
+    public override void Fire()
+    {
+        base.Fire();
     }
 }

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3871069746
+CRC: 1161479542
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 23670053ff9049c495d6c7bdd480726e
+    Hash: 67157934ab24a27ee686fd346a93bdfe
   TypeTreeHash:
     serializedVersion: 2
     Hash: 98368af023ae484c0511bb1de6e3fa47
@@ -50,5 +50,5 @@ ClassTypes:
 Assets:
 - Assets/ResData/UIData/Shop/ShopUIForm.prefab
 Dependencies:
-- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/home_btn.png.unity3d
-- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/bg.png.unity3d
+- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/home_btn.png.unity3d
+- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/bg.png.unity3d

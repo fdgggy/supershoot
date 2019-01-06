@@ -23,8 +23,10 @@
             Player.Unregister(this);
     }
 
+    //vp_FPInput 传来的消息
     private void OnStart_Attack()
     {
         entityAnimator.Attack();
+        weaponHandle.Fire();
     }
 }

@@ -1,6 +1,25 @@
-<?xml version="1.0" encoding="gb2312"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <AssetBundlesXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <assetBundleBuilds>
+    <assetBundleBuild>
+      <assetBundleName>muzzleflashpistol01.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/EffectData/prefab/MuzzleFlashPistol01.prefab</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>pistolbullet.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/EffectData/prefab/PistolBullet.prefab</string>
+        <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/impact16x16.psd</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>pistolshell.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/EffectData/prefab/PistolShell.prefab</string>
+      </assetNames>
+    </assetBundleBuild>
     <assetBundleBuild>
       <assetBundleName>map_001_scene.unity3d</assetBundleName>
       <assetNames>
@@ -17,6 +36,12 @@
       <assetBundleName>map_003_scene.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/MapData/Scenes/Map_003.unity</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>testscene_scene.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/MapData/Scenes/testScene.unity</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -130,8 +155,7 @@
       <assetBundleName>enemy1.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/prefab/enemy/enemy1.prefab</string>
-        <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/impact16x16.psd</string>
-        <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/UFPS32x32.png</string>
+        <string>Assets/BehaviourData/Entity/Resources/Enemy1.asset</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -141,24 +165,6 @@
         <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/actor/enemy/Materials/M_chongfengbing.mat</string>
         <string>Assets/ResData/RoleData/enemy/enemy1/tu_texture/actor/enemy/M_chongfengbing.png</string>
         <string>Assets/ResData/RoleData/enemy/enemy1/tu_mesh/actor/enemy/M_chongfengbing_skin.FBX</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>assaultrifle01.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/AssaultRifle01.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shooterpistol01outofcontrol.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01OutOfControl.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>cameraclimb.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraClimb.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -174,21 +180,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>knife01.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Knife01.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>nm_grenade01.tga.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/NM_Grenade01.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>bullet64x64.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Bullet64x64.png</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -204,39 +198,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>controllerdead.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerDead.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>controllercrouch.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerCrouch.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>pistol01.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Pistol01.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>tonguematerial.mat.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/Materials/TongueMaterial.mat</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>machinegunbullet.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/MachinegunBullet.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>cameraoutofcontrol.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraOutOfControl.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -246,27 +210,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>knife64x64.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Knife64x64.png</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>aimstraightcrouch.anim.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/AimStraightCrouch.anim</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponshotgun01reload.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Reload.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponswingright.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingRight.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -300,36 +246,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>weapongrenade01rewield.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Rewield.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>pistol64x64.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Pistol64x64.png</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>muzzleflash-1.mat.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/ResData/EffectData/Effects/Mussleflashes/Materials/MuzzleFlash-1.mat</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>controllerfreeze.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerFreeze.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponassaultrifle01reload.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Reload.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>assaultrifle01pickup.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/AssaultRifle01Pickup.fbx</string>
@@ -348,12 +264,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>muzzleflash01.tga.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/ResData/EffectData/Effects/Mussleflashes/MuzzleFlash01.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>teethmaterial.mat.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/Materials/TeethMaterial.mat</string>
@@ -363,12 +273,6 @@
       <assetBundleName>aimdowntwohand.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/AimDownTwoHand.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponpullleft.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullLeft.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -384,33 +288,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>me_shotgun01.fbx.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_Shotgun01.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>knife01.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/Knife01.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeswing01.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MeleeSwing01.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>machinegun64x64.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Machinegun64x64.png</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>explosion.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Misc/Explosion.ogg</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -438,57 +318,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>camerareload.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraReload.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>camerafreeze.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraFreeze.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>ma_grenade01.mat.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Materials/MA_Grenade01.mat</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponpullupleft.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUpLeft.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponswingdown.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDown.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>me_shotgunshell01used.fbx.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_ShotgunShell01Used.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>machinegunbullet64x64.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/MachinegunBullet64x64.png</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weapongrenade01attack.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Attack.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shellshotgunbounce01.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce01.ogg</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -504,18 +336,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>shooterassaultrifle01zoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/ShooterAssaultRifle01Zoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>bladehit.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BladeHit.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>meleeidle.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/MeleeIdle.fbx</string>
@@ -528,21 +348,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>controllerrun.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerRun.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>idlejump.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/IdleJump.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>grenadethrower.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/GrenadeThrower.asset</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -555,30 +363,6 @@
       <assetBundleName>shell.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/EffectData/Effects/Shells/Shell.FBX</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shellshotgunbounce07.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce07.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>knifeattacktodown.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDown.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>cameracrouch.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraCrouch.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>pistoldryfire.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/PistolDryFire.ogg</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -600,18 +384,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>weaponpistol01idle.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Idle.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shootershotgun01zoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/ShooterShotgun01Zoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>walkbackandturn.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/WalkBackandTurn.fbx</string>
@@ -627,18 +399,6 @@
       <assetBundleName>footfxfixedtimezoom.txt.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeZoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponpistol01run.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Run.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>grab.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Player/Interaction/Grab.ogg</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -666,24 +426,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>meleeweaponpullupright.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUpRight.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>controllerzoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerZoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponpullup.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUp.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>shell45bounce01.ogg.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce01.ogg</string>
@@ -696,27 +438,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>shotgunpellethit.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/ShotgunPelletHit.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>crouchfireonehand.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/CrouchFireOneHand.FBX</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponpullright.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullRight.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>pistol01wield.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Pistol01/Pistol01Wield.ogg</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -756,21 +480,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>weaponassaultrifle01zoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Zoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>n_knife01.tga.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/N_Knife01.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponswingleft.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingLeft.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -786,63 +498,15 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>shotgun64x64.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Shotgun64x64.png</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponshotgun01crouch.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Crouch.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>fallimpact.asset.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/FallImpact.asset</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>knifeattacktodownright.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownRight.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>cm_arms01.cubemap.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/CM_Arms01.cubemap</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weapongrenade01zoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Zoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>arm.mat.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/Body/Models/Hero/Materials/Arm.mat</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>di_shotgunshell01.tga.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/DI_ShotgunShell01.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>cameradead.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraDead.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>machinegunreload.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunReload.ogg</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -858,12 +522,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>shooterpistol01zoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01Zoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>jump.asset.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/Jump.asset</string>
@@ -873,24 +531,6 @@
       <assetBundleName>cm_assaultrifle01.cubemap.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/CM_AssaultRifle01.cubemap</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponpistol01slide.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Slide.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>nm_shotgunshell01.tga.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/NM_ShotgunShell01.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>ma_arm.mat.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/MA_Arm.mat</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -906,51 +546,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>meleeweaponswingdownleft.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownLeft.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponpulldown.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullDown.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>d_knife01.tga.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/D_Knife01.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>unwield.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/UnWield.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>controllermegaspeed.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/ControllerMegaSpeed.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponshotgun01zoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Zoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shotgunshellload.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShotgunShellLoad.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>meleeweaponswingup.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingUp.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -990,18 +588,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>shotgun01.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Shotgun01.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponpistol01outofcontrol.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01OutOfControl.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>bullethit.asset.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BulletHit.asset</string>
@@ -1014,39 +600,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>meleeweaponswingdownright.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownRight.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>explosion01.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/ResData/EffectData/Effects/Particles/Explosion01.png</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>nm_arms01.tga.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/NM_Arms01.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>walkforwardturns.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/WalkForwardTurns.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shellshotgunbounce02.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce02.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>camerarun.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraRun.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -1056,33 +612,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>camerazoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraZoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponpistol01zoom.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Zoom.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>grenade01.fbx.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Grenade01.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>di_muzzleflash04.tga.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/DI_MuzzleFlash04.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shotgunshell64x64.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/ShotgunShell64x64.png</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -1098,51 +630,15 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>toss.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Player/Interaction/Toss.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>di_shotgun01.tga.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/DI_Shotgun01.tga</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>grenade.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Ammo/Grenade.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shellshotgunbounce08.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce08.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponshotgun01run.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Run.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>bodymaskupperbodyonly.mask.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Masks/BodyMaskUpperBodyOnly.mask</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weapongenericslide.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Weapon/WeaponGenericSlide.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shotgunfirepump.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShotgunFirePump.ogg</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -1164,12 +660,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>machinegunwield.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunWield.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>knife01.mat.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/Knife01.mat</string>
@@ -1179,12 +669,6 @@
       <assetBundleName>genericclimb02.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/GenericClimb02.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>pistol01reloadempty.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Pistol01/Pistol01ReloadEmpty.ogg</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -1200,12 +684,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>weaponassaultrifle01crouch.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Crouch.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>hero@aimup.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/Hero@AimUp.fbx</string>
@@ -1218,39 +696,15 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>shellshotgunbounce03.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce03.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>cm_pistol01.cubemap.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/CM_Pistol01.cubemap</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>assaultrifle01.fbx.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/AssaultRifle01.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>rigidbodycollision.asset.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/RigidbodyCollision.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shotgunshell.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/ShotgunShell.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponassaultrifle01run.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Run.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -1290,27 +744,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>shellshotgunbounce05.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce05.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>grenade64x64.png.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Grenade64x64.png</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>shellnormal.tga.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/EffectData/Effects/Shells/ShellNormal.tga</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>cameraslide.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraSlide.txt</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -1326,45 +762,9 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>machinegunfire.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunFire.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>shellshotgunbounce04.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce04.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>explosion01.mat.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/ResData/EffectData/Effects/Particles/Materials/Explosion01.mat</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>me_pistol01.fbx.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/ME_Pistol01.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>weaponpistol01crouch.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Crouch.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>footfxfixedtimerun.txt.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeRun.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>di_arms01.tga.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/DI_Arms01.tga</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -1392,24 +792,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>knifeattacktodownleft.txt.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownLeft.txt</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>bullet.asset.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/Bullet.asset</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>ma_shotgunshell01.mat.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/Materials/MA_ShotgunShell01.mat</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>shell45bounce03.ogg.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce03.ogg</string>
@@ -1431,12 +813,6 @@
       <assetBundleName>meleeattackuptodown.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/MeleeAttackUpToDown.fbx</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>invisibleshadowcaster.mat.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Art/Body/Materials/InvisibleShadowCaster.mat</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -1464,18 +840,6 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>shellshotgunbounce06.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce06.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
-      <assetBundleName>pistol01fire.ogg.unity3d</assetBundleName>
-      <assetNames>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Pistol01/Pistol01Fire.ogg</string>
-      </assetNames>
-    </assetBundleBuild>
-    <assetBundleBuild>
       <assetBundleName>walkstrafeleftonehand.fbx.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/Animations/WalkStrafeLeftOneHand.FBX</string>
@@ -1485,30 +849,146 @@
       <assetBundleName>herohdweapons.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/prefab/role/HeroHDWeapons.prefab</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/AssaultRifle01.asset</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01OutOfControl.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraClimb.txt</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Knife01.asset</string>
+        <string>Assets/UFPS/Base/Content/GUI/HUD/Bullet64x64.png</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerDead.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerCrouch.txt</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Pistol01.asset</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/MachinegunBullet.asset</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraOutOfControl.txt</string>
+        <string>Assets/UFPS/Base/Content/GUI/HUD/Knife64x64.png</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Reload.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingRight.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Rewield.txt</string>
+        <string>Assets/UFPS/Base/Content/GUI/HUD/Pistol64x64.png</string>
+        <string>Assets/ResData/EffectData/Effects/Mussleflashes/Materials/MuzzleFlash-1.mat</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerFreeze.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Reload.txt</string>
         <string>Assets/UFPS/Base/Content/Surfaces/SurfaceTypes/Flesh.asset</string>
+        <string>Assets/ResData/EffectData/Effects/Mussleflashes/MuzzleFlash01.tga</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullLeft.txt</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_Shotgun01.fbx</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MeleeSwing01.ogg</string>
+        <string>Assets/UFPS/Base/Content/GUI/HUD/Machinegun64x64.png</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Misc/Explosion.ogg</string>
         <string>Assets/UFPS/Base/Content/Sounds/Pickups/PickupFail.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraReload.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraFreeze.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUpLeft.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDown.txt</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_ShotgunShell01Used.fbx</string>
+        <string>Assets/UFPS/Base/Content/GUI/HUD/MachinegunBullet64x64.png</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Attack.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce01.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/ShooterAssaultRifle01Zoom.txt</string>
+        <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BladeHit.asset</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerRun.txt</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/GrenadeThrower.asset</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce07.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDown.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraCrouch.txt</string>
         <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BluntHit.asset</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Weapons/PistolDryFire.ogg</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputClimb.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Idle.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/ShooterShotgun01Zoom.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Run.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Player/Interaction/Grab.ogg</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/FullScreenFlash.tga</string>
         <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/surface32x32.png</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUpRight.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerZoom.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUp.txt</string>
+        <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/ShotgunPelletHit.asset</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputZoom.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullRight.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputDead.txt</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/Crosshair.tga</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Zoom.txt</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/HealthIcon.png</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingLeft.txt</string>
+        <string>Assets/UFPS/Base/Content/GUI/HUD/Shotgun64x64.png</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Crouch.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownRight.txt</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/CM_Arms01.cubemap</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Zoom.txt</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/DI_ShotgunShell01.tga</string>
         <string>Assets/UFPS/Base/Content/GUI/Fonts/Aldrich-Regular.ttf</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraDead.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunReload.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01Zoom.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Slide.txt</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/NM_ShotgunShell01.tga</string>
         <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/fx32x32.png</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/MA_Arm.mat</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownLeft.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullDown.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Weapons/UnWield.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/ControllerMegaSpeed.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Zoom.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShotgunShellLoad.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingUp.txt</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Shotgun01.asset</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01OutOfControl.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownRight.txt</string>
+        <string>Assets/ResData/EffectData/Effects/Particles/Explosion01.png</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/NM_Arms01.tga</string>
         <string>Assets/UFPS/Base/Content/Surfaces/SurfaceFX/BulletOnFlesh.asset</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce02.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraRun.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraZoom.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Zoom.txt</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Grenade01.fbx</string>
+        <string>Assets/UFPS/Base/Content/GUI/HUD/ShotgunShell64x64.png</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Player/Interaction/Toss.ogg</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/FullScreenSplatter.png</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Ammo/Grenade.asset</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce08.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Run.txt</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Weapon/WeaponGenericSlide.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShotgunFirePump.ogg</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunWield.ogg</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Pistol01/Pistol01ReloadEmpty.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Crouch.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce03.ogg</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/AssaultRifle01.fbx</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/ShotgunShell.asset</string>
         <string>Assets/UFPS/Base/Content/Sounds/Misc/Spawn.ogg</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Run.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce05.ogg</string>
+        <string>Assets/UFPS/Base/Content/GUI/HUD/Grenade64x64.png</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/Black.jpg</string>
         <string>Assets/ResData/EffectData/Effects/Particles/Materials/Debris.mat</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/DamageArrow.tga</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraSlide.txt</string>
+        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunFire.ogg</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce04.ogg</string>
+        <string>Assets/ResData/EffectData/Effects/Particles/Materials/Explosion01.mat</string>
+        <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/UFPS32x32.png</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/ME_Pistol01.fbx</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Crouch.txt</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/DI_Arms01.tga</string>
+        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownLeft.txt</string>
+        <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/Bullet.asset</string>
+        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/Materials/MA_ShotgunShell01.mat</string>
         <string>Assets/ResData/EffectData/Effects/Particles/Debris.tga</string>
+        <string>Assets/UFPS/Base/Content/Art/Body/Materials/InvisibleShadowCaster.mat</string>
+        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce06.ogg</string>
+        <string>Assets/ResData/SoundData/Battle/Pistol01Fire.ogg</string>
       </assetNames>
     </assetBundleBuild>
   </assetBundleBuilds>
   <shaderBundle />
   <soundBundles>
+    <assetBundleBuild>
+      <assetBundleName>Battle_audio.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/SoundData/Battle/Pistol01Fire.ogg</string>
+      </assetNames>
+    </assetBundleBuild>
     <assetBundleBuild>
       <assetBundleName>Ai.unity3d</assetBundleName>
       <assetNames>

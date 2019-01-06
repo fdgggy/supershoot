@@ -88,9 +88,10 @@ public class BuildPublish
         switch (platform)
         {
             case BuildTarget.StandaloneWindows64:
+            case BuildTarget.StandaloneWindows:
                 PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone, "_DEBUG;");
                 break;
-            case BuildTarget.StandaloneWindows:
+            case BuildTarget.StandaloneOSXIntel64:
                 PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone, "_DEBUG;");
                 break;
             case BuildTarget.Android:
@@ -111,8 +112,9 @@ public class BuildPublish
         {
             case BuildTarget.StandaloneWindows64:
                 PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone, "_RELEASE;");
+                PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone, "_RELEASE;");
                 break;
-            case BuildTarget.StandaloneWindows:
+            case BuildTarget.StandaloneOSXIntel64:
                 PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Standalone, "_RELEASE;");
                 break;
             case BuildTarget.Android:

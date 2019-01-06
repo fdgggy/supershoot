@@ -5,7 +5,7 @@ public class WeaponHandler
     private List<BaseWeapon> weapons = null;
     private BaseWeapon currentWeapon = null;
     private WeaponStatus weaponStatus = WeaponStatus.None;
-    public void Init(string weaponIds)
+    public void Init(string weaponIds, vp_FPCamera wpCam)
     {
         weaponStatus = WeaponStatus.Init;
 
@@ -18,7 +18,7 @@ public class WeaponHandler
             if ((WeaponEnum)weaponData.Weapontype == WeaponEnum.Pistol)
             {
                 BaseWeapon wp = new PistolWeapon();
-                wp.Init(weaponData);
+                wp.Init(weaponData, wpCam);
 
                 weapons.Add(wp);
             }
