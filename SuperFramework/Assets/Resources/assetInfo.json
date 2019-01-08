@@ -31,7 +31,7 @@
 }, 
 "Map_003":{
 "abName":"map_003_scene.unity3d", 
-"md5":"7e678b4303c5188d2e830878fe1bec49", 
+"md5":"4b71dd2a4fee1d28b6893f3786a45957", 
 "path":"Assets/ResData/MapData/Scenes/Map_003.unity"
 }, 
 "testScene":{
@@ -114,6 +114,11 @@
 "md5":"c904b29a086b2a55a52174b386690b69", 
 "path":"Assets/ResData/RoleData/prefab/role/HeroHDWeapons.prefab"
 }, 
+"Pistol01Fire":{
+"abName":"Battle_audio.unity3d", 
+"md5":"8c1abc8f5df6c999297f487591838614", 
+"path":"Assets/ResData/SoundData/Battle/Pistol01Fire.ogg"
+}, 
 "Ai":{
 "abName":"Ai.unity3d", 
 "md5":"36267a815d31f033bbd802942b426a35", 
@@ -151,7 +156,7 @@
 }, 
 "Weapon":{
 "abName":"Weapon.unity3d", 
-"md5":"94a3f5fa362259a3f94d2e4223b5ce6b", 
+"md5":"68908d507653b4e9f3ec5b5019f2af33", 
 "path":"Assets/ExcelAssets/Weapon.asset"
 }
 }

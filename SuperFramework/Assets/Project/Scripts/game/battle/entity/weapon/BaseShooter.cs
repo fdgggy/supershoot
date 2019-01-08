@@ -102,7 +102,7 @@ public class BaseShooter
     {
         if (CanFire() == false)
         {
-            Loger.Error("not CanFire");
+            //Loger.Error("not CanFire");
             return;
         }
         nextAllowedFireTime = Time.time + weaponInfo.Firerate;

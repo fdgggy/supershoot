@@ -23,6 +23,12 @@
             Player.Unregister(this);
     }
 
+    protected override void Update()
+    {
+        base.Update();
+        //OnStart_Attack();
+    }
+
     //vp_FPInput 传来的消息
     private void OnStart_Attack()
     {

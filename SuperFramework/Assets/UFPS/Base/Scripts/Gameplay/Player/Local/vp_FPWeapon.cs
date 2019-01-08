@@ -241,13 +241,13 @@ public class vp_FPWeapon : vp_Weapon
 		m_WeaponGroup = new GameObject(name + "Transform");
 		m_WeaponGroupTransform = m_WeaponGroup.transform;
 		m_WeaponGroupTransform.parent = Transform.parent;
-		m_WeaponGroupTransform.localPosition = PositionOffset;
+		//m_WeaponGroupTransform.localPosition = PositionOffset;
 		vp_Layer.Set(m_WeaponGroup, vp_Layer.Weapon);
 
 		// reposition weapon under weapon group gameobject
 		Transform.parent = m_WeaponGroupTransform;
 		Transform.localPosition = Vector3.zero;
-		m_WeaponGroupTransform.localEulerAngles = RotationOffset;
+		//m_WeaponGroupTransform.localEulerAngles = RotationOffset;
 
 		// put this gameobject and all its descendants in the 'WeaponLayer'
 		// so the weapon camera can render them separately from the scene

@@ -121,7 +121,8 @@ public class Entity : MonoBehaviour
             weaponHandle.OnDisable();
         }
     }
-    private void Update()
+
+    protected virtual void Update()
     {
         if (weaponHandle != null)
         {
