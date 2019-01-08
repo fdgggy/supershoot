@@ -33,6 +33,10 @@ public class WeaponData
   public string Prefabname { get {return prefabname; } set { prefabname = value;} }
   
   [SerializeField]
+  string mountname;
+  public string Mountname { get {return mountname; } set { mountname = value;} }
+  
+  [SerializeField]
   string projectilename;
   public string Projectilename { get {return projectilename; } set { projectilename = value;} }
   

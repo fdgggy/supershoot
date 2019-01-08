@@ -17,6 +17,8 @@ public class EntityAnimator : MonoBehaviour
     //private int IsSettingWeapon;
     //private int IsZooming;
     //private int IsFirstPerson;
+    private int WeaponGripIndex;
+    private int WeaponTypeIndex;
 
     private Transform mtransform = null;
     public Transform Transform
@@ -95,8 +97,8 @@ public class EntityAnimator : MonoBehaviour
         //StartReload = Animator.StringToHash("StartReload");
 
         //// enum indices
-        //WeaponGripIndex = Animator.StringToHash("WeaponGrip");
-        //WeaponTypeIndex = Animator.StringToHash("WeaponType");
+        WeaponGripIndex = Animator.StringToHash("WeaponGrip");
+        WeaponTypeIndex = Animator.StringToHash("WeaponType");
     }
 
     private void Awake()
@@ -124,8 +126,8 @@ public class EntityAnimator : MonoBehaviour
 
         //Animator.SetBool(IsRunning, Player.Run.Active && GetIsMoving());
         //Animator.SetBool(IsCrouching, Player.Crouch.Active);
-        //Animator.SetInteger(WeaponTypeIndex, Player.CurrentWeaponType.Get());
-        //Animator.SetInteger(WeaponGripIndex, Player.CurrentWeaponGrip.Get());
+        Animator.SetInteger(WeaponTypeIndex, Player.CurrentWeaponType.Get());
+        Animator.SetInteger(WeaponGripIndex, Player.CurrentWeaponGrip.Get());
         //Animator.SetBool(IsSettingWeapon, Player.SetWeapon.Active);
         //Animator.SetBool(IsReloading, Player.Reload.Active);
         //Animator.SetBool(IsOutOfControl, Player.OutOfControl.Active);

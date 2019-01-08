@@ -433,7 +433,7 @@ public class vp_BodyAnimator : MonoBehaviour
         Animator.SetBool(IsCrouching, Player.Crouch.Active);
 		Animator.SetInteger(WeaponTypeIndex, Player.CurrentWeaponType.Get());
 		Animator.SetInteger(WeaponGripIndex, Player.CurrentWeaponGrip.Get());
-		Animator.SetBool(IsSettingWeapon, Player.SetWeapon.Active);
+        Animator.SetBool(IsSettingWeapon, Player.SetWeapon.Active);
 		Animator.SetBool(IsReloading, Player.Reload.Active);
 		Animator.SetBool(IsOutOfControl, Player.OutOfControl.Active);
 		Animator.SetBool(IsClimbing, Player.Climb.Active);

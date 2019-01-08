@@ -5,12 +5,38 @@ public class WeaponHandler
     private List<BaseWeapon> weapons = null;
     private BaseWeapon currentWeapon = null;
     private WeaponStatus weaponStatus = WeaponStatus.None;
-    public void Init(string weaponIds, vp_FPCamera wpCam)
+
+    protected vp_PlayerEventHandler eventHandler = null;
+
+    //这两个变量有动画LateUpdate调用
+    public int OnValue_CurrentWeaponType
     {
+        get
+        {
+            return (int)currentWeapon.weaponActionType;
+        }
+    }
+
+    public int OnValue_CurrentWeaponGrip
+    {
+        get
+        {
+            return (int)currentWeapon.weaponGrip;
+        }
+    }
+
+    public void OnDisable()
+    {
+        eventHandler.Unregister(this);
+    }
+
+    public void Init(string weaponIds, EntityCam wpCam)
+    {
+        eventHandler = (vp_PlayerEventHandler)wpCam.transform.root.GetComponent(typeof(vp_FPPlayerEventHandler));
+        eventHandler.Register(this);
+
         weaponStatus = WeaponStatus.Init;
-
         weapons = new List<BaseWeapon>();
-
         Weapon weapon = ExcelDataManager.Instance.GetExcel(ExcelType.Weapon) as Weapon;
         foreach (var id in weaponIds.Split('|'))
         {
@@ -24,7 +50,8 @@ public class WeaponHandler
             }
         }
 
-        InitWeapon();
+        ChangeWeapon(0);
+        weaponStatus = WeaponStatus.OK;
     }
 
     public void Update()
@@ -32,10 +59,21 @@ public class WeaponHandler
 
     }
 
-    private void InitWeapon()
+    public void ChangeWeapon(int index)
     {
-        currentWeapon = weapons[0];
-        weaponStatus = WeaponStatus.OK;
+        foreach (var weapon in weapons)
+        {
+            weapon.Active(false);
+        }
+
+        if (weapons[index] == null)
+        {
+            Loger.Error("ChangeWeapon index:{0} is not exist !", index);
+            return;
+        }
+
+        currentWeapon = weapons[index];
+        currentWeapon.Active(true);
     }
 
     public void Fire()

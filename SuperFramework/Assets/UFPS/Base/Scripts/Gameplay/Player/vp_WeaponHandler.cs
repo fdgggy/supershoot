@@ -346,10 +346,10 @@ public class vp_WeaponHandler : MonoBehaviour
 		// deactivate all weapons
 		DeactivateAll(Weapons);
 
-		// activate the new weapon
-		ActivateWeapon(weaponIndex);
-		
-	}
+        // activate the new weapon
+        ActivateWeapon(weaponIndex);
+
+    }
 	
 
 	/// <summary>
@@ -382,9 +382,9 @@ public class vp_WeaponHandler : MonoBehaviour
 		if (m_CurrentWeaponIndex > 0)
 		{
 			m_CurrentWeapon = Weapons[m_CurrentWeaponIndex - 1];
-			if (m_CurrentWeapon != null)
-				m_CurrentWeapon.ActivateGameObject(true);
-		}
+            if (m_CurrentWeapon != null) { }
+            m_CurrentWeapon.ActivateGameObject(true);
+        }
 
 		if(m_CurrentWeapon != null)
 			m_CurrentShooter = CurrentWeapon.GetComponent<vp_Shooter>();
@@ -430,10 +430,10 @@ public class vp_WeaponHandler : MonoBehaviour
 		if (m_CurrentWeaponIndex == -1)
 		{
 
-			SetWeapon(0);
+            SetWeapon(0);
 
-			// set start weapon (if specified, and if inventory allows it)
-			vp_Timer.In(SetWeaponDuration + 0.1f, delegate()
+            // set start weapon (if specified, and if inventory allows it)
+            vp_Timer.In(SetWeaponDuration + 0.1f, delegate()
 			{
 				if (StartWeapon > 0 && (StartWeapon < (Weapons.Count+1)))
 				{
@@ -510,11 +510,11 @@ public class vp_WeaponHandler : MonoBehaviour
 		// instantly unwield current weapon. this moves the weapon
 		// to exit offset and plays an unwield sound
 		if (m_CurrentWeapon != null)
-			m_CurrentWeapon.Wield(false);
+            m_CurrentWeapon.Wield(false);
 
-		// make 'OnStop_SetWeapon' trigger in 'SetWeaponDuration' seconds
-		// (it will set the new weapon and refresh component states)
-		m_Player.SetWeapon.AutoDuration = SetWeaponDuration;
+        // make 'OnStop_SetWeapon' trigger in 'SetWeaponDuration' seconds
+        // (it will set the new weapon and refresh component states)
+        m_Player.SetWeapon.AutoDuration = SetWeaponDuration;
 
 	}
 

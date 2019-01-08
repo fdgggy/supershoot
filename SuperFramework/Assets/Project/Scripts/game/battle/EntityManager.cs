@@ -38,16 +38,26 @@ public class EntityManager : MonoBehaviour
                 {
                     if (go != null)
                     {
-                        Entity entity = go.GetComponent<Entity>(); //注意不要重复添加
-                        if (entity == null)
+                        Entity entity = null;
+                        if (entityInfo.Camp == CampType.Player)
                         {
-                            entity = go.AddComponent<Entity>();
+                            entity = go.GetComponent<LocalPlayer>(); //注意不要重复添加
+                            if (entity == null)
+                            {
+                                entity = go.AddComponent<LocalPlayer>();
+                            }
+                        }
+                        else
+                        {
+                            entity = go.GetComponent<Entity>(); //注意不要重复添加
+                            if (entity == null)
+                            {
+                                entity = go.AddComponent<Entity>();
+                            }
                         }
 
                         entity.Init(entityInfo);
-
                         entityDic.Add(entityInfo.EntityId, entity);
-
                         callBack(entity);
                     }
                     else

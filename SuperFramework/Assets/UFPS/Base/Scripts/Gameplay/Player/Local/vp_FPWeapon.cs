@@ -1047,9 +1047,9 @@ public class vp_FPWeapon : vp_Weapon
 
 		if (m_WeaponGroup != null)
 		{
-			if (!vp_Utility.IsActive(m_WeaponGroup))
-				vp_Utility.Activate(m_WeaponGroup);
-		}
+            if (!vp_Utility.IsActive(m_WeaponGroup))
+                vp_Utility.Activate(m_WeaponGroup);
+        }
 
 		SetPivotVisible(false);
 

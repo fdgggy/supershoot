@@ -4,10 +4,10 @@ public class BaseShooter
     protected WeaponData weaponInfo;
     protected float nextAllowedFireTime = 0.0f;
 
-    protected vp_FPCamera weaponCam = null;
+    protected EntityCam weaponCam = null;
     protected GameObject muzzleFlash = null;
 
-    public virtual void Init(WeaponData weaponInfo, vp_FPCamera wpCam)
+    public virtual void Init(WeaponData weaponInfo, EntityCam wpCam)
     {
         this.weaponInfo = weaponInfo;
         nextAllowedFireTime = Time.time;

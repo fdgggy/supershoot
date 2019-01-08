@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class Entity : MonoBehaviour
 {
+    public bool EditorMode = false;
 #if UNITY_EDITOR
     public CampType editorCamp;
     public int editorEntityID;
@@ -27,6 +28,18 @@ public class Entity : MonoBehaviour
             return m_FPCamera;
         }
     }
+    protected EntityCam entityCam = null;
+    public EntityCam EntityCam
+    {
+        get
+        {
+            if (entityCam == null)
+            {
+                entityCam = transform.root.GetComponentInChildren<EntityCam>();
+            }
+            return entityCam;
+        }
+    }
     protected EntityAnimator entityAnimator;
 
     private NavMeshAgent aiAgent = null;
@@ -44,7 +57,7 @@ public class Entity : MonoBehaviour
         DataInfo = entityInfo;
 
         weaponHandle = new WeaponHandler();
-        weaponHandle.Init(DataInfo.WeaponIds, FPCamera);
+        weaponHandle.Init(DataInfo.WeaponIds, EntityCam);
     }
 
     private void Awake()
@@ -53,37 +66,61 @@ public class Entity : MonoBehaviour
         entityAnimator = GetComponentInChildren<EntityAnimator>();
 
 #if UNITY_EDITOR
-        ResManager.Instance.Init(() =>
+        if (EditorMode)
         {
-            ExcelDataManager.Instance.Init(() =>
+            ResManager.Instance.Init(() =>
             {
-                EntityInfo info = new EntityInfo();
-                if (editorCamp == CampType.Player)
+                ExcelDataManager.Instance.Init(() =>
                 {
-                    Role role = ExcelDataManager.Instance.GetExcel(ExcelType.Role) as Role;
-                    RoleData roleData = role.QueryByID(editorEntityID);
+                    EntityInfo info = new EntityInfo();
+                    if (editorCamp == CampType.Player)
+                    {
+                        Role role = ExcelDataManager.Instance.GetExcel(ExcelType.Role) as Role;
+                        RoleData roleData = role.QueryByID(editorEntityID);
 
-                    info.PrefabName = roleData.Prefabname;
-                    info.EntityId = EntityManager.Instance.EntityId;
-                    info.Camp = CampType.Player;
-                    info.WeaponIds = roleData.Weaponids;
-                }
-                else if (editorCamp == CampType.Enemy)
-                {
+                        info.PrefabName = roleData.Prefabname;
+                        info.EntityId = EntityManager.Instance.EntityId;
+                        info.Camp = CampType.Player;
+                        info.WeaponIds = roleData.Weaponids;
+                    }
+                    else if (editorCamp == CampType.Enemy)
+                    {
+                        Enemy enemy = ExcelDataManager.Instance.GetExcel(ExcelType.Enemy) as Enemy;
+                        EnemyData enemyData = enemy.QueryByID(editorEntityID);
 
-                }
-                else
-                {
-                    Loger.Error("Entity Editor Model Set Error !");
-                    return;
-                }
+                        info.PrefabName = enemyData.Prefabname;
+                        info.EntityId = EntityManager.Instance.EntityId;
+                        info.Camp = (CampType)enemyData.Camp;
+                        info.MoveSpeed = enemyData.Movespeed;
+                        info.RunSpeed = enemyData.Runspeed;
+                        info.FieldOfView = enemyData.Fieldofviewangle;
+                        info.FieldDistance = enemyData.Viewdistance;
+                        info.WeaponIds = enemyData.Weaponids;
+                    }
+                    else
+                    {
+                        Loger.Error("Entity Editor Model Set Error !");
+                        return;
+                    }
 
-                Init(info);
+                    Init(info);
+                });
             });
-        });
+        }
 #endif
     }
 
+    private void OnEnable()
+    {
+        
+    }
+    private void OnDisable()
+    {
+        if (weaponHandle != null)
+        {
+            weaponHandle.OnDisable();
+        }
+    }
     private void Update()
     {
         if (weaponHandle != null)
@@ -91,6 +128,7 @@ public class Entity : MonoBehaviour
             weaponHandle.Update();
         }
     }
+
     public Transform GetTransform()
     {
         return this.transform;
@@ -147,6 +185,12 @@ public class Entity : MonoBehaviour
         }
 
         return false;
+    }
+
+    public void Attack()
+    {
+        entityAnimator.Attack();
+        weaponHandle.Fire();
     }
     #endregion
 }

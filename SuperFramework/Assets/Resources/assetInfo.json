@@ -4,9 +4,14 @@
 "md5":"7dea8e816574019048ff6520532795c6", 
 "path":"Assets/ResData/EffectData/prefab/MuzzleFlashPistol01.prefab"
 }, 
+"Pistol01":{
+"abName":"pistol01.unity3d", 
+"md5":"3ba05c60cb145b88dc2deeb3dce4d6fb", 
+"path":"Assets/ResData/EffectData/prefab/Pistol01.prefab"
+}, 
 "PistolBullet":{
 "abName":"pistolbullet.unity3d", 
-"md5":"9cff77e30fe3f5588ee2fb3abd41f210", 
+"md5":"0a15ce315dd3f44048b756ddc943d41e", 
 "path":"Assets/ResData/EffectData/prefab/PistolBullet.prefab"
 }, 
 "PistolShell":{
@@ -26,7 +31,7 @@
 }, 
 "Map_003":{
 "abName":"map_003_scene.unity3d", 
-"md5":"9698aeb19bd470910bbe33dd6a673042", 
+"md5":"7e678b4303c5188d2e830878fe1bec49", 
 "path":"Assets/ResData/MapData/Scenes/Map_003.unity"
 }, 
 "testScene":{
@@ -96,7 +101,7 @@
 }, 
 "enemy1":{
 "abName":"enemy1.unity3d", 
-"md5":"577294b769f4f9d843face65495ce589", 
+"md5":"3d3824b9a05ed4554f9f836db07338ca", 
 "path":"Assets/ResData/RoleData/prefab/enemy/enemy1.prefab"
 }, 
 "enemy2":{
@@ -106,13 +111,8 @@
 }, 
 "HeroHDWeapons":{
 "abName":"herohdweapons.unity3d", 
-"md5":"e0d6f12320cba9cc00e160765f7c2db7", 
+"md5":"c904b29a086b2a55a52174b386690b69", 
 "path":"Assets/ResData/RoleData/prefab/role/HeroHDWeapons.prefab"
-}, 
-"Pistol01Fire":{
-"abName":"Battle_audio.unity3d", 
-"md5":"8c1abc8f5df6c999297f487591838614", 
-"path":"Assets/ResData/SoundData/Battle/Pistol01Fire.ogg"
 }, 
 "Ai":{
 "abName":"Ai.unity3d", 
@@ -151,7 +151,7 @@
 }, 
 "Weapon":{
 "abName":"Weapon.unity3d", 
-"md5":"4144f619fae5a122e3e8366b56f991d3", 
+"md5":"94a3f5fa362259a3f94d2e4223b5ce6b", 
 "path":"Assets/ExcelAssets/Weapon.asset"
 }
 }

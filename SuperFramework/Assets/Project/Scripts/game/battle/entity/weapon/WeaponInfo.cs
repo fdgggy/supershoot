@@ -19,3 +19,21 @@ public enum WeaponStatus
     Change,
     OK,
 }
+
+//武器动作类型
+public enum WeaponActionType
+{
+    Custom,
+    Firearm,
+    Melee,
+    Thrown
+}
+
+//武器握把
+public enum WeaponGrip 
+{
+    Custom,
+    OneHanded,
+    TwoHanded,
+    TwoHandedHeavy
+}

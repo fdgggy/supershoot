@@ -1,9 +1,11 @@
 ﻿
 public class PistolWeapon : BaseWeapon
 {
-    public override void Init(WeaponData weaponInfo, vp_FPCamera wpCam)
+    public override void Init(WeaponData weaponInfo, EntityCam wpCam)
     {
         base.Init(weaponInfo, wpCam);
+        weaponActionType = WeaponActionType.Firearm;
+        weaponGrip = WeaponGrip.OneHanded;
     }
 
     public override void Fire()

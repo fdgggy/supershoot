@@ -49,11 +49,15 @@ public class BattleScene : BaseScene
     {
         Loger.Info("BattleScene OnFinished");
 
+        Role role = ExcelDataManager.Instance.GetExcel(ExcelType.Role) as Role;
+        RoleData roleData = role.QueryByID(1);
+
         EntityInfo entityInfo = new EntityInfo()
         {
-            PrefabName = "HeroHDWeapons",
+            PrefabName = roleData.Prefabname,
             EntityId = EntityManager.Instance.EntityId,
             Camp = CampType.Player,
+            WeaponIds = roleData.Weaponids,
         };
 
         EntityManager.Instance.CreateEntity(entityInfo, new Vector3(0, -18, 0), Quaternion.Euler(0, 180, 0), (Entity go) =>
