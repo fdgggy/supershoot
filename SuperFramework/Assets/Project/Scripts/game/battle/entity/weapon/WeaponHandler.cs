@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class WeaponHandler
 {
@@ -56,7 +57,11 @@ public class WeaponHandler
 
     public void Update()
     {
-
+        if (currentWeapon.weapon3rdPersonModel != null)
+        {
+            Vector3 original = currentWeapon.weapon3rdPersonModel.transform.position;
+            Debug.DrawRay(original, eventHandler.gameObject.transform.forward, Color.red);
+        }
     }
 
     public void ChangeWeapon(int index)

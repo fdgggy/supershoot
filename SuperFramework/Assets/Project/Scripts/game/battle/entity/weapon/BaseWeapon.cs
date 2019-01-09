@@ -6,34 +6,11 @@ public class BaseWeapon
     public WeaponGrip weaponGrip { get; set; }
 
     protected BaseShooter shooter;
-    protected GameObject weaponModel = null;
-    protected GameObject weaponModelParent = null;
-    protected Animation weaponModelAnimation = null;
-
-    protected GameObject weapon3rdPersonModel = null;
+    public GameObject weapon3rdPersonModel = null;
     protected Renderer weapon3rdPersonModelRenderer = null;
     public virtual void Init(WeaponData weaponInfo, EntityCam wpCam)
     {
         this.weaponInfo = weaponInfo;
-        if ((WeaponEnum)weaponInfo.Weapontype == WeaponEnum.Pistol)
-        {
-            this.shooter = new PistolShooter();
-            this.shooter.Init(weaponInfo, wpCam);
-        }
-
-        //ResManager.Instance.LoadPrefab(weaponInfo.Prefabname, (string asstName, object original) =>
-        //{
-        //    weaponModelParent = new GameObject();
-        //    weaponModelParent.name = weaponInfo.Prefabname + "_parent";
-        //    weaponModelParent.transform.parent = wpCam.gameObject.transform;
-
-        //    weaponModel = (GameObject)Object.Instantiate(original as GameObject);
-        //    weaponModel.transform.parent = weaponModelParent.transform;
-        //    weaponModel.transform.localPosition = Vector3.zero;
-        //    weaponModel.transform.localScale = Vector3.one;
-        //    weaponModel.transform.localEulerAngles = Vector3.zero;
-        //    weaponModelAnimation = weaponModel.GetComponent<Animation>();
-        //});
         weapon3rdPersonModel = vp_Utility.GetTransformByNameInChildren(wpCam.gameObject.transform.root, weaponInfo.Mountname, true).gameObject;
         if (weapon3rdPersonModel == null)
         {
@@ -42,6 +19,12 @@ public class BaseWeapon
         }
 
         weapon3rdPersonModelRenderer = weapon3rdPersonModel.GetComponent<Renderer>();
+
+        if ((WeaponEnum)weaponInfo.Weapontype == WeaponEnum.Pistol)
+        {
+            this.shooter = new PistolShooter();
+            this.shooter.Init(weaponInfo, wpCam, weapon3rdPersonModel);
+        }
     }
 
     public void Active(bool active = true)

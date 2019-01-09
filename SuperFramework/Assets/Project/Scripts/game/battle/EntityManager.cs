@@ -23,6 +23,17 @@ public class EntityManager : MonoBehaviour
     }
 
     private Dictionary<int, Entity> entityDic = new Dictionary<int, Entity>();
+    //主要用于编辑器环境
+    public void AddEntity(Entity entity)
+    {
+        if (entityDic.ContainsKey(entity.DataInfo.EntityId))
+        {
+            Loger.Error("EntityManager AddEntity error, exist the entityID:{0}", entity.DataInfo.EntityId);
+            return;
+        }
+
+        entityDic.Add(entity.DataInfo.EntityId, entity);
+    }
 
     public void CreateEntity(EntityInfo entityInfo, Vector3 position, Quaternion rotation, Util.CommonDelegate<Entity>callBack = null)
     {

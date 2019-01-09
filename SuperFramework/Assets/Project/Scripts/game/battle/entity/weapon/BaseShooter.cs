@@ -6,12 +6,14 @@ public class BaseShooter
 
     protected EntityCam weaponCam = null;
     protected GameObject muzzleFlash = null;
+    protected GameObject weaponGameObject = null;
 
-    public virtual void Init(WeaponData weaponInfo, EntityCam wpCam)
+    public virtual void Init(WeaponData weaponInfo, EntityCam wpCam, GameObject weaponGameObject)
     {
         this.weaponInfo = weaponInfo;
         nextAllowedFireTime = Time.time;
         weaponCam = wpCam;
+        this.weaponGameObject = weaponGameObject;
     }
 
     protected virtual bool CanFire()
@@ -35,7 +37,8 @@ public class BaseShooter
         ResManager.Instance.LoadPrefab(weaponInfo.Projectilename, (string asstName, object original) =>
         {
             GameObject go = null;
-            go = vp_Utility.Instantiate((original as UnityEngine.Object), weaponCam.gameObject.transform.position, weaponCam.gameObject.transform.rotation) as GameObject;
+            go = vp_Utility.Instantiate((original as UnityEngine.Object), weaponGameObject.transform.position, weaponGameObject.transform.rotation) as GameObject;
+            go.transform.forward = weaponGameObject.transform.root.forward;
             go.SetActive(true);
         });
     }

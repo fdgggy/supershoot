@@ -109,12 +109,10 @@ public class vp_Bullet : MonoBehaviour
 
 	}
 
-
-
-	/// <summary>
-	/// in case of pooling
-	/// </summary>
-	protected virtual void OnEnable()
+    /// <summary>
+    /// in case of pooling
+    /// </summary>
+    protected virtual void OnEnable()
 	{
 	
 		if(!m_Initialized)

@@ -19,14 +19,15 @@ public class EntityAttack : Action
 
     public override TaskStatus OnUpdate()
     {
-        //if (Time.time > now + 5)
+        //if (Time.time > now + 2)
         //{
+        //    now = Time.time;
         //    entity.Attack();
 
-        //    return TaskStatus.Success;
+        //    return TaskStatus.Running;
         //}
 
-        //entity.Attack();
-        return TaskStatus.Running;
+        entity.Attack();
+        return TaskStatus.Success;
     }
 }

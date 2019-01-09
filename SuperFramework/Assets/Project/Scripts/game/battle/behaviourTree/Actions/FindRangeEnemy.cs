@@ -21,7 +21,7 @@ public class FindRangeEnemy : Action
             return TaskStatus.Running;
         }
 
-        Transform tar = BehaviorDesigner.Manager.Movement.MovementUtility.WithinSight(transform, Vector3.zero, 90, 5, target.GetTransform());
+        Transform tar = BehaviorDesigner.Manager.Movement.MovementUtility.WithinSight(transform, Vector3.zero, entity.DataInfo.FieldOfView, entity.DataInfo.FieldDistance, target.GetTransform());
         if (tar == null)
         {
             return TaskStatus.Running;
@@ -36,6 +36,6 @@ public class FindRangeEnemy : Action
 
     public override void OnDrawGizmos()
     {
-        BehaviorDesigner.Manager.Movement.MovementUtility.DrawLineOfSight(Owner.transform, Vector3.zero, 90, 5, false);
+        BehaviorDesigner.Manager.Movement.MovementUtility.DrawLineOfSight(Owner.transform, Vector3.zero, entity.DataInfo.FieldOfView, entity.DataInfo.FieldDistance, false);
     }
 }
