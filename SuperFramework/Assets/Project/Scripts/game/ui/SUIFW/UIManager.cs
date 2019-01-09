@@ -429,6 +429,7 @@ namespace SUIFW
             {
                 baseUI.Hiding();
             }
+
             foreach (BaseUIForm staUI in _StaCurrentUIForms)
             {
                 staUI.Hiding();

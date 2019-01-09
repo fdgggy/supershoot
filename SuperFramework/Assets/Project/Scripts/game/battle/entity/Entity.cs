@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using BehaviorDesigner.Runtime;
 
 public class Entity : MonoBehaviour
 {
@@ -40,10 +41,22 @@ public class Entity : MonoBehaviour
             return entityCam;
         }
     }
+    protected BehaviorTree entityBehaviorTree = null;
+    public BehaviorTree EntityBehaviorTree
+    {
+        get
+        {
+            if (entityBehaviorTree == null)
+            {
+                entityBehaviorTree = transform.GetComponent<BehaviorTree>();
+            }
+            return entityBehaviorTree;
+        }
+    }
+
     protected EntityAnimator entityAnimator;
 
     private NavMeshAgent aiAgent = null;
-    //private int IsMoving;
     protected WeaponHandler weaponHandle;
 
     public void Active(bool show = true)
@@ -114,6 +127,7 @@ public class Entity : MonoBehaviour
     {
         
     }
+
     private void OnDisable()
     {
         if (weaponHandle != null)
@@ -192,6 +206,14 @@ public class Entity : MonoBehaviour
     {
         entityAnimator.Attack();
         weaponHandle.Fire();
+    }
+
+    public void CutBrain()
+    {
+        if (EntityBehaviorTree != null)
+        {
+            EntityBehaviorTree.OnDisable();
+        }
     }
     #endregion
 }

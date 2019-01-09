@@ -166,6 +166,7 @@ public class EntityManager : MonoBehaviour
         }
         return target;
     }
+
     public List<Entity> GetAllEnemy(Entity entity)
     {
         List<Entity> targets = null;
@@ -184,5 +185,16 @@ public class EntityManager : MonoBehaviour
         }
 
         return targets;
+    }
+
+    public void CutEntityBrain(CampType campType)
+    {
+        foreach (KeyValuePair<int, Entity> kv in entityDic)
+        {
+            if (kv.Value.GetCamp == campType)
+            {
+                kv.Value.CutBrain();
+            }
+        }
     }
 }

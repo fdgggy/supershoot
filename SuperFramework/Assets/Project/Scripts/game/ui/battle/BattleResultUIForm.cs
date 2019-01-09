@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using SUIFW;
+﻿using SUIFW;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BattleUIForm : BaseUIForm
+public class BattleResultUIForm : BaseUIForm
 {
     public override UIType GetUIType()
     {
@@ -15,21 +13,28 @@ public class BattleUIForm : BaseUIForm
 
     public void Start()
     {
-        InitView();
+        //InitView();
         InitEvent();
-
-        //Button btn = this.GetComponentInChildren<Button>();
-        //btn.onClick.AddListener(OnClick);
     }
-    //private void OnClick()
-    //{
-    //    Debug.Log("Button Clicked. ClickHandler.");
-    //}
 
-
-    private void InitView()
+    private void InitEvent()
     {
-        SetText("BackToHomeInfo", 11);
+        RigisterButtonObjectEvent("BackToHome", (GameObject go) => {
+            CloseUIForm();
+            OpenUIForm(DemoProject.ProConst.MainMenuUIForm);
+        });
+    }
+
+    public void SetResult(BattleResultType resultType)
+    {
+        if (resultType == BattleResultType.Win)
+        {
+            SetText("ResultInfo", 20);
+        }
+        else if (resultType == BattleResultType.Failed)
+        {
+            SetText("ResultInfo", 21);
+        }
     }
 
     private void SetText(string child, int index)
@@ -41,12 +46,5 @@ public class BattleUIForm : BaseUIForm
             string result = LauguageManager.Instance.GetText(index);
             enterText.text = result;
         }
-    }
-
-    private void InitEvent()
-    {
-        RigisterButtonObjectEvent("BackToHome", (GameObject go) => {
-            OpenUIForm(DemoProject.ProConst.MainMenuUIForm);
-        });
     }
 }

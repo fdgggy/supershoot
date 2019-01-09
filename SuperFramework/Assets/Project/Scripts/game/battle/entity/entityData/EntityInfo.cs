@@ -12,6 +12,7 @@
     public float FieldDistance;
     public string WeaponIds;
 }
+
 public enum CampType
 {
     Enemy = 0,

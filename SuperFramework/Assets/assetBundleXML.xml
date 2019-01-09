@@ -109,15 +109,21 @@
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
-      <assetBundleName>battleuiform.unity3d</assetBundleName>
+      <assetBundleName>battleresultuiform.unity3d</assetBundleName>
       <assetNames>
-        <string>Assets/ResData/UIData/Battle/BattleUIForm.prefab</string>
+        <string>Assets/ResData/UIData/Battle/BattleResultUIForm.prefab</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
       <assetBundleName>home_btn.png.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/Textures/Home/home_btn.png</string>
+      </assetNames>
+    </assetBundleBuild>
+    <assetBundleBuild>
+      <assetBundleName>battleuiform.unity3d</assetBundleName>
+      <assetNames>
+        <string>Assets/ResData/UIData/Battle/BattleUIForm.prefab</string>
       </assetNames>
     </assetBundleBuild>
     <assetBundleBuild>
@@ -989,7 +995,6 @@
         <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce03.ogg</string>
         <string>Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/AssaultRifle01.fbx</string>
         <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/ShotgunShell.asset</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Misc/Spawn.ogg</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Run.txt</string>
         <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce05.ogg</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/Grenade64x64.png</string>

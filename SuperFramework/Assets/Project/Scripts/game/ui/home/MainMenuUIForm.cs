@@ -47,9 +47,11 @@ public class MainMenuUIForm : BaseUIForm
             enterText.text = result;
         }
     }
+
     private void InitEvent()
     {
         RigisterButtonObjectEvent("Enter", (GameObject go)=> {
+            CloseUIForm();
             OpenUIForm(DemoProject.ProConst.LevelUIForm);
         });
 

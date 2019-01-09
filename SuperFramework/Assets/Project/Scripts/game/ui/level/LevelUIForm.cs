@@ -94,6 +94,7 @@ public class LevelUIForm : BaseUIForm
     {
         RigisterButtonObjectEvent("Back", (GameObject go) => {
             CloseUIForm();
+            UIManager.Instance.ShowUIForms(DemoProject.ProConst.MainMenuUIForm);
         });
     }
 }

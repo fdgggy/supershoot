@@ -33,6 +33,7 @@ namespace DemoProject
         public const string LevelUIForm = "LevelUIForm";
 
         public const string BattleUIForm = "BattleUIForm";
+        public const string BattleResultUIForm = "BattleResultUIForm";
 
 
         /* 常量定义： 其他 */

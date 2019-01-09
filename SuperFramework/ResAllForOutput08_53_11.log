@@ -1,0 +1,245 @@
+[remove res fileName]:Assets/Textures/Ui/ui_atlas_img_local_normal.png from heroinfouiform.unity3d
+[AddToSingleBundle]:Assets/Textures/Ui/ui_atlas_img_local_normal.png,from oldAbName:heroinfouiform.unity3d to newAbName:ui_atlas_img_local_normal.png.unity3d
+[remove res fileName]:Assets/Textures/Ui/Common Atlas.png from marketuifrom.unity3d
+[AddToSingleBundle]:Assets/Textures/Ui/Common Atlas.png,from oldAbName:marketuifrom.unity3d to newAbName:common atlas.png.unity3d
+[remove res fileName]:Assets/Textures/Home/home_btn.png from battleresultuiform.unity3d
+[AddToSingleBundle]:Assets/Textures/Home/home_btn.png,from oldAbName:battleresultuiform.unity3d to newAbName:home_btn.png.unity3d
+[remove res fileName]:Assets/Textures/Common/bg.png from loadinguiform.unity3d
+[AddToSingleBundle]:Assets/Textures/Common/bg.png,from oldAbName:loadinguiform.unity3d to newAbName:bg.png.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/Materials/MA_Pistol01.mat from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/Materials/MA_Pistol01.mat,from oldAbName:pistol01.unity3d to newAbName:ma_pistol01.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/DI_Pistol01.tga from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/DI_Pistol01.tga,from oldAbName:pistol01.unity3d to newAbName:di_pistol01.tga.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/CM_Pistol01.cubemap from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/CM_Pistol01.cubemap,from oldAbName:pistol01.unity3d to newAbName:cm_pistol01.cubemap.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/NM_Pistol01.tga from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/NM_Pistol01.tga,from oldAbName:pistol01.unity3d to newAbName:nm_pistol01.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/WalkStrafeRightOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/WalkStrafeRightOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:walkstraferightonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/ReloadOneHand.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/ReloadOneHand.fbx,from oldAbName:enemy1.unity3d to newAbName:reloadonehand.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/NM_Grenade01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/NM_Grenade01.tga,from oldAbName:enemy1.unity3d to newAbName:nm_grenade01.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Idles.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Idles.fbx,from oldAbName:enemy1.unity3d to newAbName:idles.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/CM_Shotgun01.cubemap from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/CM_Shotgun01.cubemap,from oldAbName:enemy1.unity3d to newAbName:cm_shotgun01.cubemap.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/TongueMaterial.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/TongueMaterial.mat,from oldAbName:enemy1.unity3d to newAbName:tonguematerial.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Runs.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Runs.fbx,from oldAbName:enemy1.unity3d to newAbName:runs.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/AimStraightCrouch.anim from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/AimStraightCrouch.anim,from oldAbName:enemy1.unity3d to newAbName:aimstraightcrouch.anim.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Hero@AimStraightCrouch.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Hero@AimStraightCrouch.fbx,from oldAbName:enemy1.unity3d to newAbName:hero@aimstraightcrouch.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/StandIdleOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/StandIdleOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:standidleonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/EffectData/Effects/Mussleflashes/Meshes/Materials/MuzzleFlash-1.mat from muzzleflashpistol01.unity3d
+[AddToSingleBundle]:Assets/ResData/EffectData/Effects/Mussleflashes/Meshes/Materials/MuzzleFlash-1.mat,from oldAbName:muzzleflashpistol01.unity3d to newAbName:muzzleflash-1.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce02.ogg from pistolshell.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce02.ogg,from oldAbName:pistolshell.unity3d to newAbName:shell45bounce02.ogg.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Textures/DI_Hero.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Textures/DI_Hero.tga,from oldAbName:enemy1.unity3d to newAbName:di_hero.tga.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/AssaultRifle01Pickup.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/AssaultRifle01Pickup.fbx,from oldAbName:enemy1.unity3d to newAbName:assaultrifle01pickup.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/WalkForwardOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/WalkForwardOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:walkforwardonehand.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/Footstep.asset from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/Footstep.asset,from oldAbName:enemy1.unity3d to newAbName:footstep.asset.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/TeethMaterial.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/TeethMaterial.mat,from oldAbName:enemy1.unity3d to newAbName:teethmaterial.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/AimDownTwoHand.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/AimDownTwoHand.fbx,from oldAbName:enemy1.unity3d to newAbName:aimdowntwohand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/AimStraightTwoHand.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/AimStraightTwoHand.fbx,from oldAbName:enemy1.unity3d to newAbName:aimstraighttwohand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/MotionJump.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/MotionJump.FBX,from oldAbName:enemy1.unity3d to newAbName:motionjump.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/Knife01.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/Knife01.fbx,from oldAbName:enemy1.unity3d to newAbName:knife01.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Hero@AimStraightAssault_Straight.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Hero@AimStraightAssault_Straight.fbx,from oldAbName:enemy1.unity3d to newAbName:hero@aimstraightassault_straight.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/role/heroNoHead/HeroNoHeadNoArm.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/role/heroNoHead/HeroNoHeadNoArm.fbx,from oldAbName:enemy1.unity3d to newAbName:heronoheadnoarm.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Materials/Head.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Materials/Head.mat,from oldAbName:enemy1.unity3d to newAbName:head.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Hero@AimDown.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Hero@AimDown.fbx,from oldAbName:enemy1.unity3d to newAbName:hero@aimdown.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Materials/MA_Grenade01.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Materials/MA_Grenade01.mat,from oldAbName:enemy1.unity3d to newAbName:ma_grenade01.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/Materials/AssaultRifle01.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/Materials/AssaultRifle01.mat,from oldAbName:enemy1.unity3d to newAbName:assaultrifle01.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/CrouchStrafeRightOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/CrouchStrafeRightOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:crouchstraferightonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/MeleeIdle.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/MeleeIdle.fbx,from oldAbName:enemy1.unity3d to newAbName:meleeidle.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/SkinMaterial.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/SkinMaterial.mat,from oldAbName:enemy1.unity3d to newAbName:skinmaterial.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/IdleJump.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/IdleJump.fbx,from oldAbName:enemy1.unity3d to newAbName:idlejump.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/SP_Shotgun01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/SP_Shotgun01.tga,from oldAbName:enemy1.unity3d to newAbName:sp_shotgun01.tga.unity3d
+[remove res fileName]:Assets/ResData/EffectData/Effects/Shells/Shell.FBX from pistolshell.unity3d
+[AddToSingleBundle]:Assets/ResData/EffectData/Effects/Shells/Shell.FBX,from oldAbName:pistolshell.unity3d to newAbName:shell.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/DI_Grenade01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/DI_Grenade01.tga,from oldAbName:enemy1.unity3d to newAbName:di_grenade01.tga.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Materials/Hero.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Materials/Hero.mat,from oldAbName:enemy1.unity3d to newAbName:hero.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/D_AssaultRifle01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/D_AssaultRifle01.tga,from oldAbName:enemy1.unity3d to newAbName:d_assaultrifle01.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/WalkBackandTurn.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/WalkBackandTurn.fbx,from oldAbName:enemy1.unity3d to newAbName:walkbackandturn.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeZoom.txt from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeZoom.txt,from oldAbName:enemy1.unity3d to newAbName:footfxfixedtimezoom.txt.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Grenade01Pickup.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Grenade01Pickup.fbx,from oldAbName:enemy1.unity3d to newAbName:grenade01pickup.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_Shotgun01Pickup.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_Shotgun01Pickup.fbx,from oldAbName:enemy1.unity3d to newAbName:me_shotgun01pickup.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/N_AssaultRifle01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/N_AssaultRifle01.tga,from oldAbName:enemy1.unity3d to newAbName:n_assaultrifle01.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/RunBackwardOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/RunBackwardOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:runbackwardonehand.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce01.ogg from pistolshell.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce01.ogg,from oldAbName:pistolshell.unity3d to newAbName:shell45bounce01.ogg.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/hair512.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/hair512.mat,from oldAbName:enemy1.unity3d to newAbName:hair512.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/CrouchFireOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/CrouchFireOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:crouchfireonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/CrouchIdleOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/CrouchIdleOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:crouchidleonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Jump.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Jump.fbx,from oldAbName:enemy1.unity3d to newAbName:jump.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/JumpDownRollnRun.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/JumpDownRollnRun.fbx,from oldAbName:enemy1.unity3d to newAbName:jumpdownrollnrun.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/AimUpTwoHand.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/AimUpTwoHand.fbx,from oldAbName:enemy1.unity3d to newAbName:aimuptwohand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/CrouchStrafeLeftOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/CrouchStrafeLeftOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:crouchstrafeleftonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/diffuse_1.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/diffuse_1.mat,from oldAbName:enemy1.unity3d to newAbName:diffuse_1.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/N_Knife01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/N_Knife01.tga,from oldAbName:enemy1.unity3d to newAbName:n_knife01.tga.unity3d
+[remove res fileName]:Assets/ResData/EffectData/Effects/Shells/Materials/Shell-02 - Default.mat from pistolshell.unity3d
+[AddToSingleBundle]:Assets/ResData/EffectData/Effects/Shells/Materials/Shell-02 - Default.mat,from oldAbName:pistolshell.unity3d to newAbName:shell-02 - default.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/tex_2.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/tex_2.mat,from oldAbName:enemy1.unity3d to newAbName:tex_2.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/FallImpact.asset from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/FallImpact.asset,from oldAbName:enemy1.unity3d to newAbName:fallimpact.asset.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/CM_Arms01.cubemap from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/CM_Arms01.cubemap,from oldAbName:pistol01.unity3d to newAbName:cm_arms01.cubemap.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Materials/Arm.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Materials/Arm.mat,from oldAbName:enemy1.unity3d to newAbName:arm.mat.unity3d
+[remove res fileName]:Assets/ResData/EffectData/Effects/Shells/ShellDiffuse.tga from pistolshell.unity3d
+[AddToSingleBundle]:Assets/ResData/EffectData/Effects/Shells/ShellDiffuse.tga,from oldAbName:pistolshell.unity3d to newAbName:shelldiffuse.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/role/heroNoHead/UFPSExampleAnimator.controller from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/role/heroNoHead/UFPSExampleAnimator.controller,from oldAbName:enemy1.unity3d to newAbName:ufpsexampleanimator.controller.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/Jump.asset from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/Jump.asset,from oldAbName:enemy1.unity3d to newAbName:jump.asset.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/CM_AssaultRifle01.cubemap from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/CM_AssaultRifle01.cubemap,from oldAbName:enemy1.unity3d to newAbName:cm_assaultrifle01.cubemap.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/MA_Arm.mat from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/MA_Arm.mat,from oldAbName:pistol01.unity3d to newAbName:ma_arm.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/diffuse_2.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/diffuse_2.mat,from oldAbName:enemy1.unity3d to newAbName:diffuse_2.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/D_Knife01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/D_Knife01.tga,from oldAbName:enemy1.unity3d to newAbName:d_knife01.tga.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/ME_Pistol01Pickup.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/ME_Pistol01Pickup.fbx,from oldAbName:enemy1.unity3d to newAbName:me_pistol01pickup.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Hero@AimStraight.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Hero@AimStraight.fbx,from oldAbName:enemy1.unity3d to newAbName:hero@aimstraight.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/SetWeaponToOneHand.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/SetWeaponToOneHand.fbx,from oldAbName:enemy1.unity3d to newAbName:setweapontoonehand.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/NM_Shotgun01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/NM_Shotgun01.tga,from oldAbName:enemy1.unity3d to newAbName:nm_shotgun01.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/RunStrafeRightOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/RunStrafeRightOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:runstraferightonehand.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/CM_Grenade01.cubemap from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/CM_Grenade01.cubemap,from oldAbName:enemy1.unity3d to newAbName:cm_grenade01.cubemap.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BulletHit.asset from pistolbullet.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BulletHit.asset,from oldAbName:pistolbullet.unity3d to newAbName:bullethit.asset.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/WalkBackwardOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/WalkBackwardOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:walkbackwardonehand.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/NM_Arms01.tga from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/NM_Arms01.tga,from oldAbName:pistol01.unity3d to newAbName:nm_arms01.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/WalkForwardTurns.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/WalkForwardTurns.fbx,from oldAbName:enemy1.unity3d to newAbName:walkforwardturns.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce04.ogg from pistolshell.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce04.ogg,from oldAbName:pistolshell.unity3d to newAbName:shell45bounce04.ogg.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/DI_MuzzleFlash04.tga from muzzleflashpistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/DI_MuzzleFlash04.tga,from oldAbName:muzzleflashpistol01.unity3d to newAbName:di_muzzleflash04.tga.unity3d
+[remove res fileName]:Assets/ResData/EffectData/Effects/Mussleflashes/Meshes/MuzzleFlash.FBX from muzzleflashpistol01.unity3d
+[AddToSingleBundle]:Assets/ResData/EffectData/Effects/Mussleflashes/Meshes/MuzzleFlash.FBX,from oldAbName:muzzleflashpistol01.unity3d to newAbName:muzzleflash.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/WalkBack.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/WalkBack.fbx,from oldAbName:enemy1.unity3d to newAbName:walkback.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/DI_Shotgun01.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/DI_Shotgun01.tga,from oldAbName:enemy1.unity3d to newAbName:di_shotgun01.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Masks/BodyMaskUpperBodyOnly.mask from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Masks/BodyMaskUpperBodyOnly.mask,from oldAbName:enemy1.unity3d to newAbName:bodymaskupperbodyonly.mask.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/Materials/MA_MuzzleFlash04.mat from muzzleflashpistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/Materials/MA_MuzzleFlash04.mat,from oldAbName:muzzleflashpistol01.unity3d to newAbName:ma_muzzleflash04.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/WalkForward.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/WalkForward.fbx,from oldAbName:enemy1.unity3d to newAbName:walkforward.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Hero@AimStraightAssault_Up.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Hero@AimStraightAssault_Up.fbx,from oldAbName:enemy1.unity3d to newAbName:hero@aimstraightassault_up.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/Knife01.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Knife01/Knife01.mat,from oldAbName:enemy1.unity3d to newAbName:knife01.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/GenericClimb02.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/GenericClimb02.fbx,from oldAbName:enemy1.unity3d to newAbName:genericclimb02.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Hero@AimStraightAssault_Down.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Hero@AimStraightAssault_Down.fbx,from oldAbName:enemy1.unity3d to newAbName:hero@aimstraightassault_down.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/CrouchBackwardOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/CrouchBackwardOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:crouchbackwardonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Hero@AimUp.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Hero@AimUp.fbx,from oldAbName:enemy1.unity3d to newAbName:hero@aimup.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Sounds/Projectiles/BulletBodyImpact.ogg from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Sounds/Projectiles/BulletBodyImpact.ogg,from oldAbName:enemy1.unity3d to newAbName:bulletbodyimpact.ogg.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/RigidbodyCollision.asset from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/RigidbodyCollision.asset,from oldAbName:enemy1.unity3d to newAbName:rigidbodycollision.asset.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/SuitMaterial.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/SuitMaterial.mat,from oldAbName:enemy1.unity3d to newAbName:suitmaterial.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/RagdollDrop.asset from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Surfaces/ImpactEvents/RagdollDrop.asset,from oldAbName:enemy1.unity3d to newAbName:ragdolldrop.asset.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Masks/BodyMaskLowerBodyOnly.mask from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Masks/BodyMaskLowerBodyOnly.mask,from oldAbName:enemy1.unity3d to newAbName:bodymasklowerbodyonly.mask.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Textures/NM_Hero.tga from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/Body/Models/Hero/Textures/NM_Hero.tga,from oldAbName:enemy1.unity3d to newAbName:nm_hero.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/CrouchForwardOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/CrouchForwardOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:crouchforwardonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/EffectData/Effects/Shells/Shell.physicMaterial from pistolshell.unity3d
+[AddToSingleBundle]:Assets/ResData/EffectData/Effects/Shells/Shell.physicMaterial,from oldAbName:pistolshell.unity3d to newAbName:shell.physicmaterial.unity3d
+[remove res fileName]:Assets/ResData/EffectData/Effects/Shells/ShellNormal.tga from pistolshell.unity3d
+[AddToSingleBundle]:Assets/ResData/EffectData/Effects/Shells/ShellNormal.tga,from oldAbName:pistolshell.unity3d to newAbName:shellnormal.tga.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/ReloadTwoHand.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/ReloadTwoHand.fbx,from oldAbName:enemy1.unity3d to newAbName:reloadtwohand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/hair_tex.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/hair_tex.mat,from oldAbName:enemy1.unity3d to newAbName:hair_tex.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/ME_Pistol01.fbx from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/ME_Pistol01.fbx,from oldAbName:pistol01.unity3d to newAbName:me_pistol01.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeRun.txt from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeRun.txt,from oldAbName:enemy1.unity3d to newAbName:footfxfixedtimerun.txt.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/DI_Arms01.tga from pistol01.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/DI_Arms01.tga,from oldAbName:pistol01.unity3d to newAbName:di_arms01.tga.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/Materials/MA_Shotgun01.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/Materials/MA_Shotgun01.mat,from oldAbName:enemy1.unity3d to newAbName:ma_shotgun01.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/tex_1.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/tex_1.mat,from oldAbName:enemy1.unity3d to newAbName:tex_1.mat.unity3d
+[remove res fileName]:Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeCrouch.txt from enemy1.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Scripts/Presets/Standard/FootFX/FootFXFixedTimeCrouch.txt,from oldAbName:enemy1.unity3d to newAbName:footfxfixedtimecrouch.txt.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/RunStrafeLeftOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/RunStrafeLeftOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:runstrafeleftonehand.fbx.unity3d
+[remove res fileName]:Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce03.ogg from pistolshell.unity3d
+[AddToSingleBundle]:Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce03.ogg,from oldAbName:pistolshell.unity3d to newAbName:shell45bounce03.ogg.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/AimUpCrouch.anim from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/AimUpCrouch.anim,from oldAbName:enemy1.unity3d to newAbName:aimupcrouch.anim.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/Materials/EyesMaterial.mat from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/Materials/EyesMaterial.mat,from oldAbName:enemy1.unity3d to newAbName:eyesmaterial.mat.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/MeleeAttackUpToDown.fbx from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/MeleeAttackUpToDown.fbx,from oldAbName:enemy1.unity3d to newAbName:meleeattackuptodown.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/RunForwardOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/RunForwardOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:runforwardonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/AimDownCrouch.anim from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/AimDownCrouch.anim,from oldAbName:enemy1.unity3d to newAbName:aimdowncrouch.anim.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/StandFireOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/StandFireOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:standfireonehand.fbx.unity3d
+[remove res fileName]:Assets/ResData/RoleData/Animations/WalkStrafeLeftOneHand.FBX from enemy1.unity3d
+[AddToSingleBundle]:Assets/ResData/RoleData/Animations/WalkStrafeLeftOneHand.FBX,from oldAbName:enemy1.unity3d to newAbName:walkstrafeleftonehand.fbx.unity3d
+
