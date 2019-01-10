@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="gb2312"?>
 <AssetBundlesXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <assetBundleBuilds>
     <assetBundleBuild>
@@ -891,7 +891,6 @@
       <assetBundleName>herohdweapons.unity3d</assetBundleName>
       <assetNames>
         <string>Assets/ResData/RoleData/prefab/role/HeroHDWeapons.prefab</string>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/AssaultRifle01.asset</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01OutOfControl.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraClimb.txt</string>
         <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Knife01.asset</string>
@@ -899,121 +898,50 @@
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerDead.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerCrouch.txt</string>
         <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Pistol01.asset</string>
-        <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/MachinegunBullet.asset</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraOutOfControl.txt</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/Knife64x64.png</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Reload.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingRight.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Rewield.txt</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/Pistol64x64.png</string>
-        <string>Assets/ResData/EffectData/Effects/Mussleflashes/Materials/MuzzleFlash-1.mat</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerFreeze.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Reload.txt</string>
         <string>Assets/UFPS/Base/Content/Surfaces/SurfaceTypes/Flesh.asset</string>
-        <string>Assets/ResData/EffectData/Effects/Mussleflashes/MuzzleFlash01.tga</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullLeft.txt</string>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_Shotgun01.fbx</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MeleeSwing01.ogg</string>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Machinegun64x64.png</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Misc/Explosion.ogg</string>
         <string>Assets/UFPS/Base/Content/Sounds/Pickups/PickupFail.ogg</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraReload.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraFreeze.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUpLeft.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDown.txt</string>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_ShotgunShell01Used.fbx</string>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/MachinegunBullet64x64.png</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Attack.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce01.ogg</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/ShooterAssaultRifle01Zoom.txt</string>
         <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BladeHit.asset</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerRun.txt</string>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/GrenadeThrower.asset</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce07.ogg</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDown.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraCrouch.txt</string>
         <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BluntHit.asset</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/PistolDryFire.ogg</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputClimb.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Idle.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/ShooterShotgun01Zoom.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Run.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Player/Interaction/Grab.ogg</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/FullScreenFlash.tga</string>
         <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/surface32x32.png</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUpRight.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerZoom.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUp.txt</string>
         <string>Assets/UFPS/Base/Content/Surfaces/ImpactEvents/ShotgunPelletHit.asset</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputZoom.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullRight.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputDead.txt</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/Crosshair.tga</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Zoom.txt</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/HealthIcon.png</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingLeft.txt</string>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Shotgun64x64.png</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Crouch.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownRight.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Zoom.txt</string>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/DI_ShotgunShell01.tga</string>
         <string>Assets/UFPS/Base/Content/GUI/Fonts/Aldrich-Regular.ttf</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraDead.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunReload.ogg</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01Zoom.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Slide.txt</string>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/NM_ShotgunShell01.tga</string>
         <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/fx32x32.png</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownLeft.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullDown.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/UnWield.ogg</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Demo/ControllerMegaSpeed.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Zoom.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShotgunShellLoad.ogg</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingUp.txt</string>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Shotgun01.asset</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01OutOfControl.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownRight.txt</string>
-        <string>Assets/ResData/EffectData/Effects/Particles/Explosion01.png</string>
         <string>Assets/UFPS/Base/Content/Surfaces/SurfaceFX/BulletOnFlesh.asset</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce02.ogg</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraRun.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraZoom.txt</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Zoom.txt</string>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Grenade01.fbx</string>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/ShotgunShell64x64.png</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Player/Interaction/Toss.ogg</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/FullScreenSplatter.png</string>
-        <string>Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Ammo/Grenade.asset</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce08.ogg</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Run.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/Standard/Weapon/WeaponGenericSlide.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShotgunFirePump.ogg</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunWield.ogg</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Pistol01/Pistol01ReloadEmpty.ogg</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Crouch.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce03.ogg</string>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/AssaultRifle01.fbx</string>
-        <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/ShotgunShell.asset</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Run.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce05.ogg</string>
-        <string>Assets/UFPS/Base/Content/GUI/HUD/Grenade64x64.png</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/Black.jpg</string>
         <string>Assets/ResData/EffectData/Effects/Particles/Materials/Debris.mat</string>
         <string>Assets/UFPS/Base/Content/GUI/HUD/DamageArrow.tga</string>
         <string>Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraSlide.txt</string>
-        <string>Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunFire.ogg</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce04.ogg</string>
-        <string>Assets/ResData/EffectData/Effects/Particles/Materials/Explosion01.mat</string>
         <string>Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/UFPS32x32.png</string>
         <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Crouch.txt</string>
-        <string>Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownLeft.txt</string>
         <string>Assets/UFPS/Base/Content/ItemTypes/Ammo/Bullet.asset</string>
-        <string>Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/Materials/MA_ShotgunShell01.mat</string>
         <string>Assets/ResData/EffectData/Effects/Particles/Debris.tga</string>
         <string>Assets/UFPS/Base/Content/Art/Body/Materials/InvisibleShadowCaster.mat</string>
-        <string>Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce06.ogg</string>
-        <string>Assets/ResData/SoundData/Battle/Pistol01Fire.ogg</string>
       </assetNames>
     </assetBundleBuild>
   </assetBundleBuilds>

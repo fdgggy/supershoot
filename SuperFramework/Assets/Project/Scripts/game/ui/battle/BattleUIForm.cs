@@ -46,7 +46,7 @@ public class BattleUIForm : BaseUIForm
     private void InitEvent()
     {
         RigisterButtonObjectEvent("BackToHome", (GameObject go) => {
-            OpenUIForm(DemoProject.ProConst.MainMenuUIForm);
+            //OpenUIForm(DemoProject.ProConst.MainMenuUIForm);
         });
     }
 }

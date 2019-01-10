@@ -20,8 +20,8 @@ public class BattleResultUIForm : BaseUIForm
     private void InitEvent()
     {
         RigisterButtonObjectEvent("BackToHome", (GameObject go) => {
-            CloseUIForm();
-            OpenUIForm(DemoProject.ProConst.MainMenuUIForm);
+            //CloseUIForm();
+            //OpenUIForm(DemoProject.ProConst.MainMenuUIForm);
         });
     }
 

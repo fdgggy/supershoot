@@ -6,6 +6,7 @@ public enum SceneType
     Login,
     CreateRole,
     Battle,
+    Main,
 
     Num,
 }
@@ -56,6 +57,11 @@ public class SceneMgr : MonoBehaviour
         {
             curScene = new BattleScene(mapName, leveData);
         }
+        else if (sceneType == SceneType.Main)
+        {
+            curScene = new MainScene(mapName);
+        }
+
         curScene.Enter();
     }
 }

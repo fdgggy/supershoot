@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3072657317
+CRC: 1922056579
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 213119dc2f9c0a94f3f75c66d4b4b5f3
+    Hash: c46f8700e4ce9feb7fbfcf8a4c9f3c36
   TypeTreeHash:
     serializedVersion: 2
     Hash: 28c53e060ae46664dfa85e1a09b57993
@@ -42,4 +42,5 @@ Assets:
 - Assets/Textures/Packages/1LVpants.png
 - Assets/ResData/UIData/MarketUIFrom.prefab
 Dependencies:
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/common atlas.png.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/common
+  atlas.png.unity3d

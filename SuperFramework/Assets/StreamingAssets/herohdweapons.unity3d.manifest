@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3309322886
+CRC: 387108837
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6a7123d2dc46b1083f8b4f4d216dc271
+    Hash: 75b9c0d8e90407dcb590f0621bba05f7
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5f2a4c1065a5153c744887ee11811d7a
+    Hash: d0bf156b60fb9964742e79ec21da622a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -47,17 +47,11 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 83
   Script: {instanceID: 0}
-- Class: 89
-  Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
 - Class: 95
-  Script: {instanceID: 0}
-- Class: 108
-  Script: {instanceID: 0}
-- Class: 111
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 8227215081904e84a97ab858e04ca55d, type: 3}
@@ -66,13 +60,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 28dff080eb100b14190cc15bff12b397, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 59a4c990e9f2ccd4d8baefeba71a85fe, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: ded5f8f19f9bf8b4db0bba4c58123909, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a5c1ec72a4a0534419c4c6a5384b398b, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 2c2c8a92e1429a24ea763ec42ec37a89, type: 3}
+  Script: {fileID: 11500000, guid: fb43e092cf5ea3e40988e144a977d29e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d26624e206ef7f1478fd1f7f5cdbaa4b, type: 3}
 - Class: 114
@@ -92,19 +84,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 45914f847cd48754ebabf383987ef88c, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: d8745425c2759f946aa5fd67025cc099, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 7cc8bc753e6c65b40bfca961906f4480, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: c0a91dd5f59d0fb4eaf0c5bb45ac3651, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7026e7c6d0992824eb4c0e9d743c77d4, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 11b910e605defdd47b17a2960ba0ced3, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 6bf848271384e984c89313a56d3bb5cb, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: afa96b0804ec29f49bc171fae6aa9b5d, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5dc13c48b5ea45f47abb1efd236a5812, type: 3}
 - Class: 114
@@ -116,15 +100,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 49fa1559690f5264185a0a5e9353db35, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 320e24f9b9d606d4fba2720aa012b842, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: cd9dde0a70a810340a08feebb42bebc5, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d45c3caadb0dedb45909441e14a8de7b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b9cddb3bbeb3d36468f00a5177c170e4, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 58955c9b7d638644cbad895ecaf10c79, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a2542f9b3068d264e8c9fd46046e8592, type: 3}
 - Class: 114
@@ -138,16 +118,10 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 98c79b8dd5ff9e84fb6c162a28f67f65, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: a02e18bffdd5c1b458f442d33fbb9ec2, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 528a31ef55018d34eaf3db2e4b65a213, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 1eac83ff5c1dc47e29cd7b1502b6838e, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
-  Script: {instanceID: 0}
-- Class: 134
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
@@ -160,7 +134,6 @@ ClassTypes:
 - Class: 144
   Script: {instanceID: 0}
 Assets:
-- Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/AssaultRifle01.asset
 - Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01OutOfControl.txt
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraClimb.txt
 - Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Knife01.asset
@@ -168,164 +141,78 @@ Assets:
 - Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerDead.txt
 - Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerCrouch.txt
 - Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Pistol01.asset
-- Assets/UFPS/Base/Content/ItemTypes/Ammo/MachinegunBullet.asset
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraOutOfControl.txt
 - Assets/UFPS/Base/Content/GUI/HUD/Knife64x64.png
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Reload.txt
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingRight.txt
-- Assets/ResData/EffectData/Effects/Mussleflashes/Meshes/Materials/MuzzleFlash-1.mat
-- Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce02.ogg
 - Assets/ResData/RoleData/prefab/role/HeroHDWeapons.prefab
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Rewield.txt
 - Assets/UFPS/Base/Content/GUI/HUD/Pistol64x64.png
-- Assets/ResData/EffectData/Effects/Mussleflashes/Materials/MuzzleFlash-1.mat
 - Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerFreeze.txt
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Reload.txt
 - Assets/UFPS/Base/Content/Surfaces/SurfaceTypes/Flesh.asset
-- Assets/ResData/EffectData/Effects/Mussleflashes/MuzzleFlash01.tga
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullLeft.txt
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_Shotgun01.fbx
-- Assets/UFPS/Base/Content/Sounds/Weapons/MeleeSwing01.ogg
-- Assets/UFPS/Base/Content/GUI/HUD/Machinegun64x64.png
-- Assets/UFPS/Base/Content/Sounds/Misc/Explosion.ogg
 - Assets/UFPS/Base/Content/Sounds/Pickups/PickupFail.ogg
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraReload.txt
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraFreeze.txt
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUpLeft.txt
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDown.txt
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/ME_ShotgunShell01Used.fbx
-- Assets/UFPS/Base/Content/GUI/HUD/MachinegunBullet64x64.png
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Attack.txt
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce01.ogg
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/ShooterAssaultRifle01Zoom.txt
 - Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BladeHit.asset
 - Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerRun.txt
-- Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/GrenadeThrower.asset
-- Assets/ResData/EffectData/Effects/Shells/Shell.FBX
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce07.ogg
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDown.txt
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraCrouch.txt
 - Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BluntHit.asset
-- Assets/UFPS/Base/Content/Sounds/Weapons/PistolDryFire.ogg
 - Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputClimb.txt
 - Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Idle.txt
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/ShooterShotgun01Zoom.txt
 - Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Run.txt
-- Assets/UFPS/Base/Content/Sounds/Player/Interaction/Grab.ogg
 - Assets/UFPS/Base/Content/GUI/HUD/FullScreenFlash.tga
 - Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/surface32x32.png
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUpRight.txt
 - Assets/UFPS/Base/Scripts/Presets/Standard/Controller/ControllerZoom.txt
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullUp.txt
-- Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce01.ogg
 - Assets/UFPS/Base/Content/Surfaces/ImpactEvents/ShotgunPelletHit.asset
 - Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputZoom.txt
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullRight.txt
 - Assets/UFPS/Base/Scripts/Presets/Standard/Input/InputDead.txt
 - Assets/UFPS/Base/Content/GUI/HUD/Crosshair.tga
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Zoom.txt
 - Assets/UFPS/Base/Content/GUI/HUD/HealthIcon.png
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingLeft.txt
-- Assets/ResData/EffectData/Effects/Shells/Materials/Shell-02 - Default.mat
-- Assets/UFPS/Base/Content/GUI/HUD/Shotgun64x64.png
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Crouch.txt
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownRight.txt
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/CM_Arms01.cubemap
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Grenade01/WeaponGrenade01Zoom.txt
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/DI_ShotgunShell01.tga
 - Assets/UFPS/Base/Content/GUI/Fonts/Aldrich-Regular.ttf
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraDead.txt
-- Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunReload.ogg
-- Assets/ResData/EffectData/Effects/Shells/ShellDiffuse.tga
 - Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/ShooterPistol01Zoom.txt
 - Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Slide.txt
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/NM_ShotgunShell01.tga
 - Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/fx32x32.png
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/MA_Arm.mat
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownLeft.txt
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponPullDown.txt
-- Assets/UFPS/Base/Content/Sounds/Weapons/UnWield.ogg
 - Assets/UFPS/Base/Scripts/Presets/Demo/ControllerMegaSpeed.txt
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Zoom.txt
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShotgunShellLoad.ogg
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingUp.txt
-- Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Shotgun01.asset
 - Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01OutOfControl.txt
-- Assets/UFPS/Base/Content/Surfaces/ImpactEvents/BulletHit.asset
-- Assets/UFPS/Base/Scripts/Presets/Demo/MeleeWeaponSwingDownRight.txt
-- Assets/ResData/EffectData/Effects/Particles/Explosion01.png
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/NM_Arms01.tga
 - Assets/UFPS/Base/Content/Surfaces/SurfaceFX/BulletOnFlesh.asset
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce02.ogg
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraRun.txt
-- Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce04.ogg
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraZoom.txt
 - Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Zoom.txt
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Grenade01/Grenade01.fbx
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/DI_MuzzleFlash04.tga
-- Assets/UFPS/Base/Content/GUI/HUD/ShotgunShell64x64.png
-- Assets/ResData/EffectData/Effects/Mussleflashes/Meshes/MuzzleFlash.FBX
-- Assets/UFPS/Base/Content/Sounds/Player/Interaction/Toss.ogg
 - Assets/UFPS/Base/Content/GUI/HUD/FullScreenSplatter.png
-- Assets/UFPS/Base/Content/ItemTypes/WeaponsHD/Ammo/Grenade.asset
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce08.ogg
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Shotgun01/WeaponShotgun01Run.txt
-- Assets/UFPS/Base/Scripts/Presets/Standard/Weapon/WeaponGenericSlide.txt
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShotgunFirePump.ogg
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/Materials/MA_MuzzleFlash04.mat
-- Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunWield.ogg
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Pistol01/Pistol01ReloadEmpty.ogg
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Crouch.txt
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce03.ogg
-- Assets/UFPS/Base/Content/Art/WeaponsHD/AssaultRifle01/AssaultRifle01.fbx
-- Assets/UFPS/Base/Content/ItemTypes/Ammo/ShotgunShell.asset
-- Assets/UFPS/Base/Content/Sounds/Misc/Spawn.ogg
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/AssaultRifle01/WeaponAssaultRifle01Run.txt
-- Assets/ResData/EffectData/Effects/Shells/Shell.physicMaterial
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce05.ogg
-- Assets/UFPS/Base/Content/GUI/HUD/Grenade64x64.png
-- Assets/ResData/EffectData/Effects/Shells/ShellNormal.tga
 - Assets/UFPS/Base/Content/GUI/HUD/Black.jpg
 - Assets/ResData/EffectData/Effects/Particles/Materials/Debris.mat
 - Assets/UFPS/Base/Content/GUI/HUD/DamageArrow.tga
 - Assets/UFPS/Base/Scripts/Presets/Standard/Camera/CameraSlide.txt
-- Assets/UFPS/Base/Content/Sounds/Weapons/MachinegunFire.ogg
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce04.ogg
-- Assets/ResData/EffectData/Effects/Particles/Materials/Explosion01.mat
 - Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/UFPS32x32.png
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Pistol01/ME_Pistol01.fbx
 - Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Pistol01/WeaponPistol01Crouch.txt
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Arms01/DI_Arms01.tga
-- Assets/UFPS/Base/Scripts/Presets/WeaponsHD/Knife01/KnifeAttackToDownLeft.txt
 - Assets/UFPS/Base/Content/ItemTypes/Ammo/Bullet.asset
-- Assets/UFPS/Base/Content/Art/WeaponsHD/Shotgun01/Materials/MA_ShotgunShell01.mat
 - Assets/ResData/EffectData/Effects/Particles/Debris.tga
-- Assets/UFPS/Base/Content/Sounds/Weapons/Shell45Bounce03.ogg
 - Assets/UFPS/Base/Content/Art/Body/Materials/InvisibleShadowCaster.mat
-- Assets/UFPS/Base/Content/Sounds/WeaponsHD/Shotgun01/ShellShotgunBounce06.ogg
 Dependencies:
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/cm_shotgun01.cubemap.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01pickup.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/footstep.asset.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/knife01.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/heronoheadnoarm.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/head.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ma_grenade01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/hero.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ma_pistol01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimezoom.txt.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/grenade01pickup.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/me_shotgun01pickup.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/fallimpact.asset.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/arm.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ufpsexampleanimator.controller.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/jump.asset.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/me_pistol01pickup.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/knife01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/bulletbodyimpact.ogg.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ragdolldrop.asset.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimerun.txt.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ma_shotgun01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimecrouch.txt.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/battle_audio.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/muzzleflashpistol01.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/pistol01.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/pistolbullet.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/pistolshell.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_pistol01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footstep.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knife01.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/heronoheadnoarm.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/head.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_grenade01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/hero.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimezoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/grenade01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_shotgun01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/fallimpact.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/arm.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ufpsexampleanimator.controller.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/jump.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_pistol01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/bullethit.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knife01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/bulletbodyimpact.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ragdolldrop.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_pistol01.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimerun.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_shotgun01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimecrouch.txt.unity3d

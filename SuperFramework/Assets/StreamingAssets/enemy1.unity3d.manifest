@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2789694500
+CRC: 2771327677
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8da1b1e01f494028a24d0555a3a8e9d9
+    Hash: 296babf62d07545347972ea6fb643449
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 618c95475a5afae744ecc676a6ed0ac2
+    Hash: 0132b3c91a9ca2f6f9b88d49dba5f80c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -18,8 +18,6 @@ ClassTypes:
 - Class: 21
   Script: {instanceID: 0}
 - Class: 23
-  Script: {instanceID: 0}
-- Class: 28
   Script: {instanceID: 0}
 - Class: 33
   Script: {instanceID: 0}
@@ -45,6 +43,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: ded5f8f19f9bf8b4db0bba4c58123909, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fb43e092cf5ea3e40988e144a977d29e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
 - Class: 114
@@ -76,30 +76,29 @@ ClassTypes:
 - Class: 195
   Script: {instanceID: 0}
 Assets:
-- Assets/UFPS/Base/Content/GUI/Editor/Resources/Icons/impact16x16.psd
 - Assets/BehaviourData/Entity/Resources/Enemy1.asset
 - Assets/ResData/RoleData/prefab/enemy/enemy1.prefab
 Dependencies:
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01pickup.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/footstep.asset.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/knife01.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/heronoheadnoarm.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/head.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ma_grenade01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/hero.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ma_pistol01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimezoom.txt.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/grenade01pickup.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/me_shotgun01pickup.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/fallimpact.asset.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/arm.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ufpsexampleanimator.controller.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/jump.asset.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/me_pistol01pickup.fbx.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/knife01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/bulletbodyimpact.ogg.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ragdolldrop.asset.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimerun.txt.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/ma_shotgun01.mat.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimecrouch.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_pistol01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footstep.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knife01.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/heronoheadnoarm.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/head.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_grenade01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/assaultrifle01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/hero.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimezoom.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/grenade01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_shotgun01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/fallimpact.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/arm.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ufpsexampleanimator.controller.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/jump.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/me_pistol01pickup.fbx.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/knife01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/bulletbodyimpact.ogg.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ragdolldrop.asset.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimerun.txt.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/ma_shotgun01.mat.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/footfxfixedtimecrouch.txt.unity3d

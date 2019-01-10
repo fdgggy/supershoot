@@ -71,7 +71,7 @@
 }, 
 "BattleResultUIForm":{
 "abName":"battleresultuiform.unity3d", 
-"md5":"4f4db6c95c89eca9fc67579522149d25", 
+"md5":"81e3274d658e3b5fbcf94c7534bc233e", 
 "path":"Assets/ResData/UIData/Battle/BattleResultUIForm.prefab"
 }, 
 "BattleUIForm":{
@@ -116,7 +116,7 @@
 }, 
 "HeroHDWeapons":{
 "abName":"herohdweapons.unity3d", 
-"md5":"7b894ce0386d7a962746cea4f528653c", 
+"md5":"14d843b478efea485368b51290885b6a", 
 "path":"Assets/ResData/RoleData/prefab/role/HeroHDWeapons.prefab"
 }, 
 "Pistol01Fire":{

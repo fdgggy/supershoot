@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1362024284
+CRC: 2974767277
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2dfdad944ad9ae5cf41d49a37d6498b5
+    Hash: 2d9bab428a7976d52db7e4dcda4394d7
   TypeTreeHash:
     serializedVersion: 2
     Hash: ab683026ee06adb7c8f149147609bdf5
@@ -37,4 +37,4 @@ Assets:
 - Assets/Textures/Loading/m_loading.png
 - Assets/ResData/UIData/Loading/LoadingUIForm.prefab
 Dependencies:
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/bg.png.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/bg.png.unity3d

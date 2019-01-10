@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3815315832
+CRC: 1350383322
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4d3a1fb91c16c1f01d8e7a9928adf8a2
+    Hash: 701af5c61a49d24f40a0425e1b79b60f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
@@ -12,5 +12,5 @@ ClassTypes: []
 Assets:
 - Assets/ResData/MapData/Scenes/Map_003.unity
 Dependencies:
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/enemy1.unity3d
-- /Users/zhoujian/work/supershoot/SuperFramework/Assets/StreamingAssets/herohdweapons.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/enemy1.unity3d
+- E:/Unity3d/UnityProjects/gitprjs/supershoot/SuperFramework/Assets/StreamingAssets/herohdweapons.unity3d
